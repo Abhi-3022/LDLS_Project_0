@@ -1,4 +1,4 @@
-# Structure-aware KV-cache attention (HTML + LaTeX)
+# Structure-aware KV-cache attention (HTML + LaTeX + Markdown + Code)
 
 Project 0 — efficient / structure-aware attention on CPU with `llama.cpp`.
 
@@ -9,15 +9,22 @@ to keys sharing its sequence, we can (1) **isolate** a question to one subtree a
 changing the answer.
 
 One **parser per domain** turns a document into a shared JSON schema; one
-**shared driver** reads that JSON for every domain. This repo has two domains —
-**HTML** and **LaTeX** — feeding the exact same `driver.cpp`. Adding a domain
-means adding a parser, not touching the driver.
+**shared driver** reads that JSON for every domain. This repo has four domains —
+**HTML, LaTeX, Markdown, Code** — all feeding the exact same `driver.cpp`. Adding
+a domain means adding a parser, not touching the driver.
 
 ```
-document (HTML)   ──parser.py────────►  JSON ┐
-                                              ├─(SCHEMA.md)─► driver.cpp ─► 2 tests
-document (LaTeX)  ──parser_latex.py──►  JSON ┘
+document (HTML)      ──parser.py──────────►  JSON ┐
+document (LaTeX)     ──parser_latex.py────►  JSON │
+                                                  ├─(SCHEMA.md)─► driver.cpp ─► 2 tests
+document (Markdown)  ──parser_markdown.py─►  JSON │
+source   (Python)    ──parser_code.py─────►  JSON ┘
 ```
+
+Two notions of structure appear across the domains: **structure by layout** —
+HTML `<h2>`, LaTeX `\section`, Markdown headings → one sequence per section; and
+**structure by dependency** — LaTeX `\ref` citations and Python call graphs →
+a `uses` map the driver uses to refuse unsafe evictions.
 
 ## Repo layout
 
@@ -38,6 +45,12 @@ structured-kv-attention/
   parsers/latex/
     parser_latex.py      <- LaTeX -> JSON parser  (--mode sections | cites)
     requirements.txt     <- pylatexenc
+  parsers/markdown/
+    parser_markdown.py   <- Markdown -> JSON parser  (splits by heading; stdlib only)
+    requirements.txt     <- none (standard library)
+  parsers/code/
+    parser_code.py       <- Python source -> JSON parser  (splits by def/class + call graph; stdlib only)
+    requirements.txt     <- none (standard library)
   samples/
     dog.html  dog.json   <- HTML worked example (Wikipedia "Dog", cleaned)
     pets.html pets.json  <- HTML tiny example for a quick smoke test
@@ -130,6 +143,26 @@ python parsers/latex/parser_latex.py samples/note.tex -o samples/note_cites.json
 (for multi-file arXiv papers), keeps the math, and emits the identical JSON. In
 `cites` mode it also writes `uses`, e.g. `{"4": [1, 2]}` = "the proof (seq 4)
 depends on seqs 1 and 2". Point it at any arXiv paper's `.tex` source.
+
+### Markdown (stdlib only, no dependencies)
+
+```bash
+# one sequence per heading (level <= --split-level, default 2)
+python parsers/markdown/parser_markdown.py samples/guide.md -o samples/guide.json --pretty
+```
+
+### Code — Python source (stdlib only, no dependencies)
+
+```bash
+# one sequence per top-level def/class, PLUS a call-graph `uses`
+python parsers/code/parser_code.py samples/calc.py -o samples/calc.json --pretty
+```
+
+`parser_code.py` uses Python's `ast` module: each top-level `def`/`class` is a
+sequence; imports and module-level code go to the shared sequence 0; and it emits
+a `uses` **call graph** (e.g. `{"3": [2]}` = "function in seq 3 calls the one in
+seq 2"). That graph drives the same dependency-aware eviction guard as LaTeX
+`cites`, so asking about `hypotenuse` won't let you evict `square`.
 
 ## 4. Run the two tests (the driver)
 
