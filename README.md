@@ -1,4 +1,4 @@
-# Structure-aware KV-cache attention (HTML domain)
+# Structure-aware KV-cache attention (HTML + LaTeX)
 
 Project 0 — efficient / structure-aware attention on CPU with `llama.cpp`.
 
@@ -9,11 +9,14 @@ to keys sharing its sequence, we can (1) **isolate** a question to one subtree a
 changing the answer.
 
 One **parser per domain** turns a document into a shared JSON schema; one
-**shared driver** reads that JSON for every domain. This repo contains the HTML
-domain (a second domain, LaTeX, reuses the same driver and is added later).
+**shared driver** reads that JSON for every domain. This repo has two domains —
+**HTML** and **LaTeX** — feeding the exact same `driver.cpp`. Adding a domain
+means adding a parser, not touching the driver.
 
 ```
-document (HTML)  ──parser.py──►  JSON (SCHEMA.md)  ──driver.cpp──►  2 tests
+document (HTML)   ──parser.py────────►  JSON ┐
+                                              ├─(SCHEMA.md)─► driver.cpp ─► 2 tests
+document (LaTeX)  ──parser_latex.py──►  JSON ┘
 ```
 
 ## Repo layout
@@ -32,9 +35,15 @@ structured-kv-attention/
   parsers/html/
     parser.py            <- HTML -> JSON parser
     requirements.txt     <- beautifulsoup4
+  parsers/latex/
+    parser_latex.py      <- LaTeX -> JSON parser  (--mode sections | cites)
+    requirements.txt     <- pylatexenc
   samples/
-    dog.html  dog.json   <- worked example (Wikipedia "Dog", cleaned)
-    pets.html pets.json  <- tiny example for a quick smoke test
+    dog.html  dog.json   <- HTML worked example (Wikipedia "Dog", cleaned)
+    pets.html pets.json  <- HTML tiny example for a quick smoke test
+    note.tex             <- LaTeX worked example (a short math note)
+    note.json            <- note.tex parsed in --mode sections
+    note_cites.json      <- note.tex parsed in --mode cites (with `uses` graph)
   docs/
     BATCHED_TRACE.md     <- trace of llama.cpp's batched example
     TWO_SEQ_TRACE.md     <- trace of two_seq.cpp (how we adapted it)
@@ -104,6 +113,24 @@ Useful flags: `--main-only` (for real web pages), `--max-tokens 1500`,
 The parser prints a `seq_legend` (seq_id → section name) — you pick `--ask`/
 `--change`/`--evict` from it.
 
+### LaTeX (same schema, same driver)
+
+```bash
+pip install -r parsers/latex/requirements.txt
+
+# sections mode: one sequence per \section (natural "ask one section")
+python parsers/latex/parser_latex.py samples/note.tex -o samples/note.json --pretty --mode sections
+
+# cites mode: one sequence per labeled block (theorem/lemma/proof/...) PLUS a
+# `uses` dependency graph of which block \ref's which  (the structure-aware bit)
+python parsers/latex/parser_latex.py samples/note.tex -o samples/note_cites.json --pretty --mode cites
+```
+
+`parser_latex.py` strips the preamble and comments, inlines `\input`/`\include`
+(for multi-file arXiv papers), keeps the math, and emits the identical JSON. In
+`cites` mode it also writes `uses`, e.g. `{"4": [1, 2]}` = "the proof (seq 4)
+depends on seqs 1 and 2". Point it at any arXiv paper's `.tex` source.
+
 ## 4. Run the two tests (the driver)
 
 ```
@@ -123,6 +150,16 @@ On Windows you can instead use the wrapper (it also prints CPU run time):
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File run_tests.ps1 -Doc samples\dog.json -Ask 3 -Change 6 -Evict 5
+```
+
+Same driver, LaTeX input — ask about the theorem (seq 3), corrupt the lemma
+(seq 2), evict the definition (seq 1):
+
+```bash
+build/bin/Release/llama-doc-driver.exe \
+    models/Llama-3.2-1B-Instruct-Q4_K_M.gguf \
+    ../structured-kv-attention/samples/note_cites.json \
+    --ask 3 --change 2 --evict 1
 ```
 
 ### Expected output (tail)
@@ -153,9 +190,11 @@ llama-two-seq  models/Llama-3.2-1B-Instruct-Q4_K_M.gguf  "The capital of France 
 
 ## How it works (one screen)
 
-1. **Parse** (`parser.py`): DFS over the HTML tree → one `seq_id` per section,
-   emit `{nodes, segments, seq_legend, stats}` per `SCHEMA.md`. The driver never
-   sees HTML — only this JSON.
+1. **Parse** (`parser.py` for HTML, `parser_latex.py` for LaTeX): DFS over the
+   document tree → one `seq_id` per subtree (section, or labeled block), emit
+   `{nodes, segments, seq_legend, stats}` per `SCHEMA.md` (LaTeX `cites` mode also
+   emits a `uses` dependency graph). The driver never sees HTML or LaTeX — only
+   this JSON.
 2. **Prefill** (`driver.cpp`): decode a **shared prefix** (intro) into seq 0, copy
    it into each section's sequence (`llama_memory_seq_cp`), then append each
    section's tokens. Document tokens are decoded with logits **off** (KV only).
