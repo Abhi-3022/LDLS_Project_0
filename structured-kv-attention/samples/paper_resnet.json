@@ -1,0 +1,1847 @@
+{
+  "doc_id": "residual_v1_arxiv_release",
+  "domain": "latex",
+  "mode": "sections",
+  "note": "segments[].text are tokenized by the C++ driver; positions assigned there.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Introduction"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Introduction"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Deep Residual Learning for Image Recognition",
+      "n_tokens_est": 6,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Kaiming He ",
+      "n_tokens_est": 2,
+      "pos_start_est": 6
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\qquad",
+      "n_tokens_est": 2,
+      "pos_start_est": 8
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Xiangyu Zhang ",
+      "n_tokens_est": 2,
+      "pos_start_est": 10
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\qquad",
+      "n_tokens_est": 2,
+      "pos_start_est": 12
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Shaoqing Ren ",
+      "n_tokens_est": 2,
+      "pos_start_est": 14
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\qquad",
+      "n_tokens_est": 2,
+      "pos_start_est": 16
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Jian Sun ",
+      "n_tokens_est": 2,
+      "pos_start_est": 18
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\\\",
+      "n_tokens_est": 2,
+      "pos_start_est": 20
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\large",
+      "n_tokens_est": 2,
+      "pos_start_est": 22
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Microsoft Research ",
+      "n_tokens_est": 2,
+      "pos_start_est": 24
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 26
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "-.2em",
+      "n_tokens_est": 3,
+      "pos_start_est": 28
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\\\",
+      "n_tokens_est": 2,
+      "pos_start_est": 31
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\normalsize",
+      "n_tokens_est": 2,
+      "pos_start_est": 33
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\{",
+      "n_tokens_est": 2,
+      "pos_start_est": 35
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "kahe,",
+      "n_tokens_est": 2,
+      "pos_start_est": 37
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 39
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "v-xiangz,",
+      "n_tokens_est": 4,
+      "pos_start_est": 40
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 44
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "v-shren,",
+      "n_tokens_est": 4,
+      "pos_start_est": 45
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 49
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "jiansun",
+      "n_tokens_est": 1,
+      "pos_start_est": 50
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\}",
+      "n_tokens_est": 2,
+      "pos_start_est": 51
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "@microsoft.com ",
+      "n_tokens_est": 4,
+      "pos_start_est": 53
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\begin{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 57
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 62
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "-.5em",
+      "n_tokens_est": 3,
+      "pos_start_est": 64
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers",
+      "n_tokens_est": 92,
+      "pos_start_est": 67
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 159
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "8",
+      "n_tokens_est": 1,
+      "pos_start_est": 162
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 163
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " deeper than VGG nets ",
+      "n_tokens_est": 4,
+      "pos_start_est": 167
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 171
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Simonyan2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 173
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " but still having lower complexity. An ensemble of these residual nets achieves 3.57",
+      "n_tokens_est": 16,
+      "pos_start_est": 174
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 190
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " error on the ImageNet ",
+      "n_tokens_est": 4,
+      "pos_start_est": 192
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 196
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "test",
+      "n_tokens_est": 1,
+      "pos_start_est": 198
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28",
+      "n_tokens_est": 55,
+      "pos_start_est": 199
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 254
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC ",
+      "n_tokens_est": 19,
+      "pos_start_est": 256
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\&",
+      "n_tokens_est": 2,
+      "pos_start_est": 275
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " COCO 2015 competitions",
+      "n_tokens_est": 3,
+      "pos_start_est": 277
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\footnote",
+      "n_tokens_est": 2,
+      "pos_start_est": 280
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\fontsize",
+      "n_tokens_est": 2,
+      "pos_start_est": 282
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "7.6pt",
+      "n_tokens_est": 3,
+      "pos_start_est": 284
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "1em",
+      "n_tokens_est": 1,
+      "pos_start_est": 287
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\selectfont",
+      "n_tokens_est": 2,
+      "pos_start_est": 288
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\url",
+      "n_tokens_est": 2,
+      "pos_start_est": 290
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "http://image-net.org/challenges/LSVRC/2015/",
+      "n_tokens_est": 16,
+      "pos_start_est": 292
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 308
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\url",
+      "n_tokens_est": 2,
+      "pos_start_est": 309
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "http://mscoco.org/dataset/",
+      "n_tokens_est": 10,
+      "pos_start_est": 311
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\#",
+      "n_tokens_est": 2,
+      "pos_start_est": 321
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "detections-challenge2015",
+      "n_tokens_est": 3,
+      "pos_start_est": 323
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 326
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation. ",
+      "n_tokens_est": 25,
+      "pos_start_est": 327
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\end{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 352
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 357
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 359
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "sec:intro",
+      "n_tokens_est": 3,
+      "pos_start_est": 360
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Deep convolutional neural networks ",
+      "n_tokens_est": 4,
+      "pos_start_est": 363
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 367
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "LeCun1989,Krizhevsky2012",
+      "n_tokens_est": 3,
+      "pos_start_est": 369
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " have led to a series of breakthroughs for image classification ",
+      "n_tokens_est": 10,
+      "pos_start_est": 372
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 382
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Krizhevsky2012,Zeiler2014,Sermanet2014",
+      "n_tokens_est": 5,
+      "pos_start_est": 384
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Deep networks naturally integrate low/mid/high-level features ",
+      "n_tokens_est": 13,
+      "pos_start_est": 389
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 402
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Zeiler2014",
+      "n_tokens_est": 1,
+      "pos_start_est": 404
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and classifiers in an end-to-end multi-layer fashion, and the ",
+      "n_tokens_est": 16,
+      "pos_start_est": 405
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 421
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "levels",
+      "n_tokens_est": 1,
+      "pos_start_est": 423
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 424
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " of features can be enriched by the number of stacked layers (depth). Recent evidence ",
+      "n_tokens_est": 17,
+      "pos_start_est": 426
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 443
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Simonyan2015,Szegedy2015",
+      "n_tokens_est": 3,
+      "pos_start_est": 445
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " reveals that network depth is of crucial importance, and the leading results ",
+      "n_tokens_est": 13,
+      "pos_start_est": 448
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 461
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Simonyan2015,Szegedy2015,He2015,Ioffe2015",
+      "n_tokens_est": 7,
+      "pos_start_est": 463
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " on the challenging ImageNet dataset ",
+      "n_tokens_est": 5,
+      "pos_start_est": 470
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 475
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Russakovsky2014",
+      "n_tokens_est": 1,
+      "pos_start_est": 477
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " all exploit ",
+      "n_tokens_est": 2,
+      "pos_start_est": 478
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 480
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "very deep",
+      "n_tokens_est": 2,
+      "pos_start_est": 482
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 484
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 486
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Simonyan2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 488
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " models, with a depth of sixteen ",
+      "n_tokens_est": 7,
+      "pos_start_est": 489
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 496
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Simonyan2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 498
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " to thirty ",
+      "n_tokens_est": 2,
+      "pos_start_est": 499
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 501
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Ioffe2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 503
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Many other nontrivial visual recognition tasks ",
+      "n_tokens_est": 7,
+      "pos_start_est": 504
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 511
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Girshick2014,He2014,Girshick2015,Ren2015,Long2015",
+      "n_tokens_est": 9,
+      "pos_start_est": 513
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " have also greatly benefited from very deep models. Driven by the significance of depth, a question arises: ",
+      "n_tokens_est": 20,
+      "pos_start_est": 522
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 542
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Is learning better networks as easy as stacking more layers?",
+      "n_tokens_est": 11,
+      "pos_start_est": 544
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " An obstacle to answering this question was the notorious problem of vanishing/exploding gradients ",
+      "n_tokens_est": 15,
+      "pos_start_est": 555
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 570
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Bengio1994,Glorot2010",
+      "n_tokens_est": 3,
+      "pos_start_est": 572
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", which hamper convergence from the beginning. This problem, however, has been largely addressed by normalized initialization ",
+      "n_tokens_est": 20,
+      "pos_start_est": 575
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 595
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "LeCun1998,Glorot2010,Saxe2013,He2015",
+      "n_tokens_est": 7,
+      "pos_start_est": 597
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and intermediate normalization layers ",
+      "n_tokens_est": 4,
+      "pos_start_est": 604
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 608
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Ioffe2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 610
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", which enable networks with tens of layers to start converging for stochastic gradient descent (SGD) with backpropagation ",
+      "n_tokens_est": 20,
+      "pos_start_est": 611
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 631
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "LeCun1989",
+      "n_tokens_est": 1,
+      "pos_start_est": 633
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 634
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 635
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 640
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\includegraphics",
+      "n_tokens_est": 2,
+      "pos_start_est": 645
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "width=1.0",
+      "n_tokens_est": 5,
+      "pos_start_est": 647
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\linewidth",
+      "n_tokens_est": 2,
+      "pos_start_est": 652
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "eps/teaser",
+      "n_tokens_est": 3,
+      "pos_start_est": 654
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\end{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 657
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 662
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "-1.2em",
+      "n_tokens_est": 4,
+      "pos_start_est": 664
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\caption",
+      "n_tokens_est": 2,
+      "pos_start_est": 668
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Training error (left) and test error (right) on CIFAR-10 with 20-layer and 56-layer ",
+      "n_tokens_est": 23,
+      "pos_start_est": 670
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 693
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "plain",
+      "n_tokens_est": 1,
+      "pos_start_est": 695
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 696
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " networks. The deeper network has higher training error, and thus test error. Similar phenomena on ImageNet is presented in Fig.",
+      "n_tokens_est": 24,
+      "pos_start_est": 698
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 722
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 723
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:imagenet",
+      "n_tokens_est": 3,
+      "pos_start_est": 725
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 728
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:teaser",
+      "n_tokens_est": 3,
+      "pos_start_est": 729
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 732
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "-1em",
+      "n_tokens_est": 2,
+      "pos_start_est": 734
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\end{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 736
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " When deeper networks are able to start converging, a ",
+      "n_tokens_est": 10,
+      "pos_start_est": 741
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 751
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "degradation",
+      "n_tokens_est": 1,
+      "pos_start_est": 753
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " problem has been exposed: with the network depth increasing, accuracy gets saturated (which might be unsurprising) and then degrades rapidly. Unexpectedly, such degradation is ",
+      "n_tokens_est": 30,
+      "pos_start_est": 754
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 784
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "not caused by overfitting",
+      "n_tokens_est": 4,
+      "pos_start_est": 786
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and adding more layers to a suitably deep model leads to ",
+      "n_tokens_est": 12,
+      "pos_start_est": 790
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 802
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "higher training error",
+      "n_tokens_est": 3,
+      "pos_start_est": 804
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", as reported in ",
+      "n_tokens_est": 4,
+      "pos_start_est": 807
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 811
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "He2015a, Srivastava2015",
+      "n_tokens_est": 3,
+      "pos_start_est": 813
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and thoroughly verified by our experiments. Fig.",
+      "n_tokens_est": 9,
+      "pos_start_est": 816
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 825
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 826
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:teaser",
+      "n_tokens_est": 3,
+      "pos_start_est": 828
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " shows a typical example. The degradation (of training accuracy) indicates that not all systems are similarly easy to optimize. Let us consider a shallower architecture and its deeper counterpart that adds more layers onto it. There exists a solution ",
+      "n_tokens_est": 44,
+      "pos_start_est": 831
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 875
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "by construction",
+      "n_tokens_est": 2,
+      "pos_start_est": 877
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " to the deeper model: the added layers are ",
+      "n_tokens_est": 9,
+      "pos_start_est": 879
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 888
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "identity",
+      "n_tokens_est": 1,
+      "pos_start_est": 890
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " mapping, and the other layers are copied from the learned shallower model. The existence of this constructed solution indicates that a deeper model should produce no higher training error than its shallower counterpart. But experiments show that our current solvers on hand are unable to find solutions that are comparably good or better than the constructed solution (or unable to do so in feasible time). In this paper, we address the degradation problem by introducing a ",
+      "n_tokens_est": 83,
+      "pos_start_est": 891
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 974
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "deep residual learning",
+      "n_tokens_est": 3,
+      "pos_start_est": 976
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " framework. Instead of hoping each few stacked layers directly fit a desired underlying mapping, we explicitly let these layers fit a residual mapping. Formally, denoting the desired underlying mapping as ",
+      "n_tokens_est": 34,
+      "pos_start_est": 979
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\mathcal{H}(\\ve{x})$",
+      "n_tokens_est": 14,
+      "pos_start_est": 1013
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", we let the stacked nonlinear layers fit another mapping of ",
+      "n_tokens_est": 11,
+      "pos_start_est": 1027
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\mathcal{F}(\\ve{x}):=\\mathcal{H}(\\ve{x})-\\ve{x}$",
+      "n_tokens_est": 34,
+      "pos_start_est": 1038
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". The original mapping is recast into ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1072
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\mathcal{F}(\\ve{x})+\\ve{x}$",
+      "n_tokens_est": 20,
+      "pos_start_est": 1079
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". We hypothesize that it is easier to optimize the residual mapping than to optimize the original, unreferenced mapping. To the extreme, if an identity mapping were optimal, it would be easier to push the residual to zero than to fit an identity mapping by a stack of nonlinear layers. The formulation of ",
+      "n_tokens_est": 58,
+      "pos_start_est": 1099
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\mathcal{F}(\\ve{x})+\\ve{x}$",
+      "n_tokens_est": 20,
+      "pos_start_est": 1157
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " can be realized by feedforward neural networks with ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1177
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 1185
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "shortcut connections",
+      "n_tokens_est": 2,
+      "pos_start_est": 1187
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 1189
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " (Fig.",
+      "n_tokens_est": 3,
+      "pos_start_est": 1191
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1194
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 1195
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:block",
+      "n_tokens_est": 3,
+      "pos_start_est": 1197
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "). Shortcut connections ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1200
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1204
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Bishop1995,Ripley1996,Venables1999",
+      "n_tokens_est": 5,
+      "pos_start_est": 1206
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " are those skipping one or more layers. In our case, the shortcut connections simply perform ",
+      "n_tokens_est": 17,
+      "pos_start_est": 1211
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 1228
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "identity",
+      "n_tokens_est": 1,
+      "pos_start_est": 1230
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " mapping, and their outputs are added to the outputs of the stacked layers (Fig.",
+      "n_tokens_est": 17,
+      "pos_start_est": 1231
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1248
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 1249
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:block",
+      "n_tokens_est": 3,
+      "pos_start_est": 1251
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "). Identity shortcut connections add neither extra parameter nor computational complexity. The entire network can still be trained end-to-end by SGD with backpropagation, and can be easily implemented using common libraries (",
+      "n_tokens_est": 39,
+      "pos_start_est": 1254
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\eg",
+      "n_tokens_est": 2,
+      "pos_start_est": 1293
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", Caffe ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1295
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1297
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Jia2014",
+      "n_tokens_est": 1,
+      "pos_start_est": 1299
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ") without modifying the solvers. ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1300
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 1306
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\centering",
+      "n_tokens_est": 2,
+      "pos_start_est": 1311
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\hspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 1313
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "48pt",
+      "n_tokens_est": 1,
+      "pos_start_est": 1315
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\includegraphics",
+      "n_tokens_est": 2,
+      "pos_start_est": 1316
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "width=0.9",
+      "n_tokens_est": 5,
+      "pos_start_est": 1318
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\linewidth",
+      "n_tokens_est": 2,
+      "pos_start_est": 1323
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "eps/block",
+      "n_tokens_est": 3,
+      "pos_start_est": 1325
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 1328
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "-.5em",
+      "n_tokens_est": 3,
+      "pos_start_est": 1330
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\caption",
+      "n_tokens_est": 2,
+      "pos_start_est": 1333
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Residual learning: a building block.",
+      "n_tokens_est": 7,
+      "pos_start_est": 1335
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:block",
+      "n_tokens_est": 3,
+      "pos_start_est": 1342
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 1345
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "-1em",
+      "n_tokens_est": 2,
+      "pos_start_est": 1347
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\end{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 1349
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " We present comprehensive experiments on ImageNet ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1354
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1360
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Russakovsky2014",
+      "n_tokens_est": 1,
+      "pos_start_est": 1362
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " to show the degradation problem and evaluate our method. We show that: 1) Our extremely deep residual nets are easy to optimize, but the counterpart ",
+      "n_tokens_est": 29,
+      "pos_start_est": 1363
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 1392
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "plain",
+      "n_tokens_est": 1,
+      "pos_start_est": 1394
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 1395
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " nets (that simply stack layers) exhibit higher training error when the depth increases; 2) Our deep residual nets can easily enjoy accuracy gains from greatly increased depth, producing results substantially better than previous networks. Similar phenomena are also shown on the CIFAR-10 set ",
+      "n_tokens_est": 51,
+      "pos_start_est": 1397
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1448
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Krizhevsky2009",
+      "n_tokens_est": 1,
+      "pos_start_est": 1450
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", suggesting that the optimization difficulties and the effects of our method are not just akin to a particular dataset. We present successfully trained models on this dataset with over 100 layers, and explore models with over 1000 layers. On the ImageNet classification dataset ",
+      "n_tokens_est": 47,
+      "pos_start_est": 1451
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1498
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Russakovsky2014",
+      "n_tokens_est": 1,
+      "pos_start_est": 1500
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 3,
+    "n_sequences": 2,
+    "est_tokens_total": 1501,
+    "est_tokens_per_seq": {
+      "0": 357,
+      "1": 1144
+    },
+    "markup_or_syntax_share": 0.137
+  }
+}

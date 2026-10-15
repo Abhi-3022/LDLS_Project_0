@@ -1,0 +1,1159 @@
+{
+  "doc_id": "ms",
+  "domain": "latex",
+  "mode": "sections",
+  "note": "segments[].text are tokenized by the C++ driver; positions assigned there.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Introduction",
+    "2": "Background",
+    "3": "Model Architecture",
+    "4": "Encoder and Decoder Stacks",
+    "5": "Attention"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Introduction"
+    },
+    {
+      "node_id": 3,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "Background"
+    },
+    {
+      "node_id": 4,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "Model Architecture"
+    },
+    {
+      "node_id": 5,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 4,
+      "heading": "Encoder and Decoder Stacks"
+    },
+    {
+      "node_id": 6,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 5,
+      "heading": "Attention"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\begin{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\color",
+      "n_tokens_est": 2,
+      "pos_start_est": 5
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "red",
+      "n_tokens_est": 1,
+      "pos_start_est": 7
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\large",
+      "n_tokens_est": 2,
+      "pos_start_est": 8
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. ",
+      "n_tokens_est": 28,
+      "pos_start_est": 10
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\end{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 38
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\begin{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 43
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ",
+      "n_tokens_est": 206,
+      "pos_start_est": 48
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\end{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 254
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 259
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 261
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Recurrent neural networks, long short-term memory ",
+      "n_tokens_est": 9,
+      "pos_start_est": 262
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 271
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "hochreiter1997",
+      "n_tokens_est": 1,
+      "pos_start_est": 273
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and gated recurrent ",
+      "n_tokens_est": 3,
+      "pos_start_est": 274
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 277
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "gruEval14",
+      "n_tokens_est": 1,
+      "pos_start_est": 279
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation ",
+      "n_tokens_est": 28,
+      "pos_start_est": 280
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 308
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "sutskever14, bahdanau2014neural, cho2014learning",
+      "n_tokens_est": 5,
+      "pos_start_est": 310
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures ",
+      "n_tokens_est": 19,
+      "pos_start_est": 315
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 334
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "wu2016google,luong2015effective,jozefowicz2016exploring",
+      "n_tokens_est": 5,
+      "pos_start_est": 336
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Recurrent models typically factor computation along the symbol positions of the input and output sequences. Aligning the positions to steps in computation time, they generate a sequence of hidden states ",
+      "n_tokens_est": 33,
+      "pos_start_est": 341
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$h_t$",
+      "n_tokens_est": 3,
+      "pos_start_est": 374
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", as a function of the previous hidden state ",
+      "n_tokens_est": 9,
+      "pos_start_est": 377
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$h_{t-1}$",
+      "n_tokens_est": 8,
+      "pos_start_est": 386
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and the input for position ",
+      "n_tokens_est": 5,
+      "pos_start_est": 394
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$t$",
+      "n_tokens_est": 3,
+      "pos_start_est": 399
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". This inherently sequential nature precludes parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. Recent work has achieved significant improvements in computational efficiency through factorization tricks ",
+      "n_tokens_est": 39,
+      "pos_start_est": 402
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 441
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Kuchaiev2017Factorization",
+      "n_tokens_est": 1,
+      "pos_start_est": 443
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and conditional computation ",
+      "n_tokens_est": 3,
+      "pos_start_est": 444
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 447
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "shazeer2017outrageously",
+      "n_tokens_est": 1,
+      "pos_start_est": 449
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", while also improving model performance in case of the latter. The fundamental constraint of sequential computation, however, remains. Attention mechanisms have become an integral part of compelling sequence modeling and transduction models in various tasks, allowing modeling of dependencies without regard to their distance in the input or output sequences ",
+      "n_tokens_est": 56,
+      "pos_start_est": 450
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 506
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "bahdanau2014neural, structuredAttentionNetworks",
+      "n_tokens_est": 3,
+      "pos_start_est": 508
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". In all but a few cases ",
+      "n_tokens_est": 7,
+      "pos_start_est": 511
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 518
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "decomposableAttnModel",
+      "n_tokens_est": 1,
+      "pos_start_est": 520
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", however, such attention mechanisms are used in conjunction with a recurrent network. In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output. The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs. ",
+      "n_tokens_est": 78,
+      "pos_start_est": 521
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 599
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Background",
+      "n_tokens_est": 1,
+      "pos_start_est": 601
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU ",
+      "n_tokens_est": 15,
+      "pos_start_est": 602
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 617
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "extendedngpu",
+      "n_tokens_est": 1,
+      "pos_start_est": 619
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ByteNet ",
+      "n_tokens_est": 2,
+      "pos_start_est": 620
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 622
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "NalBytenet2017",
+      "n_tokens_est": 1,
+      "pos_start_est": 624
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and ConvS2S ",
+      "n_tokens_est": 2,
+      "pos_start_est": 625
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 627
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "JonasFaceNet2017",
+      "n_tokens_est": 1,
+      "pos_start_est": 629
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions. In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet. This makes it more difficult to learn dependencies between distant positions ",
+      "n_tokens_est": 70,
+      "pos_start_est": 630
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 700
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "hochreiter2001gradient",
+      "n_tokens_est": 1,
+      "pos_start_est": 702
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". In the Transformer this is reduced to a constant number of operations, albeit at the cost of reduced effective resolution due to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as described in section",
+      "n_tokens_est": 43,
+      "pos_start_est": 703
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 746
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 747
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "sec:attention",
+      "n_tokens_est": 3,
+      "pos_start_est": 749
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence. Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations ",
+      "n_tokens_est": 59,
+      "pos_start_est": 752
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 811
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "cheng2016long, decomposableAttnModel, paulus2017deep, lin2017structured",
+      "n_tokens_est": 7,
+      "pos_start_est": 813
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". End-to-end memory networks are based on a recurrent attention mechanism instead of sequence-aligned recurrence and have been shown to perform well on simple-language question answering and language modeling tasks ",
+      "n_tokens_est": 38,
+      "pos_start_est": 820
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 858
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "sukhbaatar2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 860
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". To the best of our knowledge, however, the Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution. In the following sections, we will describe the Transformer, motivate self-attention and discuss its advantages over models such as ",
+      "n_tokens_est": 63,
+      "pos_start_est": 861
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 924
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "neural_gpu, NalBytenet2017",
+      "n_tokens_est": 3,
+      "pos_start_est": 926
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 929
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 930
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "JonasFaceNet2017",
+      "n_tokens_est": 1,
+      "pos_start_est": 932
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 933
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 934
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Model Architecture",
+      "n_tokens_est": 2,
+      "pos_start_est": 936
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\begin{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 938
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\centering",
+      "n_tokens_est": 2,
+      "pos_start_est": 943
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\includegraphics",
+      "n_tokens_est": 2,
+      "pos_start_est": 945
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "scale=0.6",
+      "n_tokens_est": 5,
+      "pos_start_est": 947
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Figures/ModalNet-21",
+      "n_tokens_est": 5,
+      "pos_start_est": 952
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\caption",
+      "n_tokens_est": 2,
+      "pos_start_est": 957
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The Transformer - model architecture.",
+      "n_tokens_est": 6,
+      "pos_start_est": 959
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "fig:model-arch",
+      "n_tokens_est": 5,
+      "pos_start_est": 965
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\end{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 970
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Most competitive neural sequence transduction models have an encoder-decoder structure ",
+      "n_tokens_est": 12,
+      "pos_start_est": 975
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 987
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "cho2014learning,bahdanau2014neural,sutskever14",
+      "n_tokens_est": 5,
+      "pos_start_est": 989
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". Here, the encoder maps an input sequence of symbol representations ",
+      "n_tokens_est": 12,
+      "pos_start_est": 994
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$(x_1, ..., x_n)$",
+      "n_tokens_est": 11,
+      "pos_start_est": 1006
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " to a sequence of continuous representations ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1017
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$\\mathbf{z} = (z_1, ..., z_n)$",
+      "n_tokens_est": 17,
+      "pos_start_est": 1023
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". Given ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1040
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$\\mathbf{z}$",
+      "n_tokens_est": 7,
+      "pos_start_est": 1042
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", the decoder then generates an output sequence ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1049
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$(y_1,...,y_m)$",
+      "n_tokens_est": 11,
+      "pos_start_est": 1057
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " of symbols one element at a time. At each step the model is auto-regressive ",
+      "n_tokens_est": 17,
+      "pos_start_est": 1068
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1085
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "graves2013generating",
+      "n_tokens_est": 1,
+      "pos_start_est": 1087
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", consuming the previously generated symbols as additional input when generating the next. The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Figure",
+      "n_tokens_est": 49,
+      "pos_start_est": 1088
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1137
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 1138
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "fig:model-arch",
+      "n_tokens_est": 5,
+      "pos_start_est": 1140
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", respectively. ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1145
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 1148
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Encoder and Decoder Stacks",
+      "n_tokens_est": 4,
+      "pos_start_est": 1150
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\paragraph",
+      "n_tokens_est": 2,
+      "pos_start_est": 1154
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Encoder:",
+      "n_tokens_est": 2,
+      "pos_start_est": 1156
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The encoder is composed of a stack of ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1158
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$N=6$",
+      "n_tokens_est": 5,
+      "pos_start_est": 1166
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " identical layers. Each layer has two sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position-wise fully connected feed-forward network. We employ a residual connection ",
+      "n_tokens_est": 45,
+      "pos_start_est": 1171
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1216
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "he2016deep",
+      "n_tokens_est": 1,
+      "pos_start_est": 1218
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " around each of the two sub-layers, followed by layer normalization ",
+      "n_tokens_est": 13,
+      "pos_start_est": 1219
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1232
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "layernorm2016",
+      "n_tokens_est": 1,
+      "pos_start_est": 1234
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". That is, the output of each sub-layer is ",
+      "n_tokens_est": 12,
+      "pos_start_est": 1235
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$\\mathrm{LayerNorm}(x + \\mathrm{Sublayer}(x))$",
+      "n_tokens_est": 19,
+      "pos_start_est": 1247
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", where ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1266
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$\\mathrm{Sublayer}(x)$",
+      "n_tokens_est": 10,
+      "pos_start_est": 1268
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " is the function implemented by the sub-layer itself. To facilitate these residual connections, all sub-layers in the model, as well as the embedding layers, produce outputs of dimension ",
+      "n_tokens_est": 36,
+      "pos_start_est": 1278
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$\\dmodel=512$",
+      "n_tokens_est": 6,
+      "pos_start_est": 1314
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1320
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\paragraph",
+      "n_tokens_est": 2,
+      "pos_start_est": 1321
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Decoder:",
+      "n_tokens_est": 2,
+      "pos_start_est": 1323
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The decoder is also composed of a stack of ",
+      "n_tokens_est": 9,
+      "pos_start_est": 1325
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$N=6$",
+      "n_tokens_est": 5,
+      "pos_start_est": 1334
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " identical layers. In addition to the two sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, we employ residual connections around each of the sub-layers, followed by layer normalization. We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position ",
+      "n_tokens_est": 106,
+      "pos_start_est": 1339
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$i$",
+      "n_tokens_est": 3,
+      "pos_start_est": 1445
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " can depend only on the known outputs at positions less than ",
+      "n_tokens_est": 11,
+      "pos_start_est": 1448
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$i$",
+      "n_tokens_est": 3,
+      "pos_start_est": 1459
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1462
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 1463
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Attention",
+      "n_tokens_est": 1,
+      "pos_start_est": 1465
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "sec:attention",
+      "n_tokens_est": 3,
+      "pos_start_est": 1466
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 7,
+    "n_sequences": 6,
+    "est_tokens_total": 1469,
+    "est_tokens_per_seq": {
+      "0": 259,
+      "1": 340,
+      "2": 335,
+      "3": 214,
+      "4": 315,
+      "5": 6
+    },
+    "markup_or_syntax_share": 0.068
+  }
+}
