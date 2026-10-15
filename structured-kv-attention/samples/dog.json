@@ -1,0 +1,2001 @@
+{
+  "doc_id": "dog",
+  "domain": "html",
+  "mode": "main-only",
+  "note": "segments[].text are tokenized by the C++ driver with Llama's tokenizer; positions assigned there. Counts here are a proxy.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Appearance and behaviour",
+    "2": "Lifespan of dogs",
+    "3": "Anatomy",
+    "4": "Dogs and humans",
+    "5": "Dog breeds",
+    "6": "Health"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Appearance and behaviour"
+    },
+    {
+      "node_id": 3,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "Lifespan of dogs"
+    },
+    {
+      "node_id": 4,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "Anatomy"
+    },
+    {
+      "node_id": 5,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 4,
+      "heading": "Dogs and humans"
+    },
+    {
+      "node_id": 6,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 5,
+      "heading": "Dog breeds"
+    },
+    {
+      "node_id": 7,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 6,
+      "heading": "Health"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Dogs",
+      "n_tokens_est": 1,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " are ",
+      "n_tokens_est": 1,
+      "pos_start_est": 4
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "mammals",
+      "n_tokens_est": 1,
+      "pos_start_est": 5
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", usually to be kept as ",
+      "n_tokens_est": 6,
+      "pos_start_est": 6
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 12
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", or work on farms or for the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 13
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "police",
+      "n_tokens_est": 1,
+      "pos_start_est": 21
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". Some dogs are trained to be rescue dogs and join teams such as mountain rescue.",
+      "n_tokens_est": 17,
+      "pos_start_est": 22
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 39
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 43
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Dogs have been bred by ",
+      "n_tokens_est": 5,
+      "pos_start_est": 46
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "humans",
+      "n_tokens_est": 1,
+      "pos_start_est": 51
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " from ancestral wolves. They were the first animals to live with humans.",
+      "n_tokens_est": 14,
+      "pos_start_est": 52
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " There was a lot of different types among wolves in the Late ",
+      "n_tokens_est": 12,
+      "pos_start_est": 66
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Pleistocene",
+      "n_tokens_est": 1,
+      "pos_start_est": 78
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 79
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 80
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 84
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Today, some dogs are used as pets, and others are used to help humans do their work. They are popular pets because they are usually playful, friendly, loyal, and listen to humans. Thirty million dogs in the ",
+      "n_tokens_est": 44,
+      "pos_start_est": 87
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "United States",
+      "n_tokens_est": 2,
+      "pos_start_est": 131
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " have been ",
+      "n_tokens_est": 2,
+      "pos_start_est": 133
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "registered",
+      "n_tokens_est": 1,
+      "pos_start_est": 135
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " as ",
+      "n_tokens_est": 1,
+      "pos_start_est": 136
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 137
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 138
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Dogs eat both ",
+      "n_tokens_est": 3,
+      "pos_start_est": 139
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "meat",
+      "n_tokens_est": 1,
+      "pos_start_est": 142
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 143
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "vegetables",
+      "n_tokens_est": 1,
+      "pos_start_est": 144
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", which are often mixed together and sold in stores as ",
+      "n_tokens_est": 11,
+      "pos_start_est": 145
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "dog food",
+      "n_tokens_est": 2,
+      "pos_start_est": 156
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 158
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Dogs often have jobs including police dogs, army dogs, assistance dogs, fire dogs, messenger dogs, hunting dogs, herding dogs, or rescue dogs. A baby dog is called a ",
+      "n_tokens_est": 36,
+      "pos_start_est": 159
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "pup",
+      "n_tokens_est": 1,
+      "pos_start_est": 195
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " or ",
+      "n_tokens_est": 1,
+      "pos_start_est": 196
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "puppy",
+      "n_tokens_est": 1,
+      "pos_start_est": 197
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 198
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 199
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 203
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Dogs are sometimes known as \"human's best friend\" because they are kept as pets, are usually loyal, and like being around humans.",
+      "n_tokens_est": 29,
+      "pos_start_est": 206
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 235
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 239
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Appearance and behaviour",
+      "n_tokens_est": 3,
+      "pos_start_est": 242
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 245
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 249
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs can smell and hear better than humans but cannot see in full ",
+      "n_tokens_est": 13,
+      "pos_start_est": 252
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "color",
+      "n_tokens_est": 1,
+      "pos_start_est": 265
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Due to the structure of their eyes, dogs can see better in low light than humans. They also have a larger field of vision.",
+      "n_tokens_est": 28,
+      "pos_start_est": 266
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 294
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 298
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Like wolves, wild dogs travel in groups called ",
+      "n_tokens_est": 9,
+      "pos_start_est": 301
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "packs",
+      "n_tokens_est": 1,
+      "pos_start_est": 310
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". A dog in a group helps and cares for others.",
+      "n_tokens_est": 12,
+      "pos_start_est": 311
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 323
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 327
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Lifespan of dogs",
+      "n_tokens_est": 3,
+      "pos_start_est": 330
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 333
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 337
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Different dog breeds have different lifespans. In general, smaller dogs live longer than bigger ones.",
+      "n_tokens_est": 18,
+      "pos_start_est": 340
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " The size and the breed of the dog change how long the dog lives on average. Breeds such as the ",
+      "n_tokens_est": 21,
+      "pos_start_est": 358
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Dachshund",
+      "n_tokens_est": 1,
+      "pos_start_est": 379
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " usually live for fifteen years, ",
+      "n_tokens_est": 6,
+      "pos_start_est": 380
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Chihuahuas",
+      "n_tokens_est": 1,
+      "pos_start_est": 386
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " can reach the age of twenty. On the other hand, the ",
+      "n_tokens_est": 13,
+      "pos_start_est": 387
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Great Dane",
+      "n_tokens_est": 2,
+      "pos_start_est": 400
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " has an average lifespan of six to eight years; some Great Danes have lived for as long as ten years. An American Bulldog lives for around 15 years. Bigger dogs will have shorter lives than smaller dogs because of the pressure on its heart to move around.",
+      "n_tokens_est": 51,
+      "pos_start_est": 402
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 453
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 457
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Anatomy",
+      "n_tokens_est": 1,
+      "pos_start_est": 460
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 461
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 465
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Size and skeleton",
+      "n_tokens_est": 3,
+      "pos_start_est": 468
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 471
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 475
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Dogs come in a wide range of sizes, from very large breeds like the ",
+      "n_tokens_est": 15,
+      "pos_start_est": 478
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Great Dane",
+      "n_tokens_est": 2,
+      "pos_start_est": 493
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " weighing 50-79 ",
+      "n_tokens_est": 4,
+      "pos_start_est": 495
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "kg",
+      "n_tokens_est": 1,
+      "pos_start_est": 499
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and measuring 71-81 cm, to very small breeds like the ",
+      "n_tokens_est": 13,
+      "pos_start_est": 500
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Chihuahua",
+      "n_tokens_est": 1,
+      "pos_start_est": 513
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " weighing 0.5-3 kg and measuring 13-20 cm.",
+      "n_tokens_est": 14,
+      "pos_start_est": 514
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " There are variations in the skeletal structure among different types of dogs.",
+      "n_tokens_est": 13,
+      "pos_start_est": 528
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " The dog's ",
+      "n_tokens_est": 4,
+      "pos_start_est": 541
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "skeleton",
+      "n_tokens_est": 1,
+      "pos_start_est": 545
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " is well-suited for running, with ",
+      "n_tokens_est": 8,
+      "pos_start_est": 546
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "neck",
+      "n_tokens_est": 1,
+      "pos_start_est": 554
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and back vertebrae having extensions for back ",
+      "n_tokens_est": 7,
+      "pos_start_est": 555
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "muscles",
+      "n_tokens_est": 1,
+      "pos_start_est": 562
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 563
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "ribs",
+      "n_tokens_est": 1,
+      "pos_start_est": 564
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " providing space for the ",
+      "n_tokens_est": 4,
+      "pos_start_est": 565
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "heart",
+      "n_tokens_est": 1,
+      "pos_start_est": 569
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 570
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "lungs",
+      "n_tokens_est": 1,
+      "pos_start_est": 571
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", and flexible shoulders.",
+      "n_tokens_est": 5,
+      "pos_start_est": 572
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Selective breeding over time has led to larger ",
+      "n_tokens_est": 8,
+      "pos_start_est": 577
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "skeletons",
+      "n_tokens_est": 1,
+      "pos_start_est": 585
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " in breeds like smaller skeletons in breeds like ",
+      "n_tokens_est": 8,
+      "pos_start_est": 586
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "terriers",
+      "n_tokens_est": 1,
+      "pos_start_est": 594
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 595
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Most dogs have 26 ",
+      "n_tokens_est": 4,
+      "pos_start_est": 596
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "vertebrae",
+      "n_tokens_est": 1,
+      "pos_start_est": 600
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " in their ",
+      "n_tokens_est": 2,
+      "pos_start_est": 601
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "tails",
+      "n_tokens_est": 1,
+      "pos_start_est": 603
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", but some naturally have as few as three. The dog's ",
+      "n_tokens_est": 14,
+      "pos_start_est": 604
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "skull",
+      "n_tokens_est": 1,
+      "pos_start_est": 618
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " has consistent components across breeds but varies in shape.",
+      "n_tokens_est": 10,
+      "pos_start_est": 619
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 629
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 633
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Senses",
+      "n_tokens_est": 1,
+      "pos_start_est": 636
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 637
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 641
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Dogs have senses like ",
+      "n_tokens_est": 4,
+      "pos_start_est": 644
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "sight",
+      "n_tokens_est": 1,
+      "pos_start_est": 648
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 649
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "hearing",
+      "n_tokens_est": 1,
+      "pos_start_est": 650
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 651
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "smell",
+      "n_tokens_est": 1,
+      "pos_start_est": 652
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 653
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "taste",
+      "n_tokens_est": 1,
+      "pos_start_est": 654
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 655
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "touch",
+      "n_tokens_est": 1,
+      "pos_start_est": 656
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", and sensing ",
+      "n_tokens_est": 3,
+      "pos_start_est": 657
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Earth's magnetic fields",
+      "n_tokens_est": 5,
+      "pos_start_est": 660
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". Studies show they may detect small changes in magnetism and prefer to poop facing ",
+      "n_tokens_est": 15,
+      "pos_start_est": 665
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "north",
+      "n_tokens_est": 1,
+      "pos_start_est": 680
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " or ",
+      "n_tokens_est": 1,
+      "pos_start_est": 681
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "south",
+      "n_tokens_est": 1,
+      "pos_start_est": 682
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " when the magnetic field is calm.",
+      "n_tokens_est": 7,
+      "pos_start_est": 683
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 690
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 694
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Dogs see mainly yellows, blues, and grays. They cannot see red and green because they have fewer color-detecting cells than humans.",
+      "n_tokens_est": 27,
+      "pos_start_est": 697
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Their eyes are less sharp than humans', seeing details up to eight times worse.",
+      "n_tokens_est": 17,
+      "pos_start_est": 724
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 741
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 745
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Smell is their strongest sense. Dogs have 40 times more ",
+      "n_tokens_est": 11,
+      "pos_start_est": 748
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "smell receptors",
+      "n_tokens_est": 2,
+      "pos_start_est": 759
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " than humans—up to 300 million in breeds like ",
+      "n_tokens_est": 10,
+      "pos_start_est": 761
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "bloodhounds",
+      "n_tokens_est": 1,
+      "pos_start_est": 771
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 772
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " They hear sounds four times farther than humans (up to 400 meters).",
+      "n_tokens_est": 15,
+      "pos_start_est": 773
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 788
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 792
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Whiskers help dogs sense vibrations, air movements, and nearby objects in the dark. They also help guide food to the mouth.",
+      "n_tokens_est": 25,
+      "pos_start_est": 795
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 820
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 824
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Dogs and humans",
+      "n_tokens_est": 3,
+      "pos_start_est": 827
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 830
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 834
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Dogs are often called \"man's best ",
+      "n_tokens_est": 9,
+      "pos_start_est": 837
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "friend",
+      "n_tokens_est": 1,
+      "pos_start_est": 846
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "\" because they fit in with human life. Dogs can serve people in many ways. For example, there are ",
+      "n_tokens_est": 22,
+      "pos_start_est": 847
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "guard dogs",
+      "n_tokens_est": 2,
+      "pos_start_est": 869
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 871
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "hunting dogs",
+      "n_tokens_est": 2,
+      "pos_start_est": 872
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 874
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "herding dogs",
+      "n_tokens_est": 2,
+      "pos_start_est": 875
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 877
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "guide dogs",
+      "n_tokens_est": 2,
+      "pos_start_est": 878
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " for ",
+      "n_tokens_est": 1,
+      "pos_start_est": 880
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "blind",
+      "n_tokens_est": 1,
+      "pos_start_est": 881
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " people, and ",
+      "n_tokens_est": 3,
+      "pos_start_est": 882
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "police dogs",
+      "n_tokens_est": 2,
+      "pos_start_est": 885
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". There are also dogs that are trained to smell for diseases in the human body or to find bombs or ",
+      "n_tokens_est": 21,
+      "pos_start_est": 887
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "illegal drugs",
+      "n_tokens_est": 2,
+      "pos_start_est": 908
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". These dogs sometimes help police in airports or other areas. Sniffer dogs (usually ",
+      "n_tokens_est": 16,
+      "pos_start_est": 910
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "beagles",
+      "n_tokens_est": 1,
+      "pos_start_est": 926
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ") are sometimes trained for this job. Dogs have even been sent by ",
+      "n_tokens_est": 14,
+      "pos_start_est": 927
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Russians",
+      "n_tokens_est": 1,
+      "pos_start_est": 941
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " into ",
+      "n_tokens_est": 1,
+      "pos_start_est": 942
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "outer space",
+      "n_tokens_est": 2,
+      "pos_start_est": 943
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", a few years before any human being. The first dog sent up was named ",
+      "n_tokens_est": 16,
+      "pos_start_est": 945
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Laika",
+      "n_tokens_est": 1,
+      "pos_start_est": 961
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", but she died within a few hours.",
+      "n_tokens_est": 9,
+      "pos_start_est": 962
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 971
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 975
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "There is much more variety in dogs than in cats. This is mainly because humans have selected and bred dogs for specific jobs and functions.",
+      "n_tokens_est": 27,
+      "pos_start_est": 978
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1005
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<ul>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1009
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1012
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Dog herding sheep",
+      "n_tokens_est": 3,
+      "pos_start_est": 1015
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1018
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1022
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "A guide dog",
+      "n_tokens_est": 3,
+      "pos_start_est": 1025
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1028
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1032
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Many dogs are used for ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1035
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "hunting",
+      "n_tokens_est": 1,
+      "pos_start_est": 1040
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1041
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1045
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Guard dogs in ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1048
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Cameroon",
+      "n_tokens_est": 1,
+      "pos_start_est": 1051
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1052
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</ul>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1056
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1060
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Dog breeds",
+      "n_tokens_est": 2,
+      "pos_start_est": 1063
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1065
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<dl>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1069
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<dd>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1072
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "See main article, ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1075
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "List of dog breeds",
+      "n_tokens_est": 4,
+      "pos_start_est": 1079
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1083
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</dd>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1084
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</dl>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1088
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1092
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "There are over 450 recognized dog ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1095
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "breeds",
+      "n_tokens_est": 1,
+      "pos_start_est": 1101
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", according to the ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1102
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "American Kennel Club",
+      "n_tokens_est": 3,
+      "pos_start_est": 1106
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1109
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Dogs started to become more diverse during the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1110
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Victorian era",
+      "n_tokens_est": 2,
+      "pos_start_est": 1118
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " when humans began controlling which dogs were bred.",
+      "n_tokens_est": 9,
+      "pos_start_est": 1120
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Most breeds come from a small number of original dogs from the last 200 years. Since then, dogs have changed quickly in appearance and have been selectively bred by people.",
+      "n_tokens_est": 33,
+      "pos_start_est": 1129
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " These breeds have unique features like body size, skull shape, tail type, ",
+      "n_tokens_est": 15,
+      "pos_start_est": 1162
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "fur",
+      "n_tokens_est": 1,
+      "pos_start_est": 1177
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " texture, and color.",
+      "n_tokens_est": 5,
+      "pos_start_est": 1178
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Humans have bred dogs for specific traits to help with tasks such as guarding, herding, hunting, retrieving, and scent detection. Dogs also show different behaviors like being very social, boldness, and aggression.",
+      "n_tokens_est": 40,
+      "pos_start_est": 1183
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Today, dogs are found all over the world.",
+      "n_tokens_est": 10,
+      "pos_start_est": 1223
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1233
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1237
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "Health",
+      "n_tokens_est": 1,
+      "pos_start_est": 1240
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1241
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1245
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "Dogs can get many different diseases. Some are born with these problems (",
+      "n_tokens_est": 14,
+      "pos_start_est": 1248
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "birth defect",
+      "n_tokens_est": 2,
+      "pos_start_est": 1262
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": ") and others get sick as they get older.",
+      "n_tokens_est": 10,
+      "pos_start_est": 1264
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "Neoplasia",
+      "n_tokens_est": 1,
+      "pos_start_est": 1274
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": " is the most common cause of death for dogs.",
+      "n_tokens_est": 10,
+      "pos_start_est": 1275
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": " There are other common causes of ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1285
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "death",
+      "n_tokens_est": 1,
+      "pos_start_est": 1291
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": " for dogs like ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1292
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "heart",
+      "n_tokens_est": 1,
+      "pos_start_est": 1295
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1296
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "renal failure",
+      "n_tokens_est": 2,
+      "pos_start_est": 1297
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1299
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1300
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 8,
+    "n_sequences": 7,
+    "est_tokens_total": 1304,
+    "est_tokens_per_seq": {
+      "0": 239,
+      "1": 88,
+      "2": 130,
+      "3": 367,
+      "4": 236,
+      "5": 177,
+      "6": 67
+    },
+    "markup_or_syntax_share": 0.166
+  }
+}
