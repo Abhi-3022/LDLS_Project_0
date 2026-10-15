@@ -1,0 +1,2647 @@
+{
+  "doc_id": "water",
+  "domain": "html",
+  "mode": "main-only",
+  "note": "segments[].text are tokenized by the C++ driver with Llama's tokenizer; positions assigned there. Counts here are a proxy.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "History"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "History"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Water",
+      "n_tokens_est": 1,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (",
+      "n_tokens_est": 1,
+      "pos_start_est": 4
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "H",
+      "n_tokens_est": 1,
+      "pos_start_est": 5
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "2",
+      "n_tokens_est": 1,
+      "pos_start_est": 6
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "O",
+      "n_tokens_est": 1,
+      "pos_start_est": 7
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ") is a simple ",
+      "n_tokens_est": 4,
+      "pos_start_est": 8
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "chemical compound",
+      "n_tokens_est": 2,
+      "pos_start_est": 12
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " made of two ",
+      "n_tokens_est": 3,
+      "pos_start_est": 14
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "hydrogen atoms",
+      "n_tokens_est": 2,
+      "pos_start_est": 17
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and one ",
+      "n_tokens_est": 2,
+      "pos_start_est": 19
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "oxygen atom",
+      "n_tokens_est": 2,
+      "pos_start_est": 21
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". It is clear, has no ",
+      "n_tokens_est": 7,
+      "pos_start_est": 23
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "taste",
+      "n_tokens_est": 1,
+      "pos_start_est": 30
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " or ",
+      "n_tokens_est": 1,
+      "pos_start_est": 31
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "smell",
+      "n_tokens_est": 1,
+      "pos_start_est": 32
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and is almost colorless. All ",
+      "n_tokens_est": 7,
+      "pos_start_est": 33
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "living things",
+      "n_tokens_est": 2,
+      "pos_start_est": 40
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " need water to survive.",
+      "n_tokens_est": 5,
+      "pos_start_est": 42
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water molecules stick together because of ",
+      "n_tokens_est": 6,
+      "pos_start_est": 47
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "hydrogen bonds",
+      "n_tokens_est": 2,
+      "pos_start_est": 53
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". These bonds give water special properties. For example, water has high ",
+      "n_tokens_est": 14,
+      "pos_start_est": 55
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "surface tension",
+      "n_tokens_est": 2,
+      "pos_start_est": 69
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and can dissolve many substances. Water exists in three forms on ",
+      "n_tokens_est": 13,
+      "pos_start_est": 71
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 84
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ": ",
+      "n_tokens_est": 1,
+      "pos_start_est": 85
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "solid",
+      "n_tokens_est": 1,
+      "pos_start_est": 86
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (ice), ",
+      "n_tokens_est": 4,
+      "pos_start_est": 87
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "liquid",
+      "n_tokens_est": 1,
+      "pos_start_est": 91
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (water), and ",
+      "n_tokens_est": 5,
+      "pos_start_est": 92
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "gas",
+      "n_tokens_est": 1,
+      "pos_start_est": 97
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (water vapor). The word \"water\" comes from the Old English word wæter.",
+      "n_tokens_est": 18,
+      "pos_start_est": 98
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 116
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 120
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "About 71% of Earth’s surface is covered by water. Most of this water (about 97%) is in the ",
+      "n_tokens_est": 25,
+      "pos_start_est": 123
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "oceans",
+      "n_tokens_est": 1,
+      "pos_start_est": 148
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". This water is ",
+      "n_tokens_est": 4,
+      "pos_start_est": 149
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "salt water",
+      "n_tokens_est": 2,
+      "pos_start_est": 153
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", which we cannot drink or use for farming. Only 3% of Earth’s water is ",
+      "n_tokens_est": 19,
+      "pos_start_est": 155
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "fresh water",
+      "n_tokens_est": 2,
+      "pos_start_est": 174
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and even that is not easy to get. 69% of all fresh water is frozen in ",
+      "n_tokens_est": 19,
+      "pos_start_est": 176
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "glaciers",
+      "n_tokens_est": 1,
+      "pos_start_est": 195
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 196
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "ice caps",
+      "n_tokens_est": 2,
+      "pos_start_est": 197
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". 30% is stored underground in ",
+      "n_tokens_est": 7,
+      "pos_start_est": 199
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "aquifers",
+      "n_tokens_est": 1,
+      "pos_start_est": 206
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". Less than 1% is in ",
+      "n_tokens_est": 7,
+      "pos_start_est": 207
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "lakes",
+      "n_tokens_est": 1,
+      "pos_start_est": 214
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 215
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "rivers",
+      "n_tokens_est": 1,
+      "pos_start_est": 216
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 217
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "swamps",
+      "n_tokens_est": 1,
+      "pos_start_est": 219
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". If you look at all the water on Earth, only about 1% can be used by us. And most of that water is found underground.",
+      "n_tokens_est": 30,
+      "pos_start_est": 220
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water is always moving in a cycle. This is called the water cycle. It includes:",
+      "n_tokens_est": 18,
+      "pos_start_est": 250
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 268
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<ul>",
+      "n_tokens_est": 3,
+      "pos_start_est": 272
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 275
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Evaporation",
+      "n_tokens_est": 1,
+      "pos_start_est": 278
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (water turns into vapor),",
+      "n_tokens_est": 7,
+      "pos_start_est": 279
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 286
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 290
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Transpiration",
+      "n_tokens_est": 1,
+      "pos_start_est": 293
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (plants release water vapor),",
+      "n_tokens_est": 7,
+      "pos_start_est": 294
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 301
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 305
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Condensation",
+      "n_tokens_est": 1,
+      "pos_start_est": 308
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (vapor forms clouds),",
+      "n_tokens_est": 6,
+      "pos_start_est": 309
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 315
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 319
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Precipitation",
+      "n_tokens_est": 1,
+      "pos_start_est": 322
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (rain or snow falls),",
+      "n_tokens_est": 7,
+      "pos_start_est": 323
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 330
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 334
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Runoff",
+      "n_tokens_est": 1,
+      "pos_start_est": 337
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (water returns to oceans and lakes).",
+      "n_tokens_est": 9,
+      "pos_start_est": 338
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 347
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</ul>",
+      "n_tokens_est": 4,
+      "pos_start_est": 351
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 355
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Water has many unique abilities.",
+      "n_tokens_est": 6,
+      "pos_start_est": 358
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " One is that it expands when it freezes. This makes ice less dense than liquid water, so ice floats.",
+      "n_tokens_est": 22,
+      "pos_start_est": 364
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water also has a high ",
+      "n_tokens_est": 5,
+      "pos_start_est": 386
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "specific heat capacity",
+      "n_tokens_est": 3,
+      "pos_start_est": 391
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". It can absorb or lose a lot of heat without changing temperature much.",
+      "n_tokens_est": 15,
+      "pos_start_est": 394
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " This helps keep Earth's ",
+      "n_tokens_est": 6,
+      "pos_start_est": 409
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "climate",
+      "n_tokens_est": 1,
+      "pos_start_est": 415
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " stable.",
+      "n_tokens_est": 2,
+      "pos_start_est": 416
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water’s ",
+      "n_tokens_est": 3,
+      "pos_start_est": 418
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "surface tension",
+      "n_tokens_est": 2,
+      "pos_start_est": 421
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " lets it form ",
+      "n_tokens_est": 3,
+      "pos_start_est": 423
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "droplets",
+      "n_tokens_est": 1,
+      "pos_start_est": 426
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". It also lets small insects walk on water.",
+      "n_tokens_est": 10,
+      "pos_start_est": 427
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water is an excellent ",
+      "n_tokens_est": 4,
+      "pos_start_est": 437
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "solvent",
+      "n_tokens_est": 1,
+      "pos_start_est": 441
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". It can dissolve more substances than any other liquid. This is why it is called the \"universal solvent.\" However, it cannot dissolve ",
+      "n_tokens_est": 28,
+      "pos_start_est": 442
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "oily",
+      "n_tokens_est": 1,
+      "pos_start_est": 470
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " or nonpolar substances well.",
+      "n_tokens_est": 5,
+      "pos_start_est": 471
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " These special abilities come from water's ",
+      "n_tokens_est": 8,
+      "pos_start_est": 476
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "polar nature",
+      "n_tokens_est": 2,
+      "pos_start_est": 484
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and the hydrogen bonds between them.",
+      "n_tokens_est": 7,
+      "pos_start_est": 486
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 493
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 497
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Water is important for all living things. Every kind of life we know needs water to survive. This includes tiny living things like ",
+      "n_tokens_est": 25,
+      "pos_start_est": 500
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "bacteria",
+      "n_tokens_est": 1,
+      "pos_start_est": 525
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 526
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "archaea",
+      "n_tokens_est": 1,
+      "pos_start_est": 527
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 528
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "protists",
+      "n_tokens_est": 1,
+      "pos_start_est": 530
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and bigger ones like ",
+      "n_tokens_est": 5,
+      "pos_start_est": 531
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "fungi",
+      "n_tokens_est": 1,
+      "pos_start_est": 536
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 537
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "plants",
+      "n_tokens_est": 1,
+      "pos_start_est": 538
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 539
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "animals",
+      "n_tokens_est": 1,
+      "pos_start_est": 540
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 541
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " The human body is about 50-60% water.",
+      "n_tokens_est": 11,
+      "pos_start_est": 542
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water helps move ",
+      "n_tokens_est": 3,
+      "pos_start_est": 553
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "nutrients",
+      "n_tokens_est": 1,
+      "pos_start_est": 556
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", gases, and ",
+      "n_tokens_est": 4,
+      "pos_start_est": 557
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "waste",
+      "n_tokens_est": 1,
+      "pos_start_est": 561
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " inside the body. Inside ",
+      "n_tokens_est": 5,
+      "pos_start_est": 562
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "cells",
+      "n_tokens_est": 1,
+      "pos_start_est": 567
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", water is where most ",
+      "n_tokens_est": 5,
+      "pos_start_est": 568
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "chemical reactions",
+      "n_tokens_est": 2,
+      "pos_start_est": 573
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " happen. It also helps cells keep their shape. Water is needed for ",
+      "n_tokens_est": 14,
+      "pos_start_est": 575
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "digestion",
+      "n_tokens_est": 1,
+      "pos_start_est": 589
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " in animals, and ",
+      "n_tokens_est": 4,
+      "pos_start_est": 590
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "photosynthesis",
+      "n_tokens_est": 1,
+      "pos_start_est": 594
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " in plants.",
+      "n_tokens_est": 3,
+      "pos_start_est": 595
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " It also helps control ",
+      "n_tokens_est": 4,
+      "pos_start_est": 598
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "body temperature",
+      "n_tokens_est": 2,
+      "pos_start_est": 602
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". Without water, life could not exist. That is why water is one of the most important substances for all living things.",
+      "n_tokens_est": 25,
+      "pos_start_est": 604
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 629
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 633
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Water is also very important to the ",
+      "n_tokens_est": 7,
+      "pos_start_est": 636
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "world economy",
+      "n_tokens_est": 2,
+      "pos_start_est": 643
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". About 70% of the fresh water people use goes to ",
+      "n_tokens_est": 12,
+      "pos_start_est": 645
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "farming",
+      "n_tokens_est": 1,
+      "pos_start_est": 657
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 658
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water is used to grow ",
+      "n_tokens_est": 5,
+      "pos_start_est": 659
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "crops",
+      "n_tokens_est": 1,
+      "pos_start_est": 664
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and raise ",
+      "n_tokens_est": 2,
+      "pos_start_est": 665
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "animals",
+      "n_tokens_est": 1,
+      "pos_start_est": 667
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 668
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Fish",
+      "n_tokens_est": 1,
+      "pos_start_est": 669
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " from oceans, lakes, and rivers are an important source of food.",
+      "n_tokens_est": 14,
+      "pos_start_est": 670
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Many products, like ",
+      "n_tokens_est": 4,
+      "pos_start_est": 684
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "crude oil",
+      "n_tokens_est": 2,
+      "pos_start_est": 688
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and other goods, are moved around the world by ",
+      "n_tokens_est": 10,
+      "pos_start_est": 690
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "ships",
+      "n_tokens_est": 1,
+      "pos_start_est": 700
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " through oceans, ",
+      "n_tokens_est": 3,
+      "pos_start_est": 701
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "rivers",
+      "n_tokens_est": 1,
+      "pos_start_est": 704
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 705
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "canals",
+      "n_tokens_est": 1,
+      "pos_start_est": 707
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 708
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water is also used to heat and cool buildings and machines. Because it can dissolve many substances, it is very useful in ",
+      "n_tokens_est": 24,
+      "pos_start_est": 709
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "factories",
+      "n_tokens_est": 1,
+      "pos_start_est": 733
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 734
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "cooking",
+      "n_tokens_est": 1,
+      "pos_start_est": 735
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 736
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "cleaning",
+      "n_tokens_est": 1,
+      "pos_start_est": 738
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". Water can also be used to make ",
+      "n_tokens_est": 8,
+      "pos_start_est": 739
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "electricity",
+      "n_tokens_est": 1,
+      "pos_start_est": 747
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", using ",
+      "n_tokens_est": 2,
+      "pos_start_est": 748
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "hydroelectric plants",
+      "n_tokens_est": 2,
+      "pos_start_est": 750
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 752
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " It is also used for fun activities like ",
+      "n_tokens_est": 8,
+      "pos_start_est": 753
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "swimming",
+      "n_tokens_est": 1,
+      "pos_start_est": 761
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 762
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "boating",
+      "n_tokens_est": 1,
+      "pos_start_est": 763
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 764
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "fishing",
+      "n_tokens_est": 1,
+      "pos_start_est": 765
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 766
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "diving",
+      "n_tokens_est": 1,
+      "pos_start_est": 767
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 768
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "ice skating",
+      "n_tokens_est": 2,
+      "pos_start_est": 769
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 771
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "snowboarding",
+      "n_tokens_est": 1,
+      "pos_start_est": 772
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 773
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "skiing",
+      "n_tokens_est": 1,
+      "pos_start_est": 775
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 776
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 777
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 781
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Many ",
+      "n_tokens_est": 1,
+      "pos_start_est": 784
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "civilizations",
+      "n_tokens_est": 1,
+      "pos_start_est": 785
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " in history began near rivers or other places where they could get water easily. For example, ",
+      "n_tokens_est": 18,
+      "pos_start_est": 786
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Mesopotamia",
+      "n_tokens_est": 1,
+      "pos_start_est": 804
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " began between the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 805
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Tigris",
+      "n_tokens_est": 1,
+      "pos_start_est": 808
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 809
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Euphrates",
+      "n_tokens_est": 1,
+      "pos_start_est": 810
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " rivers.",
+      "n_tokens_est": 2,
+      "pos_start_est": 811
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Ancient Egypt",
+      "n_tokens_est": 2,
+      "pos_start_est": 813
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " depended on the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 815
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Nile",
+      "n_tokens_est": 1,
+      "pos_start_est": 818
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 819
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 820
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Indus Valley civilization",
+      "n_tokens_est": 3,
+      "pos_start_est": 821
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " started near the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 824
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Indus River",
+      "n_tokens_est": 2,
+      "pos_start_est": 827
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 829
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Ancient Rome",
+      "n_tokens_est": 2,
+      "pos_start_est": 830
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " was built near the ",
+      "n_tokens_est": 4,
+      "pos_start_est": 832
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Tiber River",
+      "n_tokens_est": 2,
+      "pos_start_est": 836
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 838
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Even today, many big ",
+      "n_tokens_est": 5,
+      "pos_start_est": 839
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "cities",
+      "n_tokens_est": 1,
+      "pos_start_est": 844
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " like ",
+      "n_tokens_est": 1,
+      "pos_start_est": 845
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "London",
+      "n_tokens_est": 1,
+      "pos_start_est": 846
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 847
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "New York",
+      "n_tokens_est": 2,
+      "pos_start_est": 848
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 850
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Shanghai",
+      "n_tokens_est": 1,
+      "pos_start_est": 852
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " grew near water.",
+      "n_tokens_est": 4,
+      "pos_start_est": 853
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Being close to rivers or oceans made it easier to ",
+      "n_tokens_est": 10,
+      "pos_start_est": 857
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "trade",
+      "n_tokens_est": 1,
+      "pos_start_est": 867
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 868
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "travel",
+      "n_tokens_est": 1,
+      "pos_start_est": 869
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 870
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Islands",
+      "n_tokens_est": 1,
+      "pos_start_est": 871
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " with good ",
+      "n_tokens_est": 2,
+      "pos_start_est": 872
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "harbors",
+      "n_tokens_est": 1,
+      "pos_start_est": 874
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", like ",
+      "n_tokens_est": 2,
+      "pos_start_est": 875
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Singapore",
+      "n_tokens_est": 1,
+      "pos_start_est": 877
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", also became rich and powerful because ships could stop there easily.",
+      "n_tokens_est": 13,
+      "pos_start_est": 878
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " In dry places like ",
+      "n_tokens_est": 4,
+      "pos_start_est": 891
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "North Africa",
+      "n_tokens_est": 2,
+      "pos_start_est": 895
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and the ",
+      "n_tokens_est": 2,
+      "pos_start_est": 897
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Middle East",
+      "n_tokens_est": 2,
+      "pos_start_est": 899
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", clean water has always been important. Having water often made the difference between a small village and a strong civilization.",
+      "n_tokens_est": 23,
+      "pos_start_est": 901
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 924
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 928
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Water is not just found on Earth. Scientists have discovered water in many places in ",
+      "n_tokens_est": 16,
+      "pos_start_est": 931
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "space",
+      "n_tokens_est": 1,
+      "pos_start_est": 947
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". Ice has been found on ",
+      "n_tokens_est": 6,
+      "pos_start_est": 948
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Mars",
+      "n_tokens_est": 1,
+      "pos_start_est": 954
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and even on ",
+      "n_tokens_est": 4,
+      "pos_start_est": 955
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "the Moon",
+      "n_tokens_est": 2,
+      "pos_start_est": 959
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 961
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Some ",
+      "n_tokens_est": 1,
+      "pos_start_est": 962
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "moons",
+      "n_tokens_est": 1,
+      "pos_start_est": 963
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " in our ",
+      "n_tokens_est": 2,
+      "pos_start_est": 964
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "solar system",
+      "n_tokens_est": 2,
+      "pos_start_est": 966
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", like ",
+      "n_tokens_est": 2,
+      "pos_start_est": 968
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Europa",
+      "n_tokens_est": 1,
+      "pos_start_est": 970
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 971
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Ganymede",
+      "n_tokens_est": 1,
+      "pos_start_est": 972
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (around ",
+      "n_tokens_est": 2,
+      "pos_start_est": 973
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Jupiter",
+      "n_tokens_est": 1,
+      "pos_start_est": 975
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "), and ",
+      "n_tokens_est": 3,
+      "pos_start_est": 976
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Enceladus",
+      "n_tokens_est": 1,
+      "pos_start_est": 979
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (around ",
+      "n_tokens_est": 2,
+      "pos_start_est": 980
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Saturn",
+      "n_tokens_est": 1,
+      "pos_start_est": 982
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ") may have liquid water under their icy surfaces.",
+      "n_tokens_est": 10,
+      "pos_start_est": 983
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water vapor has also been found in the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 993
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 1001
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " of some ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1002
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "exoplanets",
+      "n_tokens_est": 1,
+      "pos_start_est": 1004
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". These are ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1005
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "planets",
+      "n_tokens_est": 1,
+      "pos_start_est": 1008
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " that ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1009
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "orbit",
+      "n_tokens_est": 1,
+      "pos_start_est": 1010
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "stars",
+      "n_tokens_est": 1,
+      "pos_start_est": 1011
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " far away from our solar system.",
+      "n_tokens_est": 7,
+      "pos_start_est": 1012
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Water has even been found in clouds of gas and dust in space where new stars are being born.",
+      "n_tokens_est": 20,
+      "pos_start_est": 1019
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1039
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1043
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "History",
+      "n_tokens_est": 1,
+      "pos_start_est": 1046
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1047
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1051
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "In the Universe",
+      "n_tokens_est": 3,
+      "pos_start_est": 1054
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1057
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1061
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Shortly after the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1064
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Big Bang",
+      "n_tokens_est": 2,
+      "pos_start_est": 1067
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", around 13.8 billion years ago, the ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1069
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "universe",
+      "n_tokens_est": 1,
+      "pos_start_est": 1079
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " was a hot, dense soup of ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1080
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "particles",
+      "n_tokens_est": 1,
+      "pos_start_est": 1087
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". After 380 000 years, the universe expanded and cooled down enough for the first ",
+      "n_tokens_est": 16,
+      "pos_start_est": 1088
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "atomic nuclei",
+      "n_tokens_est": 2,
+      "pos_start_est": 1104
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " to form in a process known as ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1106
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Big Bang nucleosynthesis",
+      "n_tokens_est": 3,
+      "pos_start_est": 1113
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". This produced mostly hydrogen, with smaller amounts of ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1116
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 1126
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and trace amounts of ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1127
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "lithium",
+      "n_tokens_est": 1,
+      "pos_start_est": 1131
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1132
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "beryllium",
+      "n_tokens_est": 1,
+      "pos_start_est": 1133
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1134
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Oxygen",
+      "n_tokens_est": 1,
+      "pos_start_est": 1135
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and heavier elements did not yet exist, meaning water could not yet form.",
+      "n_tokens_est": 15,
+      "pos_start_est": 1136
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1151
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1155
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Hundreds of millions of years later, the first ",
+      "n_tokens_est": 9,
+      "pos_start_est": 1158
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "stars",
+      "n_tokens_est": 1,
+      "pos_start_est": 1167
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " were made from clouds of hydrogen and helium. Inside these stars, ",
+      "n_tokens_est": 13,
+      "pos_start_est": 1168
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "nuclear fusion",
+      "n_tokens_est": 2,
+      "pos_start_est": 1181
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " began to produce heavier elements. In massive stars, fusion of lighter elements created heavier elements like carbon, nitrogen, and finally oxygen (a key ingredient for water). When these massive stars reached the end of their lives, they exploded as supernovae. This scattered those elements, including oxygen, into the ",
+      "n_tokens_est": 59,
+      "pos_start_est": 1183
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "interstellar medium",
+      "n_tokens_est": 2,
+      "pos_start_est": 1242
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1244
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1245
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1249
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Now that hydrogen and oxygen existed in the universe, they began to react and form water (H₂O). This happened mainly in ",
+      "n_tokens_est": 25,
+      "pos_start_est": 1252
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "molecular clouds",
+      "n_tokens_est": 2,
+      "pos_start_est": 1277
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Here, water could form in two ways. On dust grains, hydrogen and oxygen atoms stuck to the surface can react to form ",
+      "n_tokens_est": 26,
+      "pos_start_est": 1279
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "water ice",
+      "n_tokens_est": 2,
+      "pos_start_est": 1305
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". In hot places inside the molecular cloud like around ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1307
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "young stars",
+      "n_tokens_est": 2,
+      "pos_start_est": 1317
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", hydrogen and oxygen gas could react to form ",
+      "n_tokens_est": 9,
+      "pos_start_est": 1319
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "water vapor",
+      "n_tokens_est": 2,
+      "pos_start_est": 1328
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1330
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1331
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1335
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "As molecular clouds collapsed to form new stars, ",
+      "n_tokens_est": 9,
+      "pos_start_est": 1338
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "protoplanetary disks",
+      "n_tokens_est": 2,
+      "pos_start_est": 1347
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " (flat disks of gas and dust moving around the star) formed around these young stars. Water in these disks could be found as water vapor or ice. This depended on how close or far away the water was from the star. The \"",
+      "n_tokens_est": 48,
+      "pos_start_est": 1349
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "snow line",
+      "n_tokens_est": 2,
+      "pos_start_est": 1397
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "\" is a place far away from the star where it is cold enough for water to freeze and turn into ice. Inside this line, water stays as a gas, but beyond it, water becomes ice. This ice allowed particles to clump together and form planets. Water got trapped in icy ",
+      "n_tokens_est": 57,
+      "pos_start_est": 1399
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "planetesimals",
+      "n_tokens_est": 1,
+      "pos_start_est": 1456
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1457
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "comets",
+      "n_tokens_est": 1,
+      "pos_start_est": 1458
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1459
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "asteroids",
+      "n_tokens_est": 1,
+      "pos_start_est": 1461
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". In the inner parts of ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1462
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "star systems",
+      "n_tokens_est": 2,
+      "pos_start_est": 1468
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 3,
+    "n_sequences": 2,
+    "est_tokens_total": 1470,
+    "est_tokens_per_seq": {
+      "0": 1043,
+      "1": 427
+    },
+    "markup_or_syntax_share": 0.088
+  }
+}

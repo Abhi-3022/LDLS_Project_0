@@ -1,0 +1,2121 @@
+{
+  "doc_id": "cat",
+  "domain": "html",
+  "mode": "main-only",
+  "note": "segments[].text are tokenized by the C++ driver with Llama's tokenizer; positions assigned there. Counts here are a proxy.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Overview",
+    "2": "History",
+    "3": "Anatomy",
+    "4": "Colouring",
+    "5": "Behaviour",
+    "6": "Mating"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Overview"
+    },
+    {
+      "node_id": 3,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "History"
+    },
+    {
+      "node_id": 4,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "Anatomy"
+    },
+    {
+      "node_id": 5,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 4,
+      "heading": "Colouring"
+    },
+    {
+      "node_id": 6,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 5,
+      "heading": "Behaviour"
+    },
+    {
+      "node_id": 7,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 6,
+      "heading": "Mating"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Cats",
+      "n_tokens_est": 1,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", also called ",
+      "n_tokens_est": 3,
+      "pos_start_est": 4
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "domestic cats",
+      "n_tokens_est": 2,
+      "pos_start_est": 7
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (",
+      "n_tokens_est": 1,
+      "pos_start_est": 9
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Felis catus",
+      "n_tokens_est": 2,
+      "pos_start_est": 10
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "), are small, ",
+      "n_tokens_est": 5,
+      "pos_start_est": 12
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "carnivorous",
+      "n_tokens_est": 1,
+      "pos_start_est": 17
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (meat eating) ",
+      "n_tokens_est": 4,
+      "pos_start_est": 18
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "mammals",
+      "n_tokens_est": 1,
+      "pos_start_est": 22
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", of the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 23
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "family",
+      "n_tokens_est": 1,
+      "pos_start_est": 26
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Felidae",
+      "n_tokens_est": 1,
+      "pos_start_est": 27
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 28
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Cats have been ",
+      "n_tokens_est": 3,
+      "pos_start_est": 29
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "domesticated",
+      "n_tokens_est": 1,
+      "pos_start_est": 32
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (tamed) for nearly 10,000 years.",
+      "n_tokens_est": 10,
+      "pos_start_est": 33
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Some of the most popular breeds of this mammal include the ",
+      "n_tokens_est": 11,
+      "pos_start_est": 43
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Siamese",
+      "n_tokens_est": 1,
+      "pos_start_est": 54
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 55
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Japanese Bobtail",
+      "n_tokens_est": 2,
+      "pos_start_est": 56
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 58
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Abysinnian",
+      "n_tokens_est": 1,
+      "pos_start_est": 59
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 60
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Cornish Rex",
+      "n_tokens_est": 2,
+      "pos_start_est": 61
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 63
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "American Shorthair",
+      "n_tokens_est": 2,
+      "pos_start_est": 64
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 66
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Ragdoll",
+      "n_tokens_est": 1,
+      "pos_start_est": 67
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 68
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Aegean cat",
+      "n_tokens_est": 2,
+      "pos_start_est": 69
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 71
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Russian Blue",
+      "n_tokens_est": 2,
+      "pos_start_est": 72
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 74
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Persian",
+      "n_tokens_est": 1,
+      "pos_start_est": 75
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 76
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Manx",
+      "n_tokens_est": 1,
+      "pos_start_est": 77
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 78
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Burmese",
+      "n_tokens_est": 1,
+      "pos_start_est": 79
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 80
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Sphynx",
+      "n_tokens_est": 1,
+      "pos_start_est": 81
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 82
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "British Shorthair Tabby",
+      "n_tokens_est": 3,
+      "pos_start_est": 84
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 87
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 88
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 92
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Overview",
+      "n_tokens_est": 1,
+      "pos_start_est": 95
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 96
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 100
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Domestic cats may be called \"house cats\" when kept as indoor ",
+      "n_tokens_est": 13,
+      "pos_start_est": 103
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 116
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 117
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " They are one of the most popular ",
+      "n_tokens_est": 7,
+      "pos_start_est": 118
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 125
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " in the world. ",
+      "n_tokens_est": 4,
+      "pos_start_est": 126
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Humans",
+      "n_tokens_est": 1,
+      "pos_start_est": 130
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " keep them for hunting mice and rats, and as friends. There are also farm cats, which keep ",
+      "n_tokens_est": 20,
+      "pos_start_est": 131
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "mice and rats",
+      "n_tokens_est": 3,
+      "pos_start_est": 151
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " away; and ",
+      "n_tokens_est": 3,
+      "pos_start_est": 154
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "feral cats",
+      "n_tokens_est": 2,
+      "pos_start_est": 157
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", which are domestic cats that live away from humans.",
+      "n_tokens_est": 11,
+      "pos_start_est": 159
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " In 2021, there were about 220 million pet cats and 480 million feral cats in the world.",
+      "n_tokens_est": 19,
+      "pos_start_est": 170
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 189
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 193
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "There are about 92 breeds of cat.",
+      "n_tokens_est": 8,
+      "pos_start_est": 196
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Domestic cats are found in shorthair, longhair, and hairless breeds. Cats which are not specific breeds can be referred to as 'domestic shorthair' (DSH) or 'domestic longhair' (DLH).",
+      "n_tokens_est": 40,
+      "pos_start_est": 204
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 244
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 248
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "The word 'cat' is also used for other ",
+      "n_tokens_est": 10,
+      "pos_start_est": 251
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "felines",
+      "n_tokens_est": 1,
+      "pos_start_est": 261
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", like ",
+      "n_tokens_est": 2,
+      "pos_start_est": 262
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "lions",
+      "n_tokens_est": 1,
+      "pos_start_est": 264
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 265
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "tigers",
+      "n_tokens_est": 1,
+      "pos_start_est": 266
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 267
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "leopards",
+      "n_tokens_est": 1,
+      "pos_start_est": 268
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 269
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "jaguars",
+      "n_tokens_est": 1,
+      "pos_start_est": 270
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 271
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "pumas",
+      "n_tokens_est": 1,
+      "pos_start_est": 272
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 273
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "cheetahs",
+      "n_tokens_est": 1,
+      "pos_start_est": 275
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 276
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 277
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 281
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "History",
+      "n_tokens_est": 1,
+      "pos_start_est": 284
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 285
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 289
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "In the past, mostly in ",
+      "n_tokens_est": 6,
+      "pos_start_est": 292
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Egypt",
+      "n_tokens_est": 1,
+      "pos_start_est": 298
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", people kept cats because the cats hunted and ate ",
+      "n_tokens_est": 10,
+      "pos_start_est": 299
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "mice",
+      "n_tokens_est": 1,
+      "pos_start_est": 309
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 310
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "rats",
+      "n_tokens_est": 1,
+      "pos_start_est": 311
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " in the grain stores. The oldest evidence of cats kept as pets is from the ",
+      "n_tokens_est": 16,
+      "pos_start_est": 312
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Mediterranean",
+      "n_tokens_est": 1,
+      "pos_start_est": 328
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " island of ",
+      "n_tokens_est": 2,
+      "pos_start_est": 329
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cyprus",
+      "n_tokens_est": 1,
+      "pos_start_est": 331
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", around 7500 BC. ",
+      "n_tokens_est": 5,
+      "pos_start_est": 332
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Ancient Egyptians",
+      "n_tokens_est": 2,
+      "pos_start_est": 337
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " worshiped cats as gods, and often ",
+      "n_tokens_est": 7,
+      "pos_start_est": 339
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "mummified",
+      "n_tokens_est": 1,
+      "pos_start_est": 346
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " them so they could be with their owners \"for all of eternity\".",
+      "n_tokens_est": 15,
+      "pos_start_est": 347
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 362
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 366
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Today, people often keep cats as pets. There are also domestic cats which live without being cared for by people. These cats are called \"feral cats\" or \"stray cats\". Cats started becoming pets when the ancient Egyptians were around.",
+      "n_tokens_est": 48,
+      "pos_start_est": 369
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 417
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 421
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Anatomy",
+      "n_tokens_est": 1,
+      "pos_start_est": 424
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 425
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 429
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Cats have ",
+      "n_tokens_est": 2,
+      "pos_start_est": 432
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "anatomy",
+      "n_tokens_est": 1,
+      "pos_start_est": 434
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " similar to the other members of the ",
+      "n_tokens_est": 7,
+      "pos_start_est": 435
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "genus",
+      "n_tokens_est": 1,
+      "pos_start_est": 442
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Felis",
+      "n_tokens_est": 1,
+      "pos_start_est": 443
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". The genus has extra lumbar (lower back) and thoracic (chest) ",
+      "n_tokens_est": 15,
+      "pos_start_est": 444
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "vertebrae",
+      "n_tokens_est": 1,
+      "pos_start_est": 459
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". This helps explain why cats are very flexible. Unlike human arms, cat's front paws are attached to the shoulder by free-floating ",
+      "n_tokens_est": 28,
+      "pos_start_est": 460
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "clavicle",
+      "n_tokens_est": 1,
+      "pos_start_est": 488
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " bones. These allow cats to pass their body through any space into which they can fit their heads.",
+      "n_tokens_est": 20,
+      "pos_start_est": 489
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 509
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 513
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The cat ",
+      "n_tokens_est": 2,
+      "pos_start_est": 516
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "skull",
+      "n_tokens_est": 1,
+      "pos_start_est": 518
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", unlike most ",
+      "n_tokens_est": 3,
+      "pos_start_est": 519
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "mammals",
+      "n_tokens_est": 1,
+      "pos_start_est": 522
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", has very large eye sockets and a powerful jaw.",
+      "n_tokens_est": 11,
+      "pos_start_est": 523
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Compared to other felines, domestic cats have narrowly spaced ",
+      "n_tokens_est": 10,
+      "pos_start_est": 534
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "canine teeth",
+      "n_tokens_est": 2,
+      "pos_start_est": 544
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ": this is an ",
+      "n_tokens_est": 4,
+      "pos_start_est": 546
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "adaptation",
+      "n_tokens_est": 1,
+      "pos_start_est": 550
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " to their preferred prey of small ",
+      "n_tokens_est": 6,
+      "pos_start_est": 551
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "rodents",
+      "n_tokens_est": 1,
+      "pos_start_est": 557
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 558
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Cats, like dogs, walk directly on their toes, with the bones of their feet making up the lower part of the visible leg.",
+      "n_tokens_est": 27,
+      "pos_start_est": 559
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 586
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 590
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Cats walk very precisely. Unlike most mammals, when cats walk, they use a \"pacing\" gait (walking style); that is, they move the two legs on one side of the body before the legs on the other side. This trait is shared with ",
+      "n_tokens_est": 52,
+      "pos_start_est": 593
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "camels",
+      "n_tokens_est": 1,
+      "pos_start_est": 645
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 646
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "giraffes",
+      "n_tokens_est": 1,
+      "pos_start_est": 647
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". As a walk speeds up into a ",
+      "n_tokens_est": 8,
+      "pos_start_est": 648
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "trot",
+      "n_tokens_est": 1,
+      "pos_start_est": 656
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", a cat's gait will change to be a \"",
+      "n_tokens_est": 12,
+      "pos_start_est": 657
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "diagonal",
+      "n_tokens_est": 1,
+      "pos_start_est": 669
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "\" gait, similar to that of most other mammals: the diagonally opposite hind and forelegs will move at the same time.",
+      "n_tokens_est": 24,
+      "pos_start_est": 670
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Most cats have five ",
+      "n_tokens_est": 4,
+      "pos_start_est": 694
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "claws",
+      "n_tokens_est": 1,
+      "pos_start_est": 698
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " on their front paws, and four on their rear paws.",
+      "n_tokens_est": 12,
+      "pos_start_est": 699
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " On the inside of the front paws there is something which looks like a sixth \"finger\". This special feature on the inside of the ",
+      "n_tokens_est": 27,
+      "pos_start_est": 711
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "wrists",
+      "n_tokens_est": 1,
+      "pos_start_est": 738
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " is the carpal pad. The carpal pad is also found on other cats and on dogs.",
+      "n_tokens_est": 18,
+      "pos_start_est": 739
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 757
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 761
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Colouring",
+      "n_tokens_est": 1,
+      "pos_start_est": 764
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 765
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 769
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Although cats can have many different colourings, they genetically can only have two coat colours, orange and black. Cats with grey and white fur or markings have a masking ",
+      "n_tokens_est": 32,
+      "pos_start_est": 772
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "gene",
+      "n_tokens_est": 1,
+      "pos_start_est": 804
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", but will still have a base of orange or black. ",
+      "n_tokens_est": 12,
+      "pos_start_est": 805
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 817
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 821
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The gene for colouring is in the ",
+      "n_tokens_est": 7,
+      "pos_start_est": 824
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "X chromosome",
+      "n_tokens_est": 2,
+      "pos_start_est": 831
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". As females have two X chromosomes, they can have two or more colours. It is for this reason that ",
+      "n_tokens_est": 22,
+      "pos_start_est": 833
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "calico",
+      "n_tokens_est": 1,
+      "pos_start_est": 855
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 856
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "tortoiseshell",
+      "n_tokens_est": 1,
+      "pos_start_est": 857
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " cats are mostly female.",
+      "n_tokens_est": 5,
+      "pos_start_est": 858
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 863
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 867
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Behaviour",
+      "n_tokens_est": 1,
+      "pos_start_est": 870
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 871
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 875
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Cats are active ",
+      "n_tokens_est": 3,
+      "pos_start_est": 878
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "carnivores",
+      "n_tokens_est": 1,
+      "pos_start_est": 881
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", meaning that in the wild they hunt live animals. They mostly hunt small ",
+      "n_tokens_est": 15,
+      "pos_start_est": 882
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "mammals",
+      "n_tokens_est": 1,
+      "pos_start_est": 897
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (like ",
+      "n_tokens_est": 2,
+      "pos_start_est": 898
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "mice",
+      "n_tokens_est": 1,
+      "pos_start_est": 900
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "). They will also sometimes hunt ",
+      "n_tokens_est": 7,
+      "pos_start_est": 901
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "birds",
+      "n_tokens_est": 1,
+      "pos_start_est": 908
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". Cats eat a wide variety of animals, including ",
+      "n_tokens_est": 10,
+      "pos_start_est": 909
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "insects",
+      "n_tokens_est": 1,
+      "pos_start_est": 919
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " such as flies and grasshoppers.",
+      "n_tokens_est": 6,
+      "pos_start_est": 920
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Their main method of hunting is ",
+      "n_tokens_est": 6,
+      "pos_start_est": 926
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "stalk and pounce",
+      "n_tokens_est": 3,
+      "pos_start_est": 932
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 935
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 936
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 940
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "The basic cat coat colouring, ",
+      "n_tokens_est": 6,
+      "pos_start_est": 943
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "tabby",
+      "n_tokens_est": 1,
+      "pos_start_est": 949
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (see top photo), makes it easy for the cat to hide in ",
+      "n_tokens_est": 15,
+      "pos_start_est": 950
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "grass",
+      "n_tokens_est": 1,
+      "pos_start_est": 965
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 966
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "woodland",
+      "n_tokens_est": 1,
+      "pos_start_est": 967
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". The cat moves towards the animal it wants to hunt, keeping its body flat and near the ground so that it cannot be seen easily. When it is close enough, it runs towards the animal it is hunting and tries to jump on it. Cats, especially kittens, practice these ",
+      "n_tokens_est": 56,
+      "pos_start_est": 968
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "instinctive",
+      "n_tokens_est": 1,
+      "pos_start_est": 1024
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " behaviours in play with each other or on small toys.",
+      "n_tokens_est": 11,
+      "pos_start_est": 1025
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1036
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1040
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Cats can catch fish. They try to flip the fish out of the water and over the cat's shoulders using their front paw. Research showed this to be an ",
+      "n_tokens_est": 33,
+      "pos_start_est": 1043
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "innate",
+      "n_tokens_est": 1,
+      "pos_start_est": 1076
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (inherited) behaviour pattern which developed early and without the mother teaching it.",
+      "n_tokens_est": 15,
+      "pos_start_est": 1077
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1092
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1096
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Cats are quiet and mostly well-behaved animals, making them popular pets. Young kittens are playful. They can easily entertain themselves with a variety of store-bought or homemade toys. House cats have also been known to teach themselves to use lever-type doorknobs and toilet handles.",
+      "n_tokens_est": 55,
+      "pos_start_est": 1099
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " However, cats are naturally curious, so some domesticated cats may get into some mischief.",
+      "n_tokens_est": 17,
+      "pos_start_est": 1154
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1171
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1175
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Cats are ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1178
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "independent",
+      "n_tokens_est": 1,
+      "pos_start_est": 1180
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " animals. They can look after themselves and do not need as much attention as dogs do.",
+      "n_tokens_est": 18,
+      "pos_start_est": 1181
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1199
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1203
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Communication",
+      "n_tokens_est": 1,
+      "pos_start_est": 1206
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1207
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1211
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Cats use a wide range of vocal and non-vocal signals for ",
+      "n_tokens_est": 13,
+      "pos_start_est": 1214
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "communication",
+      "n_tokens_est": 1,
+      "pos_start_est": 1227
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". Vocalizations include ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1228
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "meowing",
+      "n_tokens_est": 1,
+      "pos_start_est": 1231
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1232
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "purring",
+      "n_tokens_est": 1,
+      "pos_start_est": 1233
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", trilling, hissing, growling, squeaking, ",
+      "n_tokens_est": 9,
+      "pos_start_est": 1234
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "chirping",
+      "n_tokens_est": 1,
+      "pos_start_est": 1243
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1244
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "clicking",
+      "n_tokens_est": 1,
+      "pos_start_est": 1245
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and grunting.",
+      "n_tokens_est": 4,
+      "pos_start_est": 1246
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Adult cats rarely meow at one another but frequently use meowing to communicate with humans, often modifying their vocalizations based on context and response.",
+      "n_tokens_est": 26,
+      "pos_start_est": 1250
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1276
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1280
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Purring is most commonly associated with positive states such as relaxation or social contact, but it also occurs during stress, pain, or illness, suggesting a self-soothing or physiological function.",
+      "n_tokens_est": 36,
+      "pos_start_est": 1283
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Trilling and chirping are often used in friendly interactions, particularly between mothers and kittens or during hunting-related excitement.",
+      "n_tokens_est": 22,
+      "pos_start_est": 1319
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1341
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1345
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Feral cats are generally silent toward humans and rely more heavily on body language and scent-based communication than vocal signals.",
+      "n_tokens_est": 23,
+      "pos_start_est": 1348
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1371
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1375
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Cats also communicate through ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1378
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "body posture",
+      "n_tokens_est": 2,
+      "pos_start_est": 1382
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and facial expressions. Tail position and ear orientation are especially important. An upright tail usually signals friendliness and confidence, while flattened ears indicate fear or aggression.",
+      "n_tokens_est": 30,
+      "pos_start_est": 1384
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Cats may also perform slow blinking, a behavior interpreted as a friendly or affiliative signal toward humans and other cats.",
+      "n_tokens_est": 22,
+      "pos_start_est": 1414
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " A cat slow blinking is the equivalent of a human smiling.",
+      "n_tokens_est": 12,
+      "pos_start_est": 1436
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1448
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1452
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Tactile communication includes nose-touching during greetings, head rubbing (bunting), and allogrooming, which help reinforce social bonds and group cohesion.",
+      "n_tokens_est": 27,
+      "pos_start_est": 1455
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1482
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1486
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "content",
+      "text": "Mating",
+      "n_tokens_est": 1,
+      "pos_start_est": 1489
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1490
+    },
+    {
+      "node_id": 7,
+      "seq_id": 6,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1494
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 8,
+    "n_sequences": 7,
+    "est_tokens_total": 1497,
+    "est_tokens_per_seq": {
+      "0": 92,
+      "1": 189,
+      "2": 140,
+      "3": 340,
+      "4": 106,
+      "5": 619,
+      "6": 11
+    },
+    "markup_or_syntax_share": 0.133
+  }
+}
