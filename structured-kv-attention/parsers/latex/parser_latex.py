@@ -46,8 +46,10 @@ BLOCK_ENVS = {"theorem", "lemma", "definition", "proposition", "corollary",
               "proof", "remark", "example", "claim", "fact", "conjecture"}
 # macros that reference another labeled block
 REF_MACROS = {"ref", "eqref", "cref", "Cref", "autoref", "pageref"}
-# structural section commands (section boundaries in --mode sections)
-SECTION_MACROS = {"section"}      # add "subsection" for finer splits
+# structural section commands (section boundaries in --mode sections).
+# subsection is included so papers with a few very large sections still yield
+# several evictable subtrees under the 2k budget.
+SECTION_MACROS = {"section", "subsection"}
 # macros whose text we keep but whose name we don't emit (pure metadata)
 DROP_MACROS = {"label", "maketitle", "title", "author", "date", "newtheorem",
                "usepackage", "documentclass"}
@@ -197,13 +199,14 @@ def document_body(nodes):
 # =============================================================================
 # MODE: sections
 # =============================================================================
-def run_sections(body, merge_min, max_tokens):
+def run_sections(body, merge_min, max_tokens, max_shared=0):
     nodes = [{"node_id": 0, "node_type": "article", "parent": -1, "depth": 0, "seq_id": 0}]
     nodes.append({"node_id": 1, "node_type": "intro", "parent": 0, "depth": 1, "seq_id": 0})
     seq_label = {0: "intro / shared"}
     segments = []
     next_seq, cur_seq, cur_node = 0, 0, 1
     running = [0]
+    seq0 = [0]            # tokens placed in the shared/intro sequence so far
     seq_tokens = {}
 
     def add(node, node_id, seq):
@@ -212,6 +215,8 @@ def run_sections(body, merge_min, max_tokens):
         added = sum(est_tokens(s["text"]) for s in segments[before:])
         seq_tokens[node_id] = seq_tokens.get(node_id, 0) + added
         running[0] += added
+        if seq == 0:
+            seq0[0] += added
 
     for node in body:
         if isinstance(node, LatexMacroNode) and node.macroname in SECTION_MACROS:
@@ -229,6 +234,10 @@ def run_sections(body, merge_min, max_tokens):
             continue
         if max_tokens > 0 and running[0] >= max_tokens:
             break
+        # cap the shared/intro sequence so a long abstract+intro can't eat the whole
+        # budget before any \section is reached (papers otherwise come out as 1 seq).
+        if cur_seq == 0 and max_shared > 0 and seq0[0] >= max_shared:
+            continue
         add(node, cur_node, cur_seq)
 
     _trim(segments, running, max_tokens)
@@ -354,6 +363,9 @@ def main():
     ap.add_argument("--mode", choices=["sections", "cites"], default="sections")
     ap.add_argument("--merge-min", type=int, default=16)
     ap.add_argument("--max-tokens", type=int, default=1500)
+    ap.add_argument("--max-shared", type=int, default=400,
+                    help="sections mode: cap tokens kept in the shared/intro sequence so "
+                         "a long abstract+intro doesn't eat the budget before the first section")
     ap.add_argument("--pretty", action="store_true")
     args = ap.parse_args()
 
@@ -366,7 +378,7 @@ def main():
     if args.mode == "cites":
         nodes, segments, seq_label, uses = run_cites(body, args.merge_min, args.max_tokens)
     else:
-        nodes, segments, seq_label, uses = run_sections(body, args.merge_min, args.max_tokens)
+        nodes, segments, seq_label, uses = run_sections(body, args.merge_min, args.max_tokens, args.max_shared)
 
     doc_id = args.tex_file.replace("\\", "/").rsplit("/", 1)[-1].rsplit(".", 1)[0]
     result = finish(nodes, segments, seq_label, uses, doc_id, args.mode)
