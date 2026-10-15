@@ -385,7 +385,7 @@ int main(int argc, char** argv) {
     printf("answer (after change): %s\n", detok(vocab, a2).c_str());
     bool t1 = (a1 == a2);
     printf("TEST 1: %s  (changing seq %d did %saffect the answer about seq %d)\n\n",
-           t1 ? "PASS ✓" : "FAIL ✗", change_seq, t1 ? "NOT " : "", ask_seq);
+           t1 ? "PASS" : "FAIL", change_seq, t1 ? "NOT " : "", ask_seq);
 
     // =======================================================================
     // Dependency-aware eviction guard (uses the LaTeX `uses` graph).
@@ -454,7 +454,7 @@ int main(int argc, char** argv) {
     bool t2 = (evict_seq < 0) ? (a3 == a4)                       // guard skipped eviction
                               : ((a3 == a4) && (after < before));
     printf("TEST 2: %s  (evicting seq %d freed memory and left the answer %s)\n\n",
-           t2 ? "PASS ✓" : "FAIL ✗", evict_seq, (a3==a4) ? "unchanged" : "CHANGED");
+           t2 ? "PASS" : "FAIL", evict_seq, (a3==a4) ? "unchanged" : "CHANGED");
 
     printf("================ RESULT: %s ================\n",
            (t1 && t2) ? "BOTH TESTS PASS" : "SEE FAILURES ABOVE");
