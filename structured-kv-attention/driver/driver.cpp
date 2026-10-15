@@ -316,6 +316,7 @@ int main(int argc, char** argv) {
     }
     std::string model_path = argv[1], json_path = argv[2];
     int ask_seq = -1, change_seq = -1, evict_seq = -1, n_predict = 48;
+    int n_ctx = 4096;                 // bump with --n-ctx for a multi-document corpus
     std::string question;
     for (int i = 3; i < argc; i++) {
         std::string a = argv[i];
@@ -324,6 +325,7 @@ int main(int argc, char** argv) {
         else if (a == "--evict" && i+1<argc) evict_seq = atoi(argv[++i]);
         else if (a == "--q" && i+1<argc) question = argv[++i];
         else if (a == "-n" && i+1<argc) n_predict = atoi(argv[++i]);
+        else if (a == "--n-ctx" && i+1<argc) n_ctx = atoi(argv[++i]);
     }
 
     std::vector<Seg> segs; std::map<int,std::string> legend;
@@ -358,7 +360,7 @@ int main(int argc, char** argv) {
     const llama_vocab* vocab = llama_model_get_vocab(model);                   // [API]
 
     llama_context_params cp = llama_context_default_params();
-    cp.n_ctx = 4096; cp.n_batch = 4096; cp.n_seq_max = 64;                     // [API] n_seq_max
+    cp.n_ctx = n_ctx; cp.n_batch = n_ctx; cp.n_seq_max = 64;                   // [API] n_seq_max
     cp.kv_unified = true;  // REQUIRED: our question tokens belong to 2 seqs ({0,target}),
                            // which "couples" sequences — only a unified KV cache supports that.
     llama_context* ctx = llama_init_from_model(model, cp);                     // [API]
