@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{amsthm,amsmath}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+% this comment should be stripped by the parser
+\title{A Short Note on Partial Sums}
+\author{A. Student}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+This note proves a simple bound on partial sums of a bounded sequence.
+We rely on one basic inequality and a definition.
+
+\section{Definitions}
+\begin{definition}\label{def:sum}
+For a sequence $a_i$, the partial sum is $S_n = \sum_{i=1}^{n} a_i$.
+\end{definition}
+
+\section{Results}
+\begin{lemma}\label{lem:bound}
+For all $n$, we have $S_n \le n \max_i a_i$.
+\end{lemma}
+
+\begin{theorem}\label{thm:main}
+If each $a_i \le 1$, then $S_n \le n$ for every $n$.
+\end{theorem}
+\begin{proof}
+By Definition~\ref{def:sum}, $S_n = \sum_{i=1}^{n} a_i$.
+By Lemma~\ref{lem:bound}, $S_n \le n \max_i a_i$.
+Since $a_i \le 1$ we have $\max_i a_i \le 1$, hence $S_n \le n$.
+\end{proof}
+
+\section{Conclusion}
+We proved Theorem~\ref{thm:main} using Lemma~\ref{lem:bound} and Definition~\ref{def:sum}.
+\end{document}
