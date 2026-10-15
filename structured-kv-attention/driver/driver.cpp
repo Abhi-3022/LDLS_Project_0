@@ -147,9 +147,11 @@ static std::string piece(const llama_vocab* vocab, llama_token tok) {
 // a document segment
 struct Seg { int seq; std::string text; };
 
-// load segments + legend from the JSON file
+// load segments + legend (+ optional `uses` dependency graph) from the JSON file.
+// `uses` is present only in LaTeX --mode cites output: {seq_id: [cited seq_ids]}.
 static bool load_doc(const std::string& path, std::vector<Seg>& segs,
-                     std::map<int,std::string>& legend) {
+                     std::map<int,std::string>& legend,
+                     std::map<int,std::vector<int>>& uses) {
     std::ifstream f(path);
     if (!f) { fprintf(stderr, "cannot open %s\n", path.c_str()); return false; }
     std::stringstream ss; ss << f.rdbuf();
@@ -164,7 +166,30 @@ static bool load_doc(const std::string& path, std::vector<Seg>& segs,
     const Json* L = root.find("seq_legend");
     if (L && L->t == Json::OBJ)
         for (auto& kv : L->obj) legend[std::stoi(kv.first)] = kv.second.str;
+    const Json* U = root.find("uses");            // optional (LaTeX cites mode)
+    if (U && U->t == Json::OBJ)
+        for (auto& kv : U->obj) {
+            std::vector<int> v;
+            if (kv.second.t == Json::ARR)
+                for (auto& e : kv.second.arr) v.push_back((int)e.num);
+            uses[std::stoi(kv.first)] = v;
+        }
     return !segs.empty();
+}
+
+// Transitive set of sequences that `target` depends on, by following the `uses`
+// edges forward (target uses A, A uses B -> {A, B}). These must NOT be evicted
+// while a question about `target` is live.
+static std::set<int> deps_of(int target, const std::map<int,std::vector<int>>& uses) {
+    std::set<int> seen; std::vector<int> stack{target};
+    while (!stack.empty()) {
+        int cur = stack.back(); stack.pop_back();
+        auto it = uses.find(cur);
+        if (it == uses.end()) continue;
+        for (int d : it->second) if (seen.insert(d).second) stack.push_back(d);
+    }
+    seen.erase(target);   // a node is not its own dependency (guards against cycles)
+    return seen;
 }
 
 // ---------------------------------------------------------------------------
@@ -302,7 +327,8 @@ int main(int argc, char** argv) {
     }
 
     std::vector<Seg> segs; std::map<int,std::string> legend;
-    if (!load_doc(json_path, segs, legend)) return 1;
+    std::map<int,std::vector<int>> uses;
+    if (!load_doc(json_path, segs, legend, uses)) return 1;
 
     // content sections = seq ids > 0, in order
     std::set<int> seqset; for (auto& s : segs) seqset.insert(s.seq);
@@ -362,6 +388,34 @@ int main(int argc, char** argv) {
            t1 ? "PASS ✓" : "FAIL ✗", change_seq, t1 ? "NOT " : "", ask_seq);
 
     // =======================================================================
+    // Dependency-aware eviction guard (uses the LaTeX `uses` graph).
+    // If the section we were asked to evict is one the question DEPENDS ON,
+    // refuse it and fall back to a genuinely unrelated section. With no `uses`
+    // graph (e.g. HTML), deps is empty and this is a no-op.
+    // =======================================================================
+    std::set<int> deps = deps_of(ask_seq, uses);
+    if (!deps.empty()) {
+        printf("dependency graph: seq %d depends on {", ask_seq);
+        bool first = true; for (int d : deps) { printf("%s%d", first ? "" : ",", d); first = false; }
+        printf("} -> these are protected from eviction\n");
+    }
+    if (deps.count(evict_seq)) {
+        printf("[GUARD] refusing to evict seq %d: the question about seq %d depends on it.\n",
+               evict_seq, ask_seq);
+        int safe = -1;
+        for (int s : sections) if (s != ask_seq && !deps.count(s)) { safe = s; break; }
+        if (safe >= 0) {
+            printf("[GUARD] evicting unrelated seq %d (%s) instead.\n",
+                   safe, legend.count(safe) ? legend[safe].c_str() : "section");
+            evict_seq = safe;
+        } else {
+            printf("[GUARD] no unrelated section available; skipping eviction.\n");
+            evict_seq = -1;
+        }
+    }
+    printf("\n");
+
+    // =======================================================================
     // TEST 2 — eviction: drop an unrelated section, memory falls, answer holds
     // =======================================================================
     printf("================ TEST 2: eviction =================\n");
@@ -381,11 +435,15 @@ int main(int argc, char** argv) {
     long before = cells(d3, -1);
     std::vector<llama_token> a3 = ask(ctx, vocab, d3, ask_seq, question, n_predict);
 
-    // evict the unrelated section: remove its tokens (positions >= prefix_len) from its sequence.
-    // The shared prefix cells stay (they still belong to the other sections' sequences).
-    llama_memory_seq_rm(llama_get_memory(ctx), evict_seq, d3.prefix_len, -1);
-    long after = cells(d3, evict_seq);
-    std::vector<llama_token> a4 = ask(ctx, vocab, d3, ask_seq, question, n_predict);
+    long after = before;
+    std::vector<llama_token> a4 = a3;
+    if (evict_seq >= 0) {
+        // evict the unrelated section: remove its tokens (positions >= prefix_len) from its sequence.
+        // The shared prefix cells stay (they still belong to the other sections' sequences).
+        llama_memory_seq_rm(llama_get_memory(ctx), evict_seq, d3.prefix_len, -1);
+        after = cells(d3, evict_seq);
+        a4 = ask(ctx, vocab, d3, ask_seq, question, n_predict);
+    }
 
     printf("KV cells: before=%ld  after=%ld  (freed %ld tokens of seq %d)\n",
            before, after, before - after, evict_seq);
@@ -393,7 +451,8 @@ int main(int argc, char** argv) {
            kv_bytes(before)/1e6, kv_bytes(after)/1e6);
     printf("answer (before evict): %s\n", detok(vocab, a3).c_str());
     printf("answer (after evict) : %s\n", detok(vocab, a4).c_str());
-    bool t2 = (a3 == a4) && (after < before);
+    bool t2 = (evict_seq < 0) ? (a3 == a4)                       // guard skipped eviction
+                              : ((a3 == a4) && (after < before));
     printf("TEST 2: %s  (evicting seq %d freed memory and left the answer %s)\n\n",
            t2 ? "PASS ✓" : "FAIL ✗", evict_seq, (a3==a4) ? "unchanged" : "CHANGED");
 
