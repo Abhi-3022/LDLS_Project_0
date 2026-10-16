@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pet Care Guide</title>
+  <style>body{font-family:sans-serif;margin:2rem} .card{border:1px solid #ccc}</style>
+</head>
+<body>
+  <header><h1>Pet Care Guide</h1><p>Everything about caring for common household pets.</p></header>
+  <nav><a href="#dogs">Dogs</a> <a href="#cats">Cats</a></nav>
+
+  <section id="dogs">
+    <h2>Dogs</h2>
+    <p>Dogs are loyal animals. An adult dog should be walked at least twice a day.</p>
+    <p>Most dogs eat two meals daily. Puppies need three or four smaller meals.</p>
+    <ul><li>Walk twice daily</li><li>Fresh water always</li><li>Yearly vet checkup</li></ul>
+  </section>
+
+  <section id="cats">
+    <h2>Cats</h2>
+    <p>Cats are independent animals. An indoor cat sleeps around sixteen hours a day.</p>
+    <p>Cats should always have a clean litter box and fresh water.</p>
+    <ul><li>Clean litter daily</li><li>Brush weekly</li><li>Yearly vet checkup</li></ul>
+  </section>
+
+  <aside>Tip: ask your vet.</aside>
+
+  <script>
+    document.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(e){ console.log('nav click', a.getAttribute('href')); });
+    });
+  </script>
+</body>
+</html>

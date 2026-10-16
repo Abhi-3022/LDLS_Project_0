@@ -1,0 +1,2423 @@
+{
+  "doc_id": "sun",
+  "domain": "html",
+  "mode": "main-only",
+  "note": "segments[].text are tokenized by the C++ driver with Llama's tokenizer; positions assigned there. Counts here are a proxy.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Age and size",
+    "2": "Significance",
+    "3": "Features",
+    "4": "Physics of the Sun",
+    "5": "Orbit"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Age and size"
+    },
+    {
+      "node_id": 3,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "Significance"
+    },
+    {
+      "node_id": 4,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "Features"
+    },
+    {
+      "node_id": 5,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 4,
+      "heading": "Physics of the Sun"
+    },
+    {
+      "node_id": 6,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 5,
+      "heading": "Orbit"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Sun",
+      "n_tokens_est": 1,
+      "pos_start_est": 4
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", also known as ",
+      "n_tokens_est": 4,
+      "pos_start_est": 5
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Sol",
+      "n_tokens_est": 1,
+      "pos_start_est": 9
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", is a ",
+      "n_tokens_est": 3,
+      "pos_start_est": 10
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "star",
+      "n_tokens_est": 1,
+      "pos_start_est": 13
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " at the center of the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 14
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "solar system",
+      "n_tokens_est": 2,
+      "pos_start_est": 19
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". It is a white star that gives off different types of ",
+      "n_tokens_est": 12,
+      "pos_start_est": 21
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 33
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " such as ",
+      "n_tokens_est": 2,
+      "pos_start_est": 34
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "infrared",
+      "n_tokens_est": 1,
+      "pos_start_est": 36
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " energy (heat), ",
+      "n_tokens_est": 5,
+      "pos_start_est": 37
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "ultraviolet light",
+      "n_tokens_est": 2,
+      "pos_start_est": 42
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 44
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "radio",
+      "n_tokens_est": 1,
+      "pos_start_est": 45
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " waves and light. It gives off the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 46
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "light",
+      "n_tokens_est": 1,
+      "pos_start_est": 54
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and heat that make ",
+      "n_tokens_est": 4,
+      "pos_start_est": 55
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "life",
+      "n_tokens_est": 1,
+      "pos_start_est": 59
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " on ",
+      "n_tokens_est": 1,
+      "pos_start_est": 60
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 61
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " possible. Without it, Earth would be a frozen, lifeless place. It is a huge ball of hot gases, mostly ",
+      "n_tokens_est": 24,
+      "pos_start_est": 62
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 86
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 87
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 88
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 89
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 90
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 94
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The Sun is nearly a perfect ",
+      "n_tokens_est": 6,
+      "pos_start_est": 97
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "sphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 103
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and has a ",
+      "n_tokens_est": 3,
+      "pos_start_est": 104
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "diameter",
+      "n_tokens_est": 1,
+      "pos_start_est": 107
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " of about 1.39 million kilometers (or 864,000 miles), which is about 109 times wider than Earth. Its mass is 333,000 times heavier than Earth, and it makes up over 99.8% of all the mass in the ",
+      "n_tokens_est": 50,
+      "pos_start_est": 108
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Solar System",
+      "n_tokens_est": 2,
+      "pos_start_est": 158
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". That is why its ",
+      "n_tokens_est": 5,
+      "pos_start_est": 160
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 165
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " controls the movement of all the ",
+      "n_tokens_est": 6,
+      "pos_start_est": 166
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "planets",
+      "n_tokens_est": 1,
+      "pos_start_est": 172
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 173
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "moons",
+      "n_tokens_est": 1,
+      "pos_start_est": 174
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 175
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "asteroids",
+      "n_tokens_est": 1,
+      "pos_start_est": 176
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 177
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "comets",
+      "n_tokens_est": 1,
+      "pos_start_est": 179
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". The Sun’s energy comes from ",
+      "n_tokens_est": 8,
+      "pos_start_est": 180
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "nuclear reactions",
+      "n_tokens_est": 2,
+      "pos_start_est": 188
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " deep inside it, where ",
+      "n_tokens_est": 5,
+      "pos_start_est": 190
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 195
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " is turned into ",
+      "n_tokens_est": 3,
+      "pos_start_est": 196
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 199
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". This process releases a lot of ",
+      "n_tokens_est": 7,
+      "pos_start_est": 200
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 207
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", which travels as ",
+      "n_tokens_est": 4,
+      "pos_start_est": 208
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "light",
+      "n_tokens_est": 1,
+      "pos_start_est": 212
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 213
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "heat",
+      "n_tokens_est": 1,
+      "pos_start_est": 214
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " across space to reach Earth. It takes about 8 minutes for ",
+      "n_tokens_est": 12,
+      "pos_start_est": 215
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "sunlight",
+      "n_tokens_est": 1,
+      "pos_start_est": 227
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " to travel the 150 million kilometers (93 million miles) from the Sun to Earth. This distance is called 1 ",
+      "n_tokens_est": 22,
+      "pos_start_est": 228
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Astronomical Unit (AU)",
+      "n_tokens_est": 5,
+      "pos_start_est": 250
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". The Sun is also part of the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 255
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Milky Way galaxy",
+      "n_tokens_est": 3,
+      "pos_start_est": 263
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", slowly orbiting around the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 266
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "galaxy",
+      "n_tokens_est": 1,
+      "pos_start_est": 271
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "’s center at a distance of about 24,000 to 28,000 light-years. Its outer layer, called the ",
+      "n_tokens_est": 25,
+      "pos_start_est": 272
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "photosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 297
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", is mostly ",
+      "n_tokens_est": 3,
+      "pos_start_est": 298
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 301
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (~73%) and ",
+      "n_tokens_est": 6,
+      "pos_start_est": 302
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 308
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (~25%), but also contains tiny amounts of other elements like ",
+      "n_tokens_est": 15,
+      "pos_start_est": 309
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "oxygen",
+      "n_tokens_est": 1,
+      "pos_start_est": 324
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 325
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "carbon",
+      "n_tokens_est": 1,
+      "pos_start_est": 326
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 327
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "neon",
+      "n_tokens_est": 1,
+      "pos_start_est": 328
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 329
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "iron",
+      "n_tokens_est": 1,
+      "pos_start_est": 331
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 332
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 333
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 337
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The Sun is a type of ",
+      "n_tokens_est": 6,
+      "pos_start_est": 340
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "star",
+      "n_tokens_est": 1,
+      "pos_start_est": 346
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " called a ",
+      "n_tokens_est": 2,
+      "pos_start_est": 347
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "G-type main-sequence star",
+      "n_tokens_est": 7,
+      "pos_start_est": 349
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", sometimes nicknamed a yellow dwarf, even though its light is actually ",
+      "n_tokens_est": 13,
+      "pos_start_est": 356
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "white",
+      "n_tokens_est": 1,
+      "pos_start_est": 369
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", not yellow. It looks yellow because of the ",
+      "n_tokens_est": 10,
+      "pos_start_est": 370
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 380
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 381
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Sunlight",
+      "n_tokens_est": 1,
+      "pos_start_est": 382
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " is made up of all the colors, ",
+      "n_tokens_est": 8,
+      "pos_start_est": 383
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "red",
+      "n_tokens_est": 1,
+      "pos_start_est": 391
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 392
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "orange",
+      "n_tokens_est": 1,
+      "pos_start_est": 393
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 394
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "yellow",
+      "n_tokens_est": 1,
+      "pos_start_est": 395
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 396
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "green",
+      "n_tokens_est": 1,
+      "pos_start_est": 397
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 398
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "blue",
+      "n_tokens_est": 1,
+      "pos_start_est": 399
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 400
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "indigo",
+      "n_tokens_est": 1,
+      "pos_start_est": 401
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 402
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "violet",
+      "n_tokens_est": 1,
+      "pos_start_est": 404
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". When sunlight passes through Earth’s atmosphere, the shorter ",
+      "n_tokens_est": 12,
+      "pos_start_est": 405
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "wavelengths",
+      "n_tokens_est": 1,
+      "pos_start_est": 417
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", like blue and violet, get scattered in all directions. That is also why the ",
+      "n_tokens_est": 17,
+      "pos_start_est": 418
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "sky",
+      "n_tokens_est": 1,
+      "pos_start_est": 435
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " looks blue. The longer wavelengths, like yellow and red, do not scatter as much, so they reach our eyes more directly. That is why the Sun looks yellow when it is seen from the ground. But if the Sun is seen from space, where there is no atmosphere, it would look white, which is its real ",
+      "n_tokens_est": 65,
+      "pos_start_est": 436
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "color",
+      "n_tokens_est": 1,
+      "pos_start_est": 501
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 502
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 503
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 507
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The Sun was born about 4.6 billion years ago. It formed when a huge cloud of ",
+      "n_tokens_est": 19,
+      "pos_start_est": 510
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "gas",
+      "n_tokens_est": 1,
+      "pos_start_est": 529
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 530
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "dust",
+      "n_tokens_est": 1,
+      "pos_start_est": 531
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " in space began to collapse under its own gravity. Most of the material got pulled into the center, which became the Sun. The leftover material flattened into a ",
+      "n_tokens_est": 31,
+      "pos_start_est": 532
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "spinning disk",
+      "n_tokens_est": 2,
+      "pos_start_est": 563
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and formed the planets, moons, asteroids, and comets, creating the Solar System. As the Sun's core got hot and dense, it started a process called ",
+      "n_tokens_est": 33,
+      "pos_start_est": 565
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "nuclear fusion",
+      "n_tokens_est": 2,
+      "pos_start_est": 598
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". This is when hydrogen atoms combine to make helium, releasing an enormous amount of energy. Every second, the Sun turns about 600 billion kilograms of hydrogen into helium and converts 4 billion kilograms of matter into ",
+      "n_tokens_est": 40,
+      "pos_start_est": 600
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 640
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". This energy is what gives us ",
+      "n_tokens_est": 7,
+      "pos_start_est": 641
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "sunlight",
+      "n_tokens_est": 1,
+      "pos_start_est": 648
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 649
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "heat",
+      "n_tokens_est": 1,
+      "pos_start_est": 650
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", keeping our planet warm and life-friendly.",
+      "n_tokens_est": 10,
+      "pos_start_est": 651
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 661
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 665
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The Sun gives off a stream of ",
+      "n_tokens_est": 7,
+      "pos_start_est": 668
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "particles",
+      "n_tokens_est": 1,
+      "pos_start_est": 675
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", which reaches Earth as \"",
+      "n_tokens_est": 6,
+      "pos_start_est": 676
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "solar wind",
+      "n_tokens_est": 2,
+      "pos_start_est": 682
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "\". The source of all this energy is ",
+      "n_tokens_est": 9,
+      "pos_start_est": 684
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "nuclear fusion",
+      "n_tokens_est": 2,
+      "pos_start_est": 693
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". Nuclear fusion is the reaction in the star which turns ",
+      "n_tokens_est": 11,
+      "pos_start_est": 695
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 706
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " into ",
+      "n_tokens_est": 1,
+      "pos_start_est": 707
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 708
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and makes huge amounts of ",
+      "n_tokens_est": 5,
+      "pos_start_est": 709
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 714
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". It is a nearly perfect ",
+      "n_tokens_est": 6,
+      "pos_start_est": 715
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "ball",
+      "n_tokens_est": 1,
+      "pos_start_est": 721
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " of hot ",
+      "n_tokens_est": 2,
+      "pos_start_est": 722
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "plasma",
+      "n_tokens_est": 1,
+      "pos_start_est": 724
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ". The Sun looks yellow to people on ",
+      "n_tokens_est": 8,
+      "pos_start_est": 725
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 733
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", but it is really white.",
+      "n_tokens_est": 7,
+      "pos_start_est": 734
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 741
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 745
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Age and size",
+      "n_tokens_est": 3,
+      "pos_start_est": 748
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 751
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 755
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "The Sun is about 4.5 ",
+      "n_tokens_est": 7,
+      "pos_start_est": 758
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "billion",
+      "n_tokens_est": 1,
+      "pos_start_est": 765
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " years old. The Sun is about a hundred times as wide as the Earth. It has a mass of ",
+      "n_tokens_est": 21,
+      "pos_start_est": 766
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "1.9891",
+      "n_tokens_est": 3,
+      "pos_start_est": 787
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "×",
+      "n_tokens_est": 1,
+      "pos_start_est": 790
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "10",
+      "n_tokens_est": 1,
+      "pos_start_est": 791
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "kg",
+      "n_tokens_est": 1,
+      "pos_start_est": 792
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". This is 333,000 times the mass of the Earth. 1.3 million Earths can fit inside the Sun.",
+      "n_tokens_est": 24,
+      "pos_start_est": 793
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " The Sun fuses about 600 million tons of ",
+      "n_tokens_est": 8,
+      "pos_start_est": 817
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 825
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " into ",
+      "n_tokens_est": 1,
+      "pos_start_est": 826
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 827
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " every second.",
+      "n_tokens_est": 3,
+      "pos_start_est": 828
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 831
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 835
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Significance",
+      "n_tokens_est": 1,
+      "pos_start_est": 838
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 839
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 843
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "The Sun is the main source of energy for the Earth. This energy is made deep inside the Sun in a process called ",
+      "n_tokens_est": 24,
+      "pos_start_est": 846
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "nuclear fusion",
+      "n_tokens_est": 2,
+      "pos_start_est": 870
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". Four hydrogen atoms are fused together to make one ",
+      "n_tokens_est": 10,
+      "pos_start_est": 872
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 882
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " atom. Some of the leftover matter turns into energy. This is the same way energy is released in a hydrogen bomb.",
+      "n_tokens_est": 24,
+      "pos_start_est": 883
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 907
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 911
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "It can take between 10,000 and 170,000 years for the ",
+      "n_tokens_est": 14,
+      "pos_start_est": 914
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 928
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " in the core of the Sun to escape. The Sun is the most important source of ",
+      "n_tokens_est": 17,
+      "pos_start_est": 929
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 946
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " for ",
+      "n_tokens_est": 1,
+      "pos_start_est": 947
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "life",
+      "n_tokens_est": 1,
+      "pos_start_est": 948
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " on ",
+      "n_tokens_est": 1,
+      "pos_start_est": 949
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 950
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". Without the Sun, there would be no ",
+      "n_tokens_est": 9,
+      "pos_start_est": 951
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "vegetation",
+      "n_tokens_est": 1,
+      "pos_start_est": 960
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " on ",
+      "n_tokens_est": 1,
+      "pos_start_est": 961
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 962
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ": every ",
+      "n_tokens_est": 2,
+      "pos_start_est": 963
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "plant",
+      "n_tokens_est": 1,
+      "pos_start_est": 965
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " needs light to live and grow. Everything on Earth would freeze over without the Sun. The Sun gives the Earth heat as well as light. Plants make oxygen by ",
+      "n_tokens_est": 32,
+      "pos_start_est": 966
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "photosynthesis",
+      "n_tokens_est": 1,
+      "pos_start_est": 998
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". All ",
+      "n_tokens_est": 2,
+      "pos_start_est": 999
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "humans",
+      "n_tokens_est": 1,
+      "pos_start_est": 1001
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1002
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "animals",
+      "n_tokens_est": 1,
+      "pos_start_est": 1003
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " breathe oxygen. The ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1004
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 1008
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "'s position in the Solar System is just right for the development of life on Earth.",
+      "n_tokens_est": 18,
+      "pos_start_est": 1009
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1027
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1031
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Features",
+      "n_tokens_est": 1,
+      "pos_start_est": 1034
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1035
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1039
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The Sun is a G-type ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1042
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "main-sequence star",
+      "n_tokens_est": 4,
+      "pos_start_est": 1049
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". It has about 99.86% of the ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1053
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "mass",
+      "n_tokens_est": 1,
+      "pos_start_est": 1063
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " of the ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1064
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Solar System",
+      "n_tokens_est": 2,
+      "pos_start_est": 1066
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". The Sun has an ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1068
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "absolute magnitude",
+      "n_tokens_est": 2,
+      "pos_start_est": 1073
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " of +4.83. It is brighter than about 85% of the stars in the ",
+      "n_tokens_est": 18,
+      "pos_start_est": 1075
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Milky Way galaxy",
+      "n_tokens_est": 3,
+      "pos_start_est": 1093
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1096
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " The Sun is a ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1097
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Population I",
+      "n_tokens_est": 2,
+      "pos_start_est": 1101
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " star,",
+      "n_tokens_est": 2,
+      "pos_start_est": 1103
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " i.e it a metal-rich fairly young star.",
+      "n_tokens_est": 12,
+      "pos_start_est": 1105
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1117
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1121
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The Sun is the brightest object in the Earth's sky. It has an ",
+      "n_tokens_est": 16,
+      "pos_start_est": 1124
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "apparent magnitude",
+      "n_tokens_est": 2,
+      "pos_start_est": 1140
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " of −26.74.",
+      "n_tokens_est": 6,
+      "pos_start_est": 1142
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " It takes 8 minutes and 20 seconds for ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1148
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "light",
+      "n_tokens_est": 1,
+      "pos_start_est": 1156
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " to travel from the Sun's surface to Earth's surface.",
+      "n_tokens_est": 14,
+      "pos_start_est": 1157
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1171
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1175
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Physics of the Sun",
+      "n_tokens_est": 4,
+      "pos_start_est": 1178
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1182
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1186
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Origin",
+      "n_tokens_est": 1,
+      "pos_start_est": 1189
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1190
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1194
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Scientists think that the Sun started from a very large cloud of dust and small bits of ice about 4.567 ",
+      "n_tokens_est": 22,
+      "pos_start_est": 1197
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "billion",
+      "n_tokens_est": 1,
+      "pos_start_est": 1219
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " years ago.",
+      "n_tokens_est": 3,
+      "pos_start_est": 1220
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1223
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1227
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "At the center of that huge cloud, ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1230
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 1238
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " caused the material to build up into a ball. Once this got big enough, the huge pressure inside started a ",
+      "n_tokens_est": 22,
+      "pos_start_est": 1239
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "fusion reaction",
+      "n_tokens_est": 2,
+      "pos_start_est": 1261
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". The energy this released caused that ball to heat and shine. ",
+      "n_tokens_est": 13,
+      "pos_start_est": 1263
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1276
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1280
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "At its very center, ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1283
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 1288
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "atoms",
+      "n_tokens_est": 1,
+      "pos_start_est": 1289
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " collide together at great ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1290
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "temperature",
+      "n_tokens_est": 1,
+      "pos_start_est": 1294
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1295
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "pressure",
+      "n_tokens_est": 1,
+      "pos_start_est": 1296
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and fuse to form atoms of ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1297
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 1303
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". This process is called ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1304
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "nuclear fusion",
+      "n_tokens_est": 2,
+      "pos_start_est": 1309
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". It was proposed by ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1311
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Hans Bethe",
+      "n_tokens_est": 2,
+      "pos_start_est": 1316
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " just before ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1318
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "World War II",
+      "n_tokens_est": 3,
+      "pos_start_est": 1320
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1323
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1324
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1328
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Orbit",
+      "n_tokens_est": 1,
+      "pos_start_est": 1331
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1332
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1336
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "The Sun and everything that orbits it is in the ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1339
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Milky Way",
+      "n_tokens_est": 2,
+      "pos_start_est": 1349
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " galaxy. The Sun orbits around the ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1351
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "centre of the Milky Way",
+      "n_tokens_est": 5,
+      "pos_start_est": 1358
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". It takes along everything in the Solar System. The Sun moves at 820,000",
+      "n_tokens_est": 17,
+      "pos_start_est": 1363
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "km an hour. At that speed, it still takes 230 million years for a full orbit. Since the Sun is all gas, surface features come and go. If the Sun is viewed through a special ",
+      "n_tokens_est": 40,
+      "pos_start_est": 1380
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "solar telescope",
+      "n_tokens_est": 2,
+      "pos_start_est": 1420
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", dark areas called ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1422
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "sunspots",
+      "n_tokens_est": 1,
+      "pos_start_est": 1426
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " can be seen. These areas are caused by the Sun's ",
+      "n_tokens_est": 13,
+      "pos_start_est": 1427
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "magnetic field",
+      "n_tokens_est": 2,
+      "pos_start_est": 1440
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". The sunspots only look dark because the rest of the Sun is very bright.",
+      "n_tokens_est": 16,
+      "pos_start_est": 1442
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1458
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1462
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Some ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1465
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "space telescopes",
+      "n_tokens_est": 2,
+      "pos_start_est": 1466
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", including the ones that orbit the Sun have seen huge ",
+      "n_tokens_est": 11,
+      "pos_start_est": 1468
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "arches",
+      "n_tokens_est": 1,
+      "pos_start_est": 1479
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 7,
+    "n_sequences": 6,
+    "est_tokens_total": 1480,
+    "est_tokens_per_seq": {
+      "0": 745,
+      "1": 90,
+      "2": 196,
+      "3": 144,
+      "4": 153,
+      "5": 152
+    },
+    "markup_or_syntax_share": 0.097
+  }
+}

@@ -1,0 +1,871 @@
+{
+  "doc_id": "pets",
+  "domain": "html",
+  "mode": "full-dom",
+  "note": "segments[].text are tokenized by the C++ driver with Llama's tokenizer; positions assigned there. Counts here are a proxy.",
+  "seq_legend": {
+    "0": "shared / global context",
+    "1": "section#dogs",
+    "2": "section#cats",
+    "3": "script#node29"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "html",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "head",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "meta",
+      "parent": 1,
+      "depth": 2,
+      "seq_id": 0
+    },
+    {
+      "node_id": 3,
+      "node_type": "title",
+      "parent": 1,
+      "depth": 2,
+      "seq_id": 0
+    },
+    {
+      "node_id": 4,
+      "node_type": "style",
+      "parent": 1,
+      "depth": 2,
+      "seq_id": 0
+    },
+    {
+      "node_id": 5,
+      "node_type": "body",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 6,
+      "node_type": "header",
+      "parent": 5,
+      "depth": 2,
+      "seq_id": 0
+    },
+    {
+      "node_id": 7,
+      "node_type": "h1",
+      "parent": 6,
+      "depth": 3,
+      "seq_id": 0
+    },
+    {
+      "node_id": 8,
+      "node_type": "p",
+      "parent": 6,
+      "depth": 3,
+      "seq_id": 0
+    },
+    {
+      "node_id": 9,
+      "node_type": "nav",
+      "parent": 5,
+      "depth": 2,
+      "seq_id": 0
+    },
+    {
+      "node_id": 10,
+      "node_type": "a",
+      "parent": 9,
+      "depth": 3,
+      "seq_id": 0
+    },
+    {
+      "node_id": 11,
+      "node_type": "a",
+      "parent": 9,
+      "depth": 3,
+      "seq_id": 0
+    },
+    {
+      "node_id": 12,
+      "node_type": "section",
+      "parent": 5,
+      "depth": 2,
+      "seq_id": 1
+    },
+    {
+      "node_id": 13,
+      "node_type": "h2",
+      "parent": 12,
+      "depth": 3,
+      "seq_id": 1
+    },
+    {
+      "node_id": 14,
+      "node_type": "p",
+      "parent": 12,
+      "depth": 3,
+      "seq_id": 1
+    },
+    {
+      "node_id": 15,
+      "node_type": "p",
+      "parent": 12,
+      "depth": 3,
+      "seq_id": 1
+    },
+    {
+      "node_id": 16,
+      "node_type": "ul",
+      "parent": 12,
+      "depth": 3,
+      "seq_id": 1
+    },
+    {
+      "node_id": 17,
+      "node_type": "li",
+      "parent": 16,
+      "depth": 4,
+      "seq_id": 1
+    },
+    {
+      "node_id": 18,
+      "node_type": "li",
+      "parent": 16,
+      "depth": 4,
+      "seq_id": 1
+    },
+    {
+      "node_id": 19,
+      "node_type": "li",
+      "parent": 16,
+      "depth": 4,
+      "seq_id": 1
+    },
+    {
+      "node_id": 20,
+      "node_type": "section",
+      "parent": 5,
+      "depth": 2,
+      "seq_id": 2
+    },
+    {
+      "node_id": 21,
+      "node_type": "h2",
+      "parent": 20,
+      "depth": 3,
+      "seq_id": 2
+    },
+    {
+      "node_id": 22,
+      "node_type": "p",
+      "parent": 20,
+      "depth": 3,
+      "seq_id": 2
+    },
+    {
+      "node_id": 23,
+      "node_type": "p",
+      "parent": 20,
+      "depth": 3,
+      "seq_id": 2
+    },
+    {
+      "node_id": 24,
+      "node_type": "ul",
+      "parent": 20,
+      "depth": 3,
+      "seq_id": 2
+    },
+    {
+      "node_id": 25,
+      "node_type": "li",
+      "parent": 24,
+      "depth": 4,
+      "seq_id": 2
+    },
+    {
+      "node_id": 26,
+      "node_type": "li",
+      "parent": 24,
+      "depth": 4,
+      "seq_id": 2
+    },
+    {
+      "node_id": 27,
+      "node_type": "li",
+      "parent": 24,
+      "depth": 4,
+      "seq_id": 2
+    },
+    {
+      "node_id": 28,
+      "node_type": "aside",
+      "parent": 5,
+      "depth": 2,
+      "seq_id": 0
+    },
+    {
+      "node_id": 29,
+      "node_type": "script",
+      "parent": 5,
+      "depth": 2,
+      "seq_id": 3
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 0,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<html lang=\"en\">",
+      "n_tokens_est": 8,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<head>",
+      "n_tokens_est": 3,
+      "pos_start_est": 8
+    },
+    {
+      "node_id": 2,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<meta charset=\"utf-8\">",
+      "n_tokens_est": 10,
+      "pos_start_est": 11
+    },
+    {
+      "node_id": 3,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<title>",
+      "n_tokens_est": 3,
+      "pos_start_est": 21
+    },
+    {
+      "node_id": 3,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Pet Care Guide",
+      "n_tokens_est": 3,
+      "pos_start_est": 24
+    },
+    {
+      "node_id": 3,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</title>",
+      "n_tokens_est": 4,
+      "pos_start_est": 27
+    },
+    {
+      "node_id": 4,
+      "seq_id": 0,
+      "kind": "script",
+      "text": "<style>",
+      "n_tokens_est": 3,
+      "pos_start_est": 31
+    },
+    {
+      "node_id": 4,
+      "seq_id": 0,
+      "kind": "script",
+      "text": "body{font-family:sans-serif;margin:2rem} .card{border:1px solid #ccc}",
+      "n_tokens_est": 24,
+      "pos_start_est": 34
+    },
+    {
+      "node_id": 4,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</style>",
+      "n_tokens_est": 4,
+      "pos_start_est": 58
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</head>",
+      "n_tokens_est": 4,
+      "pos_start_est": 62
+    },
+    {
+      "node_id": 5,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<body>",
+      "n_tokens_est": 3,
+      "pos_start_est": 66
+    },
+    {
+      "node_id": 6,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<header>",
+      "n_tokens_est": 3,
+      "pos_start_est": 69
+    },
+    {
+      "node_id": 7,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<h1>",
+      "n_tokens_est": 3,
+      "pos_start_est": 72
+    },
+    {
+      "node_id": 7,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Pet Care Guide",
+      "n_tokens_est": 3,
+      "pos_start_est": 75
+    },
+    {
+      "node_id": 7,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</h1>",
+      "n_tokens_est": 4,
+      "pos_start_est": 78
+    },
+    {
+      "node_id": 8,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 82
+    },
+    {
+      "node_id": 8,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Everything about caring for common household pets.",
+      "n_tokens_est": 8,
+      "pos_start_est": 85
+    },
+    {
+      "node_id": 8,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 93
+    },
+    {
+      "node_id": 6,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</header>",
+      "n_tokens_est": 4,
+      "pos_start_est": 97
+    },
+    {
+      "node_id": 9,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<nav>",
+      "n_tokens_est": 3,
+      "pos_start_est": 101
+    },
+    {
+      "node_id": 10,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<a href=\"#dogs\">",
+      "n_tokens_est": 9,
+      "pos_start_est": 104
+    },
+    {
+      "node_id": 10,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Dogs",
+      "n_tokens_est": 1,
+      "pos_start_est": 113
+    },
+    {
+      "node_id": 10,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</a>",
+      "n_tokens_est": 4,
+      "pos_start_est": 114
+    },
+    {
+      "node_id": 11,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<a href=\"#cats\">",
+      "n_tokens_est": 9,
+      "pos_start_est": 118
+    },
+    {
+      "node_id": 11,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Cats",
+      "n_tokens_est": 1,
+      "pos_start_est": 127
+    },
+    {
+      "node_id": 11,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</a>",
+      "n_tokens_est": 4,
+      "pos_start_est": 128
+    },
+    {
+      "node_id": 9,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</nav>",
+      "n_tokens_est": 4,
+      "pos_start_est": 132
+    },
+    {
+      "node_id": 12,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<section id=\"dogs\">",
+      "n_tokens_est": 8,
+      "pos_start_est": 136
+    },
+    {
+      "node_id": 13,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 144
+    },
+    {
+      "node_id": 13,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs",
+      "n_tokens_est": 1,
+      "pos_start_est": 147
+    },
+    {
+      "node_id": 13,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 148
+    },
+    {
+      "node_id": 14,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 152
+    },
+    {
+      "node_id": 14,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs are loyal animals. An adult dog should be walked at least twice a day.",
+      "n_tokens_est": 17,
+      "pos_start_est": 155
+    },
+    {
+      "node_id": 14,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 172
+    },
+    {
+      "node_id": 15,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 176
+    },
+    {
+      "node_id": 15,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Most dogs eat two meals daily. Puppies need three or four smaller meals.",
+      "n_tokens_est": 15,
+      "pos_start_est": 179
+    },
+    {
+      "node_id": 15,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 194
+    },
+    {
+      "node_id": 16,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<ul>",
+      "n_tokens_est": 3,
+      "pos_start_est": 198
+    },
+    {
+      "node_id": 17,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 201
+    },
+    {
+      "node_id": 17,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Walk twice daily",
+      "n_tokens_est": 3,
+      "pos_start_est": 204
+    },
+    {
+      "node_id": 17,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 207
+    },
+    {
+      "node_id": 18,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 211
+    },
+    {
+      "node_id": 18,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Fresh water always",
+      "n_tokens_est": 3,
+      "pos_start_est": 214
+    },
+    {
+      "node_id": 18,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 217
+    },
+    {
+      "node_id": 19,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 221
+    },
+    {
+      "node_id": 19,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Yearly vet checkup",
+      "n_tokens_est": 3,
+      "pos_start_est": 224
+    },
+    {
+      "node_id": 19,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 227
+    },
+    {
+      "node_id": 16,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</ul>",
+      "n_tokens_est": 4,
+      "pos_start_est": 231
+    },
+    {
+      "node_id": 12,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</section>",
+      "n_tokens_est": 4,
+      "pos_start_est": 235
+    },
+    {
+      "node_id": 20,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<section id=\"cats\">",
+      "n_tokens_est": 8,
+      "pos_start_est": 239
+    },
+    {
+      "node_id": 21,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 247
+    },
+    {
+      "node_id": 21,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cats",
+      "n_tokens_est": 1,
+      "pos_start_est": 250
+    },
+    {
+      "node_id": 21,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 251
+    },
+    {
+      "node_id": 22,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 255
+    },
+    {
+      "node_id": 22,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cats are independent animals. An indoor cat sleeps around sixteen hours a day.",
+      "n_tokens_est": 15,
+      "pos_start_est": 258
+    },
+    {
+      "node_id": 22,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 273
+    },
+    {
+      "node_id": 23,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 277
+    },
+    {
+      "node_id": 23,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cats should always have a clean litter box and fresh water.",
+      "n_tokens_est": 12,
+      "pos_start_est": 280
+    },
+    {
+      "node_id": 23,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 292
+    },
+    {
+      "node_id": 24,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<ul>",
+      "n_tokens_est": 3,
+      "pos_start_est": 296
+    },
+    {
+      "node_id": 25,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 299
+    },
+    {
+      "node_id": 25,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Clean litter daily",
+      "n_tokens_est": 3,
+      "pos_start_est": 302
+    },
+    {
+      "node_id": 25,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 305
+    },
+    {
+      "node_id": 26,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 309
+    },
+    {
+      "node_id": 26,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Brush weekly",
+      "n_tokens_est": 2,
+      "pos_start_est": 312
+    },
+    {
+      "node_id": 26,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 314
+    },
+    {
+      "node_id": 27,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 318
+    },
+    {
+      "node_id": 27,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Yearly vet checkup",
+      "n_tokens_est": 3,
+      "pos_start_est": 321
+    },
+    {
+      "node_id": 27,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 324
+    },
+    {
+      "node_id": 24,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</ul>",
+      "n_tokens_est": 4,
+      "pos_start_est": 328
+    },
+    {
+      "node_id": 20,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</section>",
+      "n_tokens_est": 4,
+      "pos_start_est": 332
+    },
+    {
+      "node_id": 28,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<aside>",
+      "n_tokens_est": 3,
+      "pos_start_est": 336
+    },
+    {
+      "node_id": 28,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Tip: ask your vet.",
+      "n_tokens_est": 6,
+      "pos_start_est": 339
+    },
+    {
+      "node_id": 28,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</aside>",
+      "n_tokens_est": 4,
+      "pos_start_est": 345
+    },
+    {
+      "node_id": 29,
+      "seq_id": 3,
+      "kind": "script",
+      "text": "<script>",
+      "n_tokens_est": 3,
+      "pos_start_est": 349
+    },
+    {
+      "node_id": 29,
+      "seq_id": 3,
+      "kind": "script",
+      "text": "\n    document.querySelectorAll('a').forEach(function(a){\n      a.addEventListener('click', function(e){ console.log('nav click', a.getAttribute('href')); });\n    });\n  ",
+      "n_tokens_est": 54,
+      "pos_start_est": 352
+    },
+    {
+      "node_id": 29,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</script>",
+      "n_tokens_est": 4,
+      "pos_start_est": 406
+    },
+    {
+      "node_id": 5,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</body>",
+      "n_tokens_est": 4,
+      "pos_start_est": 410
+    },
+    {
+      "node_id": 0,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</html>",
+      "n_tokens_est": 4,
+      "pos_start_est": 414
+    }
+  ],
+  "stats": {
+    "max_depth": 4,
+    "n_nodes": 30,
+    "n_sequences": 4,
+    "est_tokens_total": 418,
+    "est_tokens_per_seq": {
+      "0": 157,
+      "1": 103,
+      "2": 97,
+      "3": 61
+    },
+    "markup_or_syntax_share": 0.761
+  }
+}

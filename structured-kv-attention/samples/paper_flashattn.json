@@ -1,0 +1,1791 @@
+{
+  "doc_id": "streaming_attention_neurips_2022",
+  "domain": "latex",
+  "mode": "sections",
+  "note": "segments[].text are tokenized by the C++ driver; positions assigned there.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Introduction"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Introduction"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\begin{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms ",
+      "n_tokens_est": 67,
+      "pos_start_est": 5
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\textit",
+      "n_tokens_est": 2,
+      "pos_start_est": 72
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "IO-aware",
+      "n_tokens_est": 3,
+      "pos_start_est": 74
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 77
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "accounting for reads and writes between levels of GPU memory. We propose ",
+      "n_tokens_est": 13,
+      "pos_start_est": 80
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 93
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of ",
+      "n_tokens_est": 41,
+      "pos_start_est": 95
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 136
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend ",
+      "n_tokens_est": 25,
+      "pos_start_est": 138
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 163
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. ",
+      "n_tokens_est": 21,
+      "pos_start_est": 165
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 186
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "trains Transformers faster than existing baselines: 15",
+      "n_tokens_est": 8,
+      "pos_start_est": 188
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 196
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " end-to-end wall-clock speedup on BERT-large (seq.",
+      "n_tokens_est": 16,
+      "pos_start_est": 198
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 214
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "length 512) compared to the MLPerf 1.1 training speed record, 3",
+      "n_tokens_est": 15,
+      "pos_start_est": 215
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 230
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " speedup on GPT-2 (seq.",
+      "n_tokens_est": 8,
+      "pos_start_est": 234
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 242
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "length 1K), and 2.4",
+      "n_tokens_est": 8,
+      "pos_start_est": 243
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 251
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " speedup on long-range arena (seq.",
+      "n_tokens_est": 9,
+      "pos_start_est": 255
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 264
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "length 1K-4K). ",
+      "n_tokens_est": 6,
+      "pos_start_est": 265
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 271
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "and block-sparse ",
+      "n_tokens_est": 4,
+      "pos_start_est": 273
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 277
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "enable longer context in Transformers, yielding higher quality models (0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classification) and entirely new capabilities: the first Transformers to achieve better-than-chance performance on the Path-X challenge (seq.",
+      "n_tokens_est": 58,
+      "pos_start_est": 279
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 337
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "length 16K, 61.4",
+      "n_tokens_est": 6,
+      "pos_start_est": 338
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 344
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " accuracy) and Path-256 (seq.",
+      "n_tokens_est": 9,
+      "pos_start_est": 346
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 355
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "length 64K, 63.1",
+      "n_tokens_est": 6,
+      "pos_start_est": 356
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 362
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " accuracy). ",
+      "n_tokens_est": 3,
+      "pos_start_est": 364
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "\\end{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 367
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 372
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 374
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "sec:intro",
+      "n_tokens_est": 3,
+      "pos_start_est": 375
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Transformer models",
+      "n_tokens_est": 2,
+      "pos_start_est": 378
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 380
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 381
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "vaswani2017attention",
+      "n_tokens_est": 1,
+      "pos_start_est": 383
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " have emerged as the most widely used architecture in applications such as natural language processing and image classification. Transformers have grown larger",
+      "n_tokens_est": 23,
+      "pos_start_est": 384
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 407
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 408
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "brown2020language",
+      "n_tokens_est": 1,
+      "pos_start_est": 410
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and deeper",
+      "n_tokens_est": 2,
+      "pos_start_est": 411
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 413
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 414
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "wang2022deepnet",
+      "n_tokens_est": 1,
+      "pos_start_est": 416
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", but equipping them with longer context remains difficult",
+      "n_tokens_est": 9,
+      "pos_start_est": 417
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 426
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 427
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "tay2020long",
+      "n_tokens_est": 1,
+      "pos_start_est": 429
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", since the self-attention module at their heart has time and memory complexity quadratic in sequence length. An important question is whether making attention faster and more memory-efficient can help Transformer models address their runtime and memory challenges for long sequences. Many approximate attention methods have aimed to reduce the compute and memory requirements of attention. These methods range from sparse-approximation",
+      "n_tokens_est": 70,
+      "pos_start_est": 430
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 500
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 501
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "kitaev2020reformer, roy2021efficient",
+      "n_tokens_est": 3,
+      "pos_start_est": 503
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " to low-rank approximation",
+      "n_tokens_est": 5,
+      "pos_start_est": 506
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 511
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 512
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "wang2020linformer, katharopoulos2020transformers, choromanski2020rethinking",
+      "n_tokens_est": 5,
+      "pos_start_est": 514
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and their combinations",
+      "n_tokens_est": 4,
+      "pos_start_est": 519
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 523
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 524
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "beltagy2020longformer, zaheer2020bigbird, scatterbrain",
+      "n_tokens_est": 5,
+      "pos_start_est": 526
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Although these methods reduce the compute requirements to linear or near-linear in sequence length, many of them do not display wall-clock speedup against standard attention and have not gained wide adoption. One main reason is that they focus on FLOP reduction (which may not correlate with wall-clock speed) and tend to ignore overheads from memory access (IO). In this paper, we argue that a missing principle is making attention algorithms ",
+      "n_tokens_est": 85,
+      "pos_start_est": 531
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\textit",
+      "n_tokens_est": 2,
+      "pos_start_est": 616
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "IO-aware",
+      "n_tokens_est": 3,
+      "pos_start_est": 618
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 621
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 622
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "aggarwal1988input",
+      "n_tokens_est": 1,
+      "pos_start_est": 624
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 625
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "that is, carefully accounting for reads and writes to different levels of fast and slow memory (e.g., between fast GPU on-chip SRAM and relatively slow GPU high bandwidth memory, or HBM",
+      "n_tokens_est": 40,
+      "pos_start_est": 628
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 668
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 669
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "jia2018dissecting",
+      "n_tokens_est": 1,
+      "pos_start_est": 671
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", Figure",
+      "n_tokens_est": 2,
+      "pos_start_est": 672
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 674
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 675
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:banner",
+      "n_tokens_est": 3,
+      "pos_start_est": 677
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " left). On modern GPUs, compute speed has out-paced memory speed",
+      "n_tokens_est": 15,
+      "pos_start_est": 680
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 695
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 696
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "nvidia2017nvidia,nvidia2020nvidia,nvidia2022nvidia",
+      "n_tokens_est": 5,
+      "pos_start_est": 698
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and most operations in Transformers are bottlenecked by memory accesses",
+      "n_tokens_est": 11,
+      "pos_start_est": 703
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 714
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 715
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "ivanov2021data",
+      "n_tokens_est": 1,
+      "pos_start_est": 717
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". IO-aware algorithms have been critical for similar memory-bound operations, when reading and writing data can account for a large portion of the runtime",
+      "n_tokens_est": 29,
+      "pos_start_est": 718
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 747
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "such as database joins",
+      "n_tokens_est": 4,
+      "pos_start_est": 750
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 754
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 755
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "ramakrishnan2003database",
+      "n_tokens_est": 1,
+      "pos_start_est": 757
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", image processing",
+      "n_tokens_est": 3,
+      "pos_start_est": 758
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 761
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 762
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "ragan2013halide",
+      "n_tokens_est": 1,
+      "pos_start_est": 764
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", numerical linear algebra",
+      "n_tokens_est": 4,
+      "pos_start_est": 765
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 769
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 770
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "blackford2002updated",
+      "n_tokens_est": 1,
+      "pos_start_est": 772
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and more",
+      "n_tokens_est": 3,
+      "pos_start_est": 773
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 776
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 777
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "williams2009roofline, hennessy2003memory",
+      "n_tokens_est": 3,
+      "pos_start_est": 779
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". However, common Python interfaces to deep learning such as PyTorch and Tensorflow do not allow fine-grained control of memory access. We propose ",
+      "n_tokens_est": 27,
+      "pos_start_est": 782
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 809
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", a new attention algorithm that computes exact attention with far fewer memory accesses. Our main goal is to avoid reading and writing the attention matrix to and from HBM. This requires (i) computing the softmax reduction without access to the whole input (ii) not storing the large intermediate attention matrix for the backward pass. We apply two well-established techniques to address these challenges. (i) We restructure the attention computation to split the input into blocks and make several passes over input blocks, thus incrementally performing the softmax reduction (also known as ",
+      "n_tokens_est": 106,
+      "pos_start_est": 811
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\textbf",
+      "n_tokens_est": 2,
+      "pos_start_est": 917
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "tiling",
+      "n_tokens_est": 1,
+      "pos_start_est": 919
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "). (ii) We store the softmax normalization factor from the forward pass to quickly ",
+      "n_tokens_est": 17,
+      "pos_start_est": 920
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\textbf",
+      "n_tokens_est": 2,
+      "pos_start_est": 937
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "recompute",
+      "n_tokens_est": 1,
+      "pos_start_est": 939
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " attention on-chip in the backward pass, which is faster than the standard approach of reading the intermediate attention matrix from HBM. We implement ",
+      "n_tokens_est": 27,
+      "pos_start_est": 940
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 967
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "in CUDA to achieve fine-grained control over memory access and fuse all the attention operations into one GPU kernel. Even with the increased FLOPs due to recomputation, our algorithm both ",
+      "n_tokens_est": 34,
+      "pos_start_est": 969
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\textbf",
+      "n_tokens_est": 2,
+      "pos_start_est": 1003
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "runs faster",
+      "n_tokens_est": 2,
+      "pos_start_est": 1005
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " (up to 7.6x on GPT-2",
+      "n_tokens_est": 10,
+      "pos_start_est": 1007
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1017
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1018
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "radford2019language",
+      "n_tokens_est": 1,
+      "pos_start_est": 1020
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", Figure",
+      "n_tokens_est": 2,
+      "pos_start_est": 1021
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1023
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 1024
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:banner",
+      "n_tokens_est": 3,
+      "pos_start_est": 1026
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " right) and ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1029
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\textbf",
+      "n_tokens_est": 2,
+      "pos_start_est": 1032
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "uses less memory",
+      "n_tokens_est": 3,
+      "pos_start_est": 1034
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 1037
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "linear in sequence length",
+      "n_tokens_est": 4,
+      "pos_start_est": 1040
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 1044
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "than standard attention, thanks to the massively reduced amount of HBM access. We analyze the IO complexity",
+      "n_tokens_est": 19,
+      "pos_start_est": 1047
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1066
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1067
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "aggarwal1988input",
+      "n_tokens_est": 1,
+      "pos_start_est": 1069
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " of ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1070
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1071
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", proving that it requires ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1073
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$O(N^2 d^2 M^{-1})$",
+      "n_tokens_est": 17,
+      "pos_start_est": 1078
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " HBM accesses where ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1095
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$d$",
+      "n_tokens_est": 3,
+      "pos_start_est": 1098
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " is the head dimension and ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1101
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 1106
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " is the size of SRAM, as compared to ",
+      "n_tokens_est": 9,
+      "pos_start_est": 1109
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\Omega(Nd + N^2)$",
+      "n_tokens_est": 11,
+      "pos_start_est": 1118
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " of standard attention. For typical values of ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1129
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$d$",
+      "n_tokens_est": 3,
+      "pos_start_est": 1137
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1140
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 1141
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1144
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1145
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "requires many times fewer HBM accesses compared to standard attention (up to 9",
+      "n_tokens_est": 14,
+      "pos_start_est": 1147
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 1161
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " fewer, as shown in",
+      "n_tokens_est": 5,
+      "pos_start_est": 1165
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1170
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cref",
+      "n_tokens_est": 2,
+      "pos_start_est": 1171
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "fig:micros",
+      "n_tokens_est": 3,
+      "pos_start_est": 1173
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "). Moreover, we provide a lower bound, showing that no exact attention algorithm can asymptotically improve on the number of HBM accesses over all SRAM sizes. We also show that ",
+      "n_tokens_est": 34,
+      "pos_start_est": 1176
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1210
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "can serve as a useful primitive for realizing the potential of approximate attention algorithms by overcoming their issues with memory access overhead. As a proof of concept, we implement block-sparse ",
+      "n_tokens_est": 34,
+      "pos_start_est": 1212
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1246
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", a sparse attention algorithm that is 2-4",
+      "n_tokens_est": 10,
+      "pos_start_est": 1248
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 1258
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " faster than even ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1262
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1265
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", scaling up to sequence length of 64k. We prove that block-sparse ",
+      "n_tokens_est": 15,
+      "pos_start_est": 1267
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1282
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "has better IO complexity than ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1284
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1289
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "by a factor proportional to the sparsity ratio. We discuss further extensions to other operations (attention on multi-GPU, kernel regression, block-sparse matrix multiply) in",
+      "n_tokens_est": 33,
+      "pos_start_est": 1291
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1324
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\cref",
+      "n_tokens_est": 2,
+      "pos_start_est": 1325
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "sec:discussion",
+      "n_tokens_est": 3,
+      "pos_start_est": 1327
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". We open-source ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1330
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1335
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "to make it easier to build on this primitive.",
+      "n_tokens_est": 10,
+      "pos_start_est": 1337
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\footnote",
+      "n_tokens_est": 2,
+      "pos_start_est": 1347
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1349
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "code is available at ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1351
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\url",
+      "n_tokens_est": 2,
+      "pos_start_est": 1355
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "https://github.com/HazyResearch/flash-attention",
+      "n_tokens_est": 13,
+      "pos_start_est": 1357
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " We empirically validate that ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1370
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1374
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "speeds up model training and improves model quality by modeling longer context. We also benchmark the runtime and memory footprint of ",
+      "n_tokens_est": 22,
+      "pos_start_est": 1376
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1398
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "and block-sparse ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1400
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1404
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "compared to prior attention implementations. ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1406
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{itemize}",
+      "n_tokens_est": 5,
+      "pos_start_est": 1412
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\item",
+      "n_tokens_est": 2,
+      "pos_start_est": 1417
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\textbf",
+      "n_tokens_est": 2,
+      "pos_start_est": 1419
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Faster Model Training.",
+      "n_tokens_est": 4,
+      "pos_start_est": 1421
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 1425
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "trains Transformer models faster in wall-clock time. We train BERT-large (seq.",
+      "n_tokens_est": 18,
+      "pos_start_est": 1427
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1445
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "length 512) 15",
+      "n_tokens_est": 4,
+      "pos_start_est": 1446
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 1450
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " faster than the training speed record in MLPerf 1.1",
+      "n_tokens_est": 11,
+      "pos_start_est": 1452
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1463
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1464
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "mattson2020mlperf",
+      "n_tokens_est": 1,
+      "pos_start_est": 1466
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", GPT2 (seq.",
+      "n_tokens_est": 5,
+      "pos_start_est": 1467
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1472
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "length 1K) 3",
+      "n_tokens_est": 4,
+      "pos_start_est": 1473
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 1477
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " faster than baseline implementations from HuggingFace",
+      "n_tokens_est": 6,
+      "pos_start_est": 1481
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1487
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1488
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "wolf-etal-2020-transformers",
+      "n_tokens_est": 7,
+      "pos_start_est": 1490
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and Megatron-LM",
+      "n_tokens_est": 4,
+      "pos_start_est": 1497
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1501
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 3,
+    "n_sequences": 2,
+    "est_tokens_total": 1502,
+    "est_tokens_per_seq": {
+      "0": 372,
+      "1": 1130
+    },
+    "markup_or_syntax_share": 0.119
+  }
+}

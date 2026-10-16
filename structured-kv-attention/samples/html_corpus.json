@@ -1,0 +1,5760 @@
+{
+  "doc_id": "html_corpus",
+  "domain": "html",
+  "mode": "corpus (one sequence per document)",
+  "note": "each sequence is a whole document; the driver tests isolation and eviction across documents. Tokens here are a proxy; the driver tokenizes.",
+  "seq_legend": {
+    "0": "shared",
+    "1": "dog",
+    "2": "cat",
+    "3": "moon",
+    "4": "sun",
+    "5": "water"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "corpus",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "dog"
+    },
+    {
+      "node_id": 2,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "cat"
+    },
+    {
+      "node_id": 3,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "moon"
+    },
+    {
+      "node_id": 4,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 4,
+      "heading": "sun"
+    },
+    {
+      "node_id": 5,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 5,
+      "heading": "water"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs",
+      "n_tokens_est": 1,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " are ",
+      "n_tokens_est": 1,
+      "pos_start_est": 4
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "mammals",
+      "n_tokens_est": 1,
+      "pos_start_est": 5
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", usually to be kept as ",
+      "n_tokens_est": 6,
+      "pos_start_est": 6
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 12
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", or work on farms or for the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 13
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "police",
+      "n_tokens_est": 1,
+      "pos_start_est": 21
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Some dogs are trained to be rescue dogs and join teams such as mountain rescue.",
+      "n_tokens_est": 17,
+      "pos_start_est": 22
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 39
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 43
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs have been bred by ",
+      "n_tokens_est": 5,
+      "pos_start_est": 46
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "humans",
+      "n_tokens_est": 1,
+      "pos_start_est": 51
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " from ancestral wolves. They were the first animals to live with humans.",
+      "n_tokens_est": 14,
+      "pos_start_est": 52
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " There was a lot of different types among wolves in the Late ",
+      "n_tokens_est": 12,
+      "pos_start_est": 66
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Pleistocene",
+      "n_tokens_est": 1,
+      "pos_start_est": 78
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 79
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 80
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 84
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Today, some dogs are used as pets, and others are used to help humans do their work. They are popular pets because they are usually playful, friendly, loyal, and listen to humans. Thirty million dogs in the ",
+      "n_tokens_est": 44,
+      "pos_start_est": 87
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "United States",
+      "n_tokens_est": 2,
+      "pos_start_est": 131
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " have been ",
+      "n_tokens_est": 2,
+      "pos_start_est": 133
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "registered",
+      "n_tokens_est": 1,
+      "pos_start_est": 135
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " as ",
+      "n_tokens_est": 1,
+      "pos_start_est": 136
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 137
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 138
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Dogs eat both ",
+      "n_tokens_est": 3,
+      "pos_start_est": 139
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "meat",
+      "n_tokens_est": 1,
+      "pos_start_est": 142
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 143
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "vegetables",
+      "n_tokens_est": 1,
+      "pos_start_est": 144
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", which are often mixed together and sold in stores as ",
+      "n_tokens_est": 11,
+      "pos_start_est": 145
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "dog food",
+      "n_tokens_est": 2,
+      "pos_start_est": 156
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 158
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Dogs often have jobs including police dogs, army dogs, assistance dogs, fire dogs, messenger dogs, hunting dogs, herding dogs, or rescue dogs. A baby dog is called a ",
+      "n_tokens_est": 36,
+      "pos_start_est": 159
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "pup",
+      "n_tokens_est": 1,
+      "pos_start_est": 195
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " or ",
+      "n_tokens_est": 1,
+      "pos_start_est": 196
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "puppy",
+      "n_tokens_est": 1,
+      "pos_start_est": 197
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 198
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 199
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 203
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs are sometimes known as \"human's best friend\" because they are kept as pets, are usually loyal, and like being around humans.",
+      "n_tokens_est": 29,
+      "pos_start_est": 206
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 235
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 239
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Appearance and behaviour",
+      "n_tokens_est": 3,
+      "pos_start_est": 242
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 245
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 249
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs can smell and hear better than humans but cannot see in full ",
+      "n_tokens_est": 13,
+      "pos_start_est": 252
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "color",
+      "n_tokens_est": 1,
+      "pos_start_est": 265
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Due to the structure of their eyes, dogs can see better in low light than humans. They also have a larger field of vision.",
+      "n_tokens_est": 28,
+      "pos_start_est": 266
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 294
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 298
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Like wolves, wild dogs travel in groups called ",
+      "n_tokens_est": 9,
+      "pos_start_est": 301
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "packs",
+      "n_tokens_est": 1,
+      "pos_start_est": 310
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". A dog in a group helps and cares for others.",
+      "n_tokens_est": 12,
+      "pos_start_est": 311
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 323
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 327
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Lifespan of dogs",
+      "n_tokens_est": 3,
+      "pos_start_est": 330
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 333
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 337
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Different dog breeds have different lifespans. In general, smaller dogs live longer than bigger ones.",
+      "n_tokens_est": 18,
+      "pos_start_est": 340
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " The size and the breed of the dog change how long the dog lives on average. Breeds such as the ",
+      "n_tokens_est": 21,
+      "pos_start_est": 358
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dachshund",
+      "n_tokens_est": 1,
+      "pos_start_est": 379
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " usually live for fifteen years, ",
+      "n_tokens_est": 6,
+      "pos_start_est": 380
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Chihuahuas",
+      "n_tokens_est": 1,
+      "pos_start_est": 386
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " can reach the age of twenty. On the other hand, the ",
+      "n_tokens_est": 13,
+      "pos_start_est": 387
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Great Dane",
+      "n_tokens_est": 2,
+      "pos_start_est": 400
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " has an average lifespan of six to eight years; some Great Danes have lived for as long as ten years. An American Bulldog lives for around 15 years. Bigger dogs will have shorter lives than smaller dogs because of the pressure on its heart to move around.",
+      "n_tokens_est": 51,
+      "pos_start_est": 402
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 453
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 457
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Anatomy",
+      "n_tokens_est": 1,
+      "pos_start_est": 460
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 461
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 465
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Size and skeleton",
+      "n_tokens_est": 3,
+      "pos_start_est": 468
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 471
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 475
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs come in a wide range of sizes, from very large breeds like the ",
+      "n_tokens_est": 15,
+      "pos_start_est": 478
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Great Dane",
+      "n_tokens_est": 2,
+      "pos_start_est": 493
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " weighing 50-79 ",
+      "n_tokens_est": 4,
+      "pos_start_est": 495
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "kg",
+      "n_tokens_est": 1,
+      "pos_start_est": 499
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and measuring 71-81 cm, to very small breeds like the ",
+      "n_tokens_est": 13,
+      "pos_start_est": 500
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Chihuahua",
+      "n_tokens_est": 1,
+      "pos_start_est": 513
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " weighing 0.5-3 kg and measuring 13-20 cm.",
+      "n_tokens_est": 14,
+      "pos_start_est": 514
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " There are variations in the skeletal structure among different types of dogs.",
+      "n_tokens_est": 13,
+      "pos_start_est": 528
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " The dog's ",
+      "n_tokens_est": 4,
+      "pos_start_est": 541
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "skeleton",
+      "n_tokens_est": 1,
+      "pos_start_est": 545
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " is well-suited for running, with ",
+      "n_tokens_est": 8,
+      "pos_start_est": 546
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "neck",
+      "n_tokens_est": 1,
+      "pos_start_est": 554
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and back vertebrae having extensions for back ",
+      "n_tokens_est": 7,
+      "pos_start_est": 555
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "muscles",
+      "n_tokens_est": 1,
+      "pos_start_est": 562
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 563
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "ribs",
+      "n_tokens_est": 1,
+      "pos_start_est": 564
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " providing space for the ",
+      "n_tokens_est": 4,
+      "pos_start_est": 565
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "heart",
+      "n_tokens_est": 1,
+      "pos_start_est": 569
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 570
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "lungs",
+      "n_tokens_est": 1,
+      "pos_start_est": 571
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and flexible shoulders.",
+      "n_tokens_est": 5,
+      "pos_start_est": 572
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Selective breeding over time has led to larger ",
+      "n_tokens_est": 8,
+      "pos_start_est": 577
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "skeletons",
+      "n_tokens_est": 1,
+      "pos_start_est": 585
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " in breeds like smaller skeletons in breeds like ",
+      "n_tokens_est": 8,
+      "pos_start_est": 586
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "terriers",
+      "n_tokens_est": 1,
+      "pos_start_est": 594
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 595
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Most dogs have 26 ",
+      "n_tokens_est": 4,
+      "pos_start_est": 596
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "vertebrae",
+      "n_tokens_est": 1,
+      "pos_start_est": 600
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " in their ",
+      "n_tokens_est": 2,
+      "pos_start_est": 601
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "tails",
+      "n_tokens_est": 1,
+      "pos_start_est": 603
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", but some naturally have as few as three. The dog's ",
+      "n_tokens_est": 14,
+      "pos_start_est": 604
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "skull",
+      "n_tokens_est": 1,
+      "pos_start_est": 618
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " has consistent components across breeds but varies in shape.",
+      "n_tokens_est": 10,
+      "pos_start_est": 619
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 629
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 633
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Senses",
+      "n_tokens_est": 1,
+      "pos_start_est": 636
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 637
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 641
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs have senses like ",
+      "n_tokens_est": 4,
+      "pos_start_est": 644
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "sight",
+      "n_tokens_est": 1,
+      "pos_start_est": 648
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 649
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "hearing",
+      "n_tokens_est": 1,
+      "pos_start_est": 650
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 651
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "smell",
+      "n_tokens_est": 1,
+      "pos_start_est": 652
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 653
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "taste",
+      "n_tokens_est": 1,
+      "pos_start_est": 654
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 655
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "touch",
+      "n_tokens_est": 1,
+      "pos_start_est": 656
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", and sensing ",
+      "n_tokens_est": 3,
+      "pos_start_est": 657
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Earth's magnetic fields",
+      "n_tokens_est": 5,
+      "pos_start_est": 660
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Studies show they may detect small changes in magnetism and prefer to poop facing ",
+      "n_tokens_est": 15,
+      "pos_start_est": 665
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "north",
+      "n_tokens_est": 1,
+      "pos_start_est": 680
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " or ",
+      "n_tokens_est": 1,
+      "pos_start_est": 681
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "south",
+      "n_tokens_est": 1,
+      "pos_start_est": 682
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " when the magnetic field is calm.",
+      "n_tokens_est": 7,
+      "pos_start_est": 683
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 690
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 694
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Dogs see mainly yellows, blues, and grays. They cannot see red and green because they have fewer color-detecting cells than humans.",
+      "n_tokens_est": 27,
+      "pos_start_est": 697
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 724
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cats",
+      "n_tokens_est": 1,
+      "pos_start_est": 727
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", also called ",
+      "n_tokens_est": 3,
+      "pos_start_est": 728
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "domestic cats",
+      "n_tokens_est": 2,
+      "pos_start_est": 731
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " (",
+      "n_tokens_est": 1,
+      "pos_start_est": 733
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Felis catus",
+      "n_tokens_est": 2,
+      "pos_start_est": 734
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "), are small, ",
+      "n_tokens_est": 5,
+      "pos_start_est": 736
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "carnivorous",
+      "n_tokens_est": 1,
+      "pos_start_est": 741
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " (meat eating) ",
+      "n_tokens_est": 4,
+      "pos_start_est": 742
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "mammals",
+      "n_tokens_est": 1,
+      "pos_start_est": 746
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", of the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 747
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "family",
+      "n_tokens_est": 1,
+      "pos_start_est": 750
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Felidae",
+      "n_tokens_est": 1,
+      "pos_start_est": 751
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 752
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " Cats have been ",
+      "n_tokens_est": 3,
+      "pos_start_est": 753
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "domesticated",
+      "n_tokens_est": 1,
+      "pos_start_est": 756
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " (tamed) for nearly 10,000 years.",
+      "n_tokens_est": 10,
+      "pos_start_est": 757
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " Some of the most popular breeds of this mammal include the ",
+      "n_tokens_est": 11,
+      "pos_start_est": 767
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Siamese",
+      "n_tokens_est": 1,
+      "pos_start_est": 778
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 779
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Japanese Bobtail",
+      "n_tokens_est": 2,
+      "pos_start_est": 780
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 782
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Abysinnian",
+      "n_tokens_est": 1,
+      "pos_start_est": 783
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 784
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cornish Rex",
+      "n_tokens_est": 2,
+      "pos_start_est": 785
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 787
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "American Shorthair",
+      "n_tokens_est": 2,
+      "pos_start_est": 788
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 790
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Ragdoll",
+      "n_tokens_est": 1,
+      "pos_start_est": 791
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 792
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Aegean cat",
+      "n_tokens_est": 2,
+      "pos_start_est": 793
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 795
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Russian Blue",
+      "n_tokens_est": 2,
+      "pos_start_est": 796
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 798
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Persian",
+      "n_tokens_est": 1,
+      "pos_start_est": 799
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 800
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Manx",
+      "n_tokens_est": 1,
+      "pos_start_est": 801
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 802
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Burmese",
+      "n_tokens_est": 1,
+      "pos_start_est": 803
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 804
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Sphynx",
+      "n_tokens_est": 1,
+      "pos_start_est": 805
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 806
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "British Shorthair Tabby",
+      "n_tokens_est": 3,
+      "pos_start_est": 808
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 811
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 812
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 816
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Overview",
+      "n_tokens_est": 1,
+      "pos_start_est": 819
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 820
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 824
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Domestic cats may be called \"house cats\" when kept as indoor ",
+      "n_tokens_est": 13,
+      "pos_start_est": 827
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 840
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 841
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " They are one of the most popular ",
+      "n_tokens_est": 7,
+      "pos_start_est": 842
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "pets",
+      "n_tokens_est": 1,
+      "pos_start_est": 849
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " in the world. ",
+      "n_tokens_est": 4,
+      "pos_start_est": 850
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Humans",
+      "n_tokens_est": 1,
+      "pos_start_est": 854
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " keep them for hunting mice and rats, and as friends. There are also farm cats, which keep ",
+      "n_tokens_est": 20,
+      "pos_start_est": 855
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "mice and rats",
+      "n_tokens_est": 3,
+      "pos_start_est": 875
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " away; and ",
+      "n_tokens_est": 3,
+      "pos_start_est": 878
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "feral cats",
+      "n_tokens_est": 2,
+      "pos_start_est": 881
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", which are domestic cats that live away from humans.",
+      "n_tokens_est": 11,
+      "pos_start_est": 883
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " In 2021, there were about 220 million pet cats and 480 million feral cats in the world.",
+      "n_tokens_est": 19,
+      "pos_start_est": 894
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 913
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 917
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "There are about 92 breeds of cat.",
+      "n_tokens_est": 8,
+      "pos_start_est": 920
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " Domestic cats are found in shorthair, longhair, and hairless breeds. Cats which are not specific breeds can be referred to as 'domestic shorthair' (DSH) or 'domestic longhair' (DLH).",
+      "n_tokens_est": 40,
+      "pos_start_est": 928
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 968
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 972
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "The word 'cat' is also used for other ",
+      "n_tokens_est": 10,
+      "pos_start_est": 975
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "felines",
+      "n_tokens_est": 1,
+      "pos_start_est": 985
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", like ",
+      "n_tokens_est": 2,
+      "pos_start_est": 986
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "lions",
+      "n_tokens_est": 1,
+      "pos_start_est": 988
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 989
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "tigers",
+      "n_tokens_est": 1,
+      "pos_start_est": 990
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 991
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "leopards",
+      "n_tokens_est": 1,
+      "pos_start_est": 992
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 993
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "jaguars",
+      "n_tokens_est": 1,
+      "pos_start_est": 994
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 995
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "pumas",
+      "n_tokens_est": 1,
+      "pos_start_est": 996
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 997
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "cheetahs",
+      "n_tokens_est": 1,
+      "pos_start_est": 999
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1000
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1001
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1005
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "History",
+      "n_tokens_est": 1,
+      "pos_start_est": 1008
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1009
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1013
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "In the past, mostly in ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1016
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Egypt",
+      "n_tokens_est": 1,
+      "pos_start_est": 1022
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", people kept cats because the cats hunted and ate ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1023
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "mice",
+      "n_tokens_est": 1,
+      "pos_start_est": 1033
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1034
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "rats",
+      "n_tokens_est": 1,
+      "pos_start_est": 1035
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " in the grain stores. The oldest evidence of cats kept as pets is from the ",
+      "n_tokens_est": 16,
+      "pos_start_est": 1036
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Mediterranean",
+      "n_tokens_est": 1,
+      "pos_start_est": 1052
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " island of ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1053
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cyprus",
+      "n_tokens_est": 1,
+      "pos_start_est": 1055
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", around 7500 BC. ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1056
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Ancient Egyptians",
+      "n_tokens_est": 2,
+      "pos_start_est": 1061
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " worshiped cats as gods, and often ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1063
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "mummified",
+      "n_tokens_est": 1,
+      "pos_start_est": 1070
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " them so they could be with their owners \"for all of eternity\".",
+      "n_tokens_est": 15,
+      "pos_start_est": 1071
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1086
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1090
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Today, people often keep cats as pets. There are also domestic cats which live without being cared for by people. These cats are called \"feral cats\" or \"stray cats\". Cats started becoming pets when the ancient Egyptians were around.",
+      "n_tokens_est": 48,
+      "pos_start_est": 1093
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1141
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1145
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Anatomy",
+      "n_tokens_est": 1,
+      "pos_start_est": 1148
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1149
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1153
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cats have ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1156
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "anatomy",
+      "n_tokens_est": 1,
+      "pos_start_est": 1158
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " similar to the other members of the ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1159
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "genus",
+      "n_tokens_est": 1,
+      "pos_start_est": 1166
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Felis",
+      "n_tokens_est": 1,
+      "pos_start_est": 1167
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". The genus has extra lumbar (lower back) and thoracic (chest) ",
+      "n_tokens_est": 15,
+      "pos_start_est": 1168
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "vertebrae",
+      "n_tokens_est": 1,
+      "pos_start_est": 1183
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". This helps explain why cats are very flexible. Unlike human arms, cat's front paws are attached to the shoulder by free-floating ",
+      "n_tokens_est": 28,
+      "pos_start_est": 1184
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "clavicle",
+      "n_tokens_est": 1,
+      "pos_start_est": 1212
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " bones. These allow cats to pass their body through any space into which they can fit their heads.",
+      "n_tokens_est": 20,
+      "pos_start_est": 1213
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1233
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1237
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "The cat ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1240
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "skull",
+      "n_tokens_est": 1,
+      "pos_start_est": 1242
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", unlike most ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1243
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "mammals",
+      "n_tokens_est": 1,
+      "pos_start_est": 1246
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", has very large eye sockets and a powerful jaw.",
+      "n_tokens_est": 11,
+      "pos_start_est": 1247
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " Compared to other felines, domestic cats have narrowly spaced ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1258
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "canine teeth",
+      "n_tokens_est": 2,
+      "pos_start_est": 1268
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ": this is an ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1270
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "adaptation",
+      "n_tokens_est": 1,
+      "pos_start_est": 1274
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " to their preferred prey of small ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1275
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "rodents",
+      "n_tokens_est": 1,
+      "pos_start_est": 1281
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1282
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " Cats, like dogs, walk directly on their toes, with the bones of their feet making up the lower part of the visible leg.",
+      "n_tokens_est": 27,
+      "pos_start_est": 1283
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1310
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1314
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Cats walk very precisely. Unlike most mammals, when cats walk, they use a \"pacing\" gait (walking style); that is, they move the two legs on one side of the body before the legs on the other side. This trait is shared with ",
+      "n_tokens_est": 52,
+      "pos_start_est": 1317
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "camels",
+      "n_tokens_est": 1,
+      "pos_start_est": 1369
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1370
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "giraffes",
+      "n_tokens_est": 1,
+      "pos_start_est": 1371
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". As a walk speeds up into a ",
+      "n_tokens_est": 8,
+      "pos_start_est": 1372
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "trot",
+      "n_tokens_est": 1,
+      "pos_start_est": 1380
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", a cat's gait will change to be a \"",
+      "n_tokens_est": 12,
+      "pos_start_est": 1381
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "diagonal",
+      "n_tokens_est": 1,
+      "pos_start_est": 1393
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "\" gait, similar to that of most other mammals: the diagonally opposite hind and forelegs will move at the same time.",
+      "n_tokens_est": 24,
+      "pos_start_est": 1394
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " Most cats have five ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1418
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "claws",
+      "n_tokens_est": 1,
+      "pos_start_est": 1422
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " on their front paws, and four on their rear paws.",
+      "n_tokens_est": 12,
+      "pos_start_est": 1423
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1435
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1438
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Moon",
+      "n_tokens_est": 1,
+      "pos_start_est": 1439
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", also known as ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1440
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Luna",
+      "n_tokens_est": 1,
+      "pos_start_est": 1444
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", is ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1445
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 1447
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "'s only ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1448
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "natural satellite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1451
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " (the only object which ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1453
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "orbits",
+      "n_tokens_est": 1,
+      "pos_start_est": 1458
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " the Earth and is not man-made). It is usually visible in the night sky, but is sometimes seen during the day.",
+      "n_tokens_est": 27,
+      "pos_start_est": 1459
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1486
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1490
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The Moon is about one-fourth of the ",
+      "n_tokens_est": 9,
+      "pos_start_est": 1493
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "width",
+      "n_tokens_est": 1,
+      "pos_start_est": 1502
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " of Earth.",
+      "n_tokens_est": 3,
+      "pos_start_est": 1503
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Because it is so far away it looks small in the sky, about half a ",
+      "n_tokens_est": 16,
+      "pos_start_est": 1506
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "degree",
+      "n_tokens_est": 1,
+      "pos_start_est": 1522
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " wide.",
+      "n_tokens_est": 2,
+      "pos_start_est": 1523
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1525
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1529
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1532
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 1533
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " on the Moon is one-sixth of the Earth's gravity.",
+      "n_tokens_est": 14,
+      "pos_start_est": 1534
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " It means that an object will be one-sixth as heavy on the Moon compared to Earth. ",
+      "n_tokens_est": 19,
+      "pos_start_est": 1548
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1567
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1571
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The Moon is a ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1574
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "rocky",
+      "n_tokens_est": 1,
+      "pos_start_est": 1578
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and dusty place. It moves slowly away from the Earth at a rate of 3.8 ",
+      "n_tokens_est": 18,
+      "pos_start_est": 1579
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "centimeters",
+      "n_tokens_est": 1,
+      "pos_start_est": 1597
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " per year due to the effect of ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1598
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "tidal dissipation",
+      "n_tokens_est": 2,
+      "pos_start_est": 1605
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1607
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1608
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1612
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Some other planets also have moons or natural satellites. The ",
+      "n_tokens_est": 11,
+      "pos_start_est": 1615
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "giant impact hypothesis",
+      "n_tokens_est": 3,
+      "pos_start_est": 1626
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " is a common explanation for how the Moon formed.",
+      "n_tokens_est": 10,
+      "pos_start_est": 1629
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1639
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1643
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Origin",
+      "n_tokens_est": 1,
+      "pos_start_est": 1646
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1647
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1651
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1654
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "giant impact hypothesis",
+      "n_tokens_est": 3,
+      "pos_start_est": 1655
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " is the ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1658
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "most common theory",
+      "n_tokens_est": 3,
+      "pos_start_est": 1660
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " among scientists to explain how the Moon formed.",
+      "n_tokens_est": 9,
+      "pos_start_est": 1663
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " According to this ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1672
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "hypothesis",
+      "n_tokens_est": 1,
+      "pos_start_est": 1675
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", Earth collided with a ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1676
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Mars",
+      "n_tokens_est": 1,
+      "pos_start_est": 1681
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "-sized proto-",
+      "n_tokens_est": 4,
+      "pos_start_est": 1682
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "planet",
+      "n_tokens_est": 1,
+      "pos_start_est": 1686
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " around 4.5 ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1687
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "billion",
+      "n_tokens_est": 1,
+      "pos_start_est": 1691
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " years ago, and the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1692
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "debris",
+      "n_tokens_est": 1,
+      "pos_start_est": 1697
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " from the collision created the Moon.",
+      "n_tokens_est": 7,
+      "pos_start_est": 1698
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1705
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1709
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Recent research has challenged this hypothesis. According to one article:",
+      "n_tokens_est": 12,
+      "pos_start_est": 1712
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1724
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<blockquote>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1728
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1731
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "[N]ew findings suggest that the Moon was primarily created from material ejected from Earth’s ",
+      "n_tokens_est": 19,
+      "pos_start_est": 1734
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "mantle",
+      "n_tokens_est": 1,
+      "pos_start_est": 1753
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", with minimal contribution from [the proto-planet].",
+      "n_tokens_est": 12,
+      "pos_start_est": 1754
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1766
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</blockquote>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1770
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1774
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Characteristics",
+      "n_tokens_est": 1,
+      "pos_start_est": 1777
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1778
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1782
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 1785
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1786
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1790
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Because it is smaller, the Moon has only 1/6 of the ",
+      "n_tokens_est": 14,
+      "pos_start_est": 1793
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 1807
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " on Earth. So if a person weighs 60",
+      "n_tokens_est": 9,
+      "pos_start_est": 1808
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "kilograms on Earth, the person would only weigh 10",
+      "n_tokens_est": 10,
+      "pos_start_est": 1817
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "kilograms on the Moon.",
+      "n_tokens_est": 5,
+      "pos_start_est": 1827
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1832
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1836
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Even though the Moon's gravity is weaker than the Earth's gravity, it is still there. If a person dropped a ",
+      "n_tokens_est": 26,
+      "pos_start_est": 1839
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "ball",
+      "n_tokens_est": 1,
+      "pos_start_est": 1865
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " while standing on the Moon, it would still fall down. However, it would fall ",
+      "n_tokens_est": 17,
+      "pos_start_est": 1866
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "much",
+      "n_tokens_est": 1,
+      "pos_start_est": 1883
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " more slowly. A person who jumped as high as possible on the Moon would jump higher than on Earth, but still fall back to the ground. ",
+      "n_tokens_est": 29,
+      "pos_start_est": 1884
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1913
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1917
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Because the Moon has no ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1920
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 1925
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", there is no ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1926
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "air resistance",
+      "n_tokens_est": 2,
+      "pos_start_est": 1930
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", so a ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1932
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "feather",
+      "n_tokens_est": 1,
+      "pos_start_est": 1935
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " will fall as fast as a ",
+      "n_tokens_est": 6,
+      "pos_start_est": 1936
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "hammer",
+      "n_tokens_est": 1,
+      "pos_start_est": 1942
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1943
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1944
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1948
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 1951
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1952
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1956
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Without an atmosphere, the Moon's environment is not protected from heat or cold. ",
+      "n_tokens_est": 17,
+      "pos_start_est": 1959
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Astronauts",
+      "n_tokens_est": 1,
+      "pos_start_est": 1976
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " wore ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1977
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "spacesuits",
+      "n_tokens_est": 1,
+      "pos_start_est": 1978
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " to survive and carried ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1979
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "oxygen",
+      "n_tokens_est": 1,
+      "pos_start_est": 1983
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " to breathe. These suits weighed about as much as the astronauts (though they were not as heavy as on Earth because of the Moon's weak gravity). The astronauts never took their ",
+      "n_tokens_est": 37,
+      "pos_start_est": 1984
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "gloves",
+      "n_tokens_est": 1,
+      "pos_start_est": 2021
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " or spacesuits off on the Moon.",
+      "n_tokens_est": 7,
+      "pos_start_est": 2022
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 2029
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2033
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "On the Earth, the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 2036
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "sky",
+      "n_tokens_est": 1,
+      "pos_start_est": 2041
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " is ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2042
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "blue",
+      "n_tokens_est": 1,
+      "pos_start_est": 2043
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " because the Sun's blue ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2044
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "rays",
+      "n_tokens_est": 1,
+      "pos_start_est": 2050
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " bounce off the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 2051
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "gases",
+      "n_tokens_est": 1,
+      "pos_start_est": 2054
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " in the ",
+      "n_tokens_est": 2,
+      "pos_start_est": 2055
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 2057
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". This makes it look like ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2058
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "blue",
+      "n_tokens_est": 1,
+      "pos_start_est": 2064
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "light",
+      "n_tokens_est": 1,
+      "pos_start_est": 2065
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " is coming from the sky. On the Moon, there is no atmosphere for light to bounce off. This means the sky looks black, even in the ",
+      "n_tokens_est": 30,
+      "pos_start_est": 2066
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "daytime",
+      "n_tokens_est": 1,
+      "pos_start_est": 2096
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 2097
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 2098
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2102
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Earth's atmosphere causes most ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2105
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "meteorites",
+      "n_tokens_est": 1,
+      "pos_start_est": 2111
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " (space rocks) to burn up. The Moon does not have this protection. Meteorites crash into it and create wide, shallow holes called ",
+      "n_tokens_est": 27,
+      "pos_start_est": 2112
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2139
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2142
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Sun",
+      "n_tokens_est": 1,
+      "pos_start_est": 2143
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", also known as ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2144
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Sol",
+      "n_tokens_est": 1,
+      "pos_start_est": 2148
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", is a ",
+      "n_tokens_est": 3,
+      "pos_start_est": 2149
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "star",
+      "n_tokens_est": 1,
+      "pos_start_est": 2152
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " at the center of the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 2153
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "solar system",
+      "n_tokens_est": 2,
+      "pos_start_est": 2158
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". It is a white star that gives off different types of ",
+      "n_tokens_est": 12,
+      "pos_start_est": 2160
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 2172
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " such as ",
+      "n_tokens_est": 2,
+      "pos_start_est": 2173
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "infrared",
+      "n_tokens_est": 1,
+      "pos_start_est": 2175
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " energy (heat), ",
+      "n_tokens_est": 5,
+      "pos_start_est": 2176
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "ultraviolet light",
+      "n_tokens_est": 2,
+      "pos_start_est": 2181
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2183
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "radio",
+      "n_tokens_est": 1,
+      "pos_start_est": 2184
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " waves and light. It gives off the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 2185
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "light",
+      "n_tokens_est": 1,
+      "pos_start_est": 2193
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and heat that make ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2194
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "life",
+      "n_tokens_est": 1,
+      "pos_start_est": 2198
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " on ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2199
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 2200
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " possible. Without it, Earth would be a frozen, lifeless place. It is a huge ball of hot gases, mostly ",
+      "n_tokens_est": 24,
+      "pos_start_est": 2201
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 2225
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2226
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 2227
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2228
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 2229
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2233
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The Sun is nearly a perfect ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2236
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "sphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 2242
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and has a ",
+      "n_tokens_est": 3,
+      "pos_start_est": 2243
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "diameter",
+      "n_tokens_est": 1,
+      "pos_start_est": 2246
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " of about 1.39 million kilometers (or 864,000 miles), which is about 109 times wider than Earth. Its mass is 333,000 times heavier than Earth, and it makes up over 99.8% of all the mass in the ",
+      "n_tokens_est": 50,
+      "pos_start_est": 2247
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Solar System",
+      "n_tokens_est": 2,
+      "pos_start_est": 2297
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". That is why its ",
+      "n_tokens_est": 5,
+      "pos_start_est": 2299
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 2304
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " controls the movement of all the ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2305
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "planets",
+      "n_tokens_est": 1,
+      "pos_start_est": 2311
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2312
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "moons",
+      "n_tokens_est": 1,
+      "pos_start_est": 2313
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2314
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "asteroids",
+      "n_tokens_est": 1,
+      "pos_start_est": 2315
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 2316
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "comets",
+      "n_tokens_est": 1,
+      "pos_start_est": 2318
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". The Sun’s energy comes from ",
+      "n_tokens_est": 8,
+      "pos_start_est": 2319
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "nuclear reactions",
+      "n_tokens_est": 2,
+      "pos_start_est": 2327
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " deep inside it, where ",
+      "n_tokens_est": 5,
+      "pos_start_est": 2329
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 2334
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " is turned into ",
+      "n_tokens_est": 3,
+      "pos_start_est": 2335
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 2338
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". This process releases a lot of ",
+      "n_tokens_est": 7,
+      "pos_start_est": 2339
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 2346
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", which travels as ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2347
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "light",
+      "n_tokens_est": 1,
+      "pos_start_est": 2351
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2352
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "heat",
+      "n_tokens_est": 1,
+      "pos_start_est": 2353
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " across space to reach Earth. It takes about 8 minutes for ",
+      "n_tokens_est": 12,
+      "pos_start_est": 2354
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "sunlight",
+      "n_tokens_est": 1,
+      "pos_start_est": 2366
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " to travel the 150 million kilometers (93 million miles) from the Sun to Earth. This distance is called 1 ",
+      "n_tokens_est": 22,
+      "pos_start_est": 2367
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Astronomical Unit (AU)",
+      "n_tokens_est": 5,
+      "pos_start_est": 2389
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". The Sun is also part of the ",
+      "n_tokens_est": 8,
+      "pos_start_est": 2394
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Milky Way galaxy",
+      "n_tokens_est": 3,
+      "pos_start_est": 2402
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", slowly orbiting around the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 2405
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "galaxy",
+      "n_tokens_est": 1,
+      "pos_start_est": 2410
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "’s center at a distance of about 24,000 to 28,000 light-years. Its outer layer, called the ",
+      "n_tokens_est": 25,
+      "pos_start_est": 2411
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "photosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 2436
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", is mostly ",
+      "n_tokens_est": 3,
+      "pos_start_est": 2437
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "hydrogen",
+      "n_tokens_est": 1,
+      "pos_start_est": 2440
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " (~73%) and ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2441
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "helium",
+      "n_tokens_est": 1,
+      "pos_start_est": 2447
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " (~25%), but also contains tiny amounts of other elements like ",
+      "n_tokens_est": 15,
+      "pos_start_est": 2448
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "oxygen",
+      "n_tokens_est": 1,
+      "pos_start_est": 2463
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2464
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "carbon",
+      "n_tokens_est": 1,
+      "pos_start_est": 2465
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2466
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "neon",
+      "n_tokens_est": 1,
+      "pos_start_est": 2467
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 2468
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "iron",
+      "n_tokens_est": 1,
+      "pos_start_est": 2470
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 2471
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 2472
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2476
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The Sun is a type of ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2479
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "star",
+      "n_tokens_est": 1,
+      "pos_start_est": 2485
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " called a ",
+      "n_tokens_est": 2,
+      "pos_start_est": 2486
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "G-type main-sequence star",
+      "n_tokens_est": 7,
+      "pos_start_est": 2488
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", sometimes nicknamed a yellow dwarf, even though its light is actually ",
+      "n_tokens_est": 13,
+      "pos_start_est": 2495
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "white",
+      "n_tokens_est": 1,
+      "pos_start_est": 2508
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", not yellow. It looks yellow because of the ",
+      "n_tokens_est": 10,
+      "pos_start_est": 2509
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 2519
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2520
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Sunlight",
+      "n_tokens_est": 1,
+      "pos_start_est": 2521
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " is made up of all the colors, ",
+      "n_tokens_est": 8,
+      "pos_start_est": 2522
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "red",
+      "n_tokens_est": 1,
+      "pos_start_est": 2530
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2531
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "orange",
+      "n_tokens_est": 1,
+      "pos_start_est": 2532
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2533
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "yellow",
+      "n_tokens_est": 1,
+      "pos_start_est": 2534
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2535
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "green",
+      "n_tokens_est": 1,
+      "pos_start_est": 2536
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2537
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "blue",
+      "n_tokens_est": 1,
+      "pos_start_est": 2538
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2539
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "indigo",
+      "n_tokens_est": 1,
+      "pos_start_est": 2540
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 2541
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "violet",
+      "n_tokens_est": 1,
+      "pos_start_est": 2543
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". When sunlight passes through Earth’s atmosphere, the shorter ",
+      "n_tokens_est": 12,
+      "pos_start_est": 2544
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "wavelengths",
+      "n_tokens_est": 1,
+      "pos_start_est": 2556
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", like blue and violet, get scattered in all directions. That is also why the ",
+      "n_tokens_est": 17,
+      "pos_start_est": 2557
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "sky",
+      "n_tokens_est": 1,
+      "pos_start_est": 2574
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " looks blue. The longer wavelengths, like yellow and red, do not scatter as much, so they reach our eyes more directly. That is why the Sun looks yellow when it is seen from the ground. But if the Sun is seen from space, where there is no atmosphere, it would look white, which is its real ",
+      "n_tokens_est": 65,
+      "pos_start_est": 2575
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "color",
+      "n_tokens_est": 1,
+      "pos_start_est": 2640
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 2641
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 2642
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2646
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The Sun was born about 4.6 billion years ago. It formed when a huge cloud of ",
+      "n_tokens_est": 19,
+      "pos_start_est": 2649
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "gas",
+      "n_tokens_est": 1,
+      "pos_start_est": 2668
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2669
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "dust",
+      "n_tokens_est": 1,
+      "pos_start_est": 2670
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " in space began to collapse under its own gravity. Most of the material got pulled into the center, which became the Sun. The leftover material flattened into a ",
+      "n_tokens_est": 31,
+      "pos_start_est": 2671
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "spinning disk",
+      "n_tokens_est": 2,
+      "pos_start_est": 2702
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and formed the planets, moons, asteroids, and comets, creating the Solar System. As the Sun's core got hot and dense, it started a process called ",
+      "n_tokens_est": 33,
+      "pos_start_est": 2704
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "nuclear fusion",
+      "n_tokens_est": 2,
+      "pos_start_est": 2737
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". This is when hydrogen atoms combine to make helium, releasing an enormous amount of energy. Every second, the Sun turns about 600 billion kilograms of hydrogen into helium and converts 4 billion kilograms of matter into ",
+      "n_tokens_est": 40,
+      "pos_start_est": 2739
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "energy",
+      "n_tokens_est": 1,
+      "pos_start_est": 2779
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". This energy is what gives us ",
+      "n_tokens_est": 7,
+      "pos_start_est": 2780
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "sunlight",
+      "n_tokens_est": 1,
+      "pos_start_est": 2787
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2788
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "heat",
+      "n_tokens_est": 1,
+      "pos_start_est": 2789
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", keeping our planet warm and life-friendly.",
+      "n_tokens_est": 10,
+      "pos_start_est": 2790
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 2800
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2804
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "The Sun gives off a stream of ",
+      "n_tokens_est": 7,
+      "pos_start_est": 2807
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "particles",
+      "n_tokens_est": 1,
+      "pos_start_est": 2814
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", which reaches Earth as \"",
+      "n_tokens_est": 6,
+      "pos_start_est": 2815
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "solar wind",
+      "n_tokens_est": 2,
+      "pos_start_est": 2821
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "\". The source of all this energy is ",
+      "n_tokens_est": 9,
+      "pos_start_est": 2823
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "nuclear fusion",
+      "n_tokens_est": 2,
+      "pos_start_est": 2832
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". Nuclear fusion is the reaction in the star which turns ",
+      "n_tokens_est": 11,
+      "pos_start_est": 2834
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2845
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Water",
+      "n_tokens_est": 1,
+      "pos_start_est": 2848
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (",
+      "n_tokens_est": 1,
+      "pos_start_est": 2849
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "H",
+      "n_tokens_est": 1,
+      "pos_start_est": 2850
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "2",
+      "n_tokens_est": 1,
+      "pos_start_est": 2851
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "O",
+      "n_tokens_est": 1,
+      "pos_start_est": 2852
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ") is a simple ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2853
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "chemical compound",
+      "n_tokens_est": 2,
+      "pos_start_est": 2857
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " made of two ",
+      "n_tokens_est": 3,
+      "pos_start_est": 2859
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "hydrogen atoms",
+      "n_tokens_est": 2,
+      "pos_start_est": 2862
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and one ",
+      "n_tokens_est": 2,
+      "pos_start_est": 2864
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "oxygen atom",
+      "n_tokens_est": 2,
+      "pos_start_est": 2866
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". It is clear, has no ",
+      "n_tokens_est": 7,
+      "pos_start_est": 2868
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "taste",
+      "n_tokens_est": 1,
+      "pos_start_est": 2875
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " or ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2876
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "smell",
+      "n_tokens_est": 1,
+      "pos_start_est": 2877
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and is almost colorless. All ",
+      "n_tokens_est": 7,
+      "pos_start_est": 2878
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "living things",
+      "n_tokens_est": 2,
+      "pos_start_est": 2885
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " need water to survive.",
+      "n_tokens_est": 5,
+      "pos_start_est": 2887
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Water molecules stick together because of ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2892
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "hydrogen bonds",
+      "n_tokens_est": 2,
+      "pos_start_est": 2898
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". These bonds give water special properties. For example, water has high ",
+      "n_tokens_est": 14,
+      "pos_start_est": 2900
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "surface tension",
+      "n_tokens_est": 2,
+      "pos_start_est": 2914
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and can dissolve many substances. Water exists in three forms on ",
+      "n_tokens_est": 13,
+      "pos_start_est": 2916
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 2929
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ": ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2930
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "solid",
+      "n_tokens_est": 1,
+      "pos_start_est": 2931
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (ice), ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2932
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "liquid",
+      "n_tokens_est": 1,
+      "pos_start_est": 2936
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (water), and ",
+      "n_tokens_est": 5,
+      "pos_start_est": 2937
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "gas",
+      "n_tokens_est": 1,
+      "pos_start_est": 2942
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (water vapor). The word \"water\" comes from the Old English word wæter.",
+      "n_tokens_est": 18,
+      "pos_start_est": 2943
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 2961
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 2965
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "About 71% of Earth’s surface is covered by water. Most of this water (about 97%) is in the ",
+      "n_tokens_est": 25,
+      "pos_start_est": 2968
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "oceans",
+      "n_tokens_est": 1,
+      "pos_start_est": 2993
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". This water is ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2994
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "salt water",
+      "n_tokens_est": 2,
+      "pos_start_est": 2998
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", which we cannot drink or use for farming. Only 3% of Earth’s water is ",
+      "n_tokens_est": 19,
+      "pos_start_est": 3000
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "fresh water",
+      "n_tokens_est": 2,
+      "pos_start_est": 3019
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and even that is not easy to get. 69% of all fresh water is frozen in ",
+      "n_tokens_est": 19,
+      "pos_start_est": 3021
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "glaciers",
+      "n_tokens_est": 1,
+      "pos_start_est": 3040
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 3041
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "ice caps",
+      "n_tokens_est": 2,
+      "pos_start_est": 3042
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". 30% is stored underground in ",
+      "n_tokens_est": 7,
+      "pos_start_est": 3044
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "aquifers",
+      "n_tokens_est": 1,
+      "pos_start_est": 3051
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". Less than 1% is in ",
+      "n_tokens_est": 7,
+      "pos_start_est": 3052
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "lakes",
+      "n_tokens_est": 1,
+      "pos_start_est": 3059
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 3060
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "rivers",
+      "n_tokens_est": 1,
+      "pos_start_est": 3061
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 3062
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "swamps",
+      "n_tokens_est": 1,
+      "pos_start_est": 3064
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". If you look at all the water on Earth, only about 1% can be used by us. And most of that water is found underground.",
+      "n_tokens_est": 30,
+      "pos_start_est": 3065
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Water is always moving in a cycle. This is called the water cycle. It includes:",
+      "n_tokens_est": 18,
+      "pos_start_est": 3095
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3113
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<ul>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3117
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3120
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Evaporation",
+      "n_tokens_est": 1,
+      "pos_start_est": 3123
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (water turns into vapor),",
+      "n_tokens_est": 7,
+      "pos_start_est": 3124
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3131
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3135
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Transpiration",
+      "n_tokens_est": 1,
+      "pos_start_est": 3138
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (plants release water vapor),",
+      "n_tokens_est": 7,
+      "pos_start_est": 3139
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3146
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3150
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Condensation",
+      "n_tokens_est": 1,
+      "pos_start_est": 3153
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (vapor forms clouds),",
+      "n_tokens_est": 6,
+      "pos_start_est": 3154
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3160
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3164
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Precipitation",
+      "n_tokens_est": 1,
+      "pos_start_est": 3167
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (rain or snow falls),",
+      "n_tokens_est": 7,
+      "pos_start_est": 3168
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3175
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3179
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Runoff",
+      "n_tokens_est": 1,
+      "pos_start_est": 3182
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " (water returns to oceans and lakes).",
+      "n_tokens_est": 9,
+      "pos_start_est": 3183
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3192
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</ul>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3196
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3200
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Water has many unique abilities.",
+      "n_tokens_est": 6,
+      "pos_start_est": 3203
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " One is that it expands when it freezes. This makes ice less dense than liquid water, so ice floats.",
+      "n_tokens_est": 22,
+      "pos_start_est": 3209
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Water also has a high ",
+      "n_tokens_est": 5,
+      "pos_start_est": 3231
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "specific heat capacity",
+      "n_tokens_est": 3,
+      "pos_start_est": 3236
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". It can absorb or lose a lot of heat without changing temperature much.",
+      "n_tokens_est": 15,
+      "pos_start_est": 3239
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " This helps keep Earth's ",
+      "n_tokens_est": 6,
+      "pos_start_est": 3254
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "climate",
+      "n_tokens_est": 1,
+      "pos_start_est": 3260
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " stable.",
+      "n_tokens_est": 2,
+      "pos_start_est": 3261
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Water’s ",
+      "n_tokens_est": 3,
+      "pos_start_est": 3263
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "surface tension",
+      "n_tokens_est": 2,
+      "pos_start_est": 3266
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " lets it form ",
+      "n_tokens_est": 3,
+      "pos_start_est": 3268
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "droplets",
+      "n_tokens_est": 1,
+      "pos_start_est": 3271
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". It also lets small insects walk on water.",
+      "n_tokens_est": 10,
+      "pos_start_est": 3272
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Water is an excellent ",
+      "n_tokens_est": 4,
+      "pos_start_est": 3282
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "solvent",
+      "n_tokens_est": 1,
+      "pos_start_est": 3286
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". It can dissolve more substances than any other liquid. This is why it is called the \"universal solvent.\" However, it cannot dissolve ",
+      "n_tokens_est": 28,
+      "pos_start_est": 3287
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "oily",
+      "n_tokens_est": 1,
+      "pos_start_est": 3315
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " or nonpolar substances well.",
+      "n_tokens_est": 5,
+      "pos_start_est": 3316
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " These special abilities come from water's ",
+      "n_tokens_est": 8,
+      "pos_start_est": 3321
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "polar nature",
+      "n_tokens_est": 2,
+      "pos_start_est": 3329
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and the hydrogen bonds between them.",
+      "n_tokens_est": 7,
+      "pos_start_est": 3331
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3338
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3342
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Water is important for all living things. Every kind of life we know needs water to survive. This includes tiny living things like ",
+      "n_tokens_est": 25,
+      "pos_start_est": 3345
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "bacteria",
+      "n_tokens_est": 1,
+      "pos_start_est": 3370
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 3371
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "archaea",
+      "n_tokens_est": 1,
+      "pos_start_est": 3372
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and ",
+      "n_tokens_est": 2,
+      "pos_start_est": 3373
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "protists",
+      "n_tokens_est": 1,
+      "pos_start_est": 3375
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and bigger ones like ",
+      "n_tokens_est": 5,
+      "pos_start_est": 3376
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "fungi",
+      "n_tokens_est": 1,
+      "pos_start_est": 3381
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 3382
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "plants",
+      "n_tokens_est": 1,
+      "pos_start_est": 3383
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 3384
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "animals",
+      "n_tokens_est": 1,
+      "pos_start_est": 3385
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 3386
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " The human body is about 50-60% water.",
+      "n_tokens_est": 11,
+      "pos_start_est": 3387
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Water helps move ",
+      "n_tokens_est": 3,
+      "pos_start_est": 3398
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "nutrients",
+      "n_tokens_est": 1,
+      "pos_start_est": 3401
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", gases, and ",
+      "n_tokens_est": 4,
+      "pos_start_est": 3402
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "waste",
+      "n_tokens_est": 1,
+      "pos_start_est": 3406
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " inside the body. Inside ",
+      "n_tokens_est": 5,
+      "pos_start_est": 3407
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "cells",
+      "n_tokens_est": 1,
+      "pos_start_est": 3412
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", water is where most ",
+      "n_tokens_est": 5,
+      "pos_start_est": 3413
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "chemical reactions",
+      "n_tokens_est": 2,
+      "pos_start_est": 3418
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " happen. It also helps cells keep their shape. Water is needed for ",
+      "n_tokens_est": 14,
+      "pos_start_est": 3420
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "digestion",
+      "n_tokens_est": 1,
+      "pos_start_est": 3434
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " in animals, and ",
+      "n_tokens_est": 4,
+      "pos_start_est": 3435
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "photosynthesis",
+      "n_tokens_est": 1,
+      "pos_start_est": 3439
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " in plants.",
+      "n_tokens_est": 3,
+      "pos_start_est": 3440
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " It also helps control ",
+      "n_tokens_est": 4,
+      "pos_start_est": 3443
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "body temperature",
+      "n_tokens_est": 2,
+      "pos_start_est": 3447
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". Without water, life could not exist. That is why water is one of the most important substances for all living things.",
+      "n_tokens_est": 25,
+      "pos_start_est": 3449
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 3474
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 3478
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Water is also very important to the ",
+      "n_tokens_est": 7,
+      "pos_start_est": 3481
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "world economy",
+      "n_tokens_est": 2,
+      "pos_start_est": 3488
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". About 70% of the fresh water people use goes to ",
+      "n_tokens_est": 12,
+      "pos_start_est": 3490
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "farming",
+      "n_tokens_est": 1,
+      "pos_start_est": 3502
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 3503
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Water is used to grow ",
+      "n_tokens_est": 5,
+      "pos_start_est": 3504
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "crops",
+      "n_tokens_est": 1,
+      "pos_start_est": 3509
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and raise ",
+      "n_tokens_est": 2,
+      "pos_start_est": 3510
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "animals",
+      "n_tokens_est": 1,
+      "pos_start_est": 3512
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 3513
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Fish",
+      "n_tokens_est": 1,
+      "pos_start_est": 3514
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " from oceans, lakes, and rivers are an important source of food.",
+      "n_tokens_est": 14,
+      "pos_start_est": 3515
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Many products, like ",
+      "n_tokens_est": 4,
+      "pos_start_est": 3529
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "crude oil",
+      "n_tokens_est": 2,
+      "pos_start_est": 3533
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and other goods, are moved around the world by ",
+      "n_tokens_est": 10,
+      "pos_start_est": 3535
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 6,
+    "n_sequences": 5,
+    "n_documents": 5,
+    "est_tokens_total": 3545,
+    "est_tokens_per_seq": {
+      "1": 724,
+      "2": 711,
+      "3": 704,
+      "4": 706,
+      "5": 700
+    },
+    "markup_or_syntax_share": 0.117
+  }
+}

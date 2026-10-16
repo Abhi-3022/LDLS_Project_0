@@ -1,0 +1,4008 @@
+{
+  "doc_id": "latex_corpus",
+  "domain": "latex",
+  "mode": "corpus (one sequence per document)",
+  "note": "each sequence is a whole document; the driver tests isolation and eviction across documents. Tokens here are a proxy; the driver tokenizes.",
+  "seq_legend": {
+    "0": "shared",
+    "1": "note",
+    "2": "analysis_note",
+    "3": "ms",
+    "4": "residual_v1_arxiv_release",
+    "5": "streaming_attention_neurips_2022"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "corpus",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "note"
+    },
+    {
+      "node_id": 2,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "analysis_note"
+    },
+    {
+      "node_id": 3,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "ms"
+    },
+    {
+      "node_id": 4,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 4,
+      "heading": "residual_v1_arxiv_release"
+    },
+    {
+      "node_id": 5,
+      "node_type": "document",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 5,
+      "heading": "streaming_attention_neurips_2022"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 2
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " This note proves a simple bound on partial sums of a bounded sequence. We rely on one basic inequality and a definition. ",
+      "n_tokens_est": 24,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 27
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Definitions",
+      "n_tokens_est": 1,
+      "pos_start_est": 29
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 30
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "def:sum",
+      "n_tokens_est": 3,
+      "pos_start_est": 35
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " For a sequence ",
+      "n_tokens_est": 3,
+      "pos_start_est": 38
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$a_i$",
+      "n_tokens_est": 3,
+      "pos_start_est": 41
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", the partial sum is ",
+      "n_tokens_est": 5,
+      "pos_start_est": 44
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$S_n = \\sum_{i=1}^{n} a_i$",
+      "n_tokens_est": 16,
+      "pos_start_est": 49
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 65
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\end{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 66
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 71
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Results",
+      "n_tokens_est": 1,
+      "pos_start_est": 73
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 74
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 79
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " For all ",
+      "n_tokens_est": 2,
+      "pos_start_est": 82
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 84
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", we have ",
+      "n_tokens_est": 3,
+      "pos_start_est": 87
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$S_n \\le n \\max_i a_i$",
+      "n_tokens_est": 9,
+      "pos_start_est": 90
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 99
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\end{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 100
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{theorem}",
+      "n_tokens_est": 5,
+      "pos_start_est": 105
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "thm:main",
+      "n_tokens_est": 3,
+      "pos_start_est": 110
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " If each ",
+      "n_tokens_est": 2,
+      "pos_start_est": 113
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$a_i \\le 1$",
+      "n_tokens_est": 6,
+      "pos_start_est": 115
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", then ",
+      "n_tokens_est": 2,
+      "pos_start_est": 121
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$S_n \\le n$",
+      "n_tokens_est": 6,
+      "pos_start_est": 123
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " for every ",
+      "n_tokens_est": 2,
+      "pos_start_est": 129
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 131
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 134
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\end{theorem}",
+      "n_tokens_est": 5,
+      "pos_start_est": 135
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\begin{proof}",
+      "n_tokens_est": 5,
+      "pos_start_est": 140
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " By Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 145
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 147
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 148
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "def:sum",
+      "n_tokens_est": 3,
+      "pos_start_est": 150
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 153
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$S_n = \\sum_{i=1}^{n} a_i$",
+      "n_tokens_est": 16,
+      "pos_start_est": 154
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". By Lemma",
+      "n_tokens_est": 3,
+      "pos_start_est": 170
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 173
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 174
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 176
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 179
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$S_n \\le n \\max_i a_i$",
+      "n_tokens_est": 9,
+      "pos_start_est": 180
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". Since ",
+      "n_tokens_est": 2,
+      "pos_start_est": 189
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$a_i \\le 1$",
+      "n_tokens_est": 6,
+      "pos_start_est": 191
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " we have ",
+      "n_tokens_est": 2,
+      "pos_start_est": 197
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$\\max_i a_i \\le 1$",
+      "n_tokens_est": 8,
+      "pos_start_est": 199
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", hence ",
+      "n_tokens_est": 2,
+      "pos_start_est": 207
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "$S_n \\le n$",
+      "n_tokens_est": 6,
+      "pos_start_est": 209
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 215
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\end{proof}",
+      "n_tokens_est": 5,
+      "pos_start_est": 216
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 221
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Conclusion",
+      "n_tokens_est": 1,
+      "pos_start_est": 223
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " We proved Theorem",
+      "n_tokens_est": 3,
+      "pos_start_est": 224
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 227
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 228
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "thm:main",
+      "n_tokens_est": 3,
+      "pos_start_est": 230
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " using Lemma",
+      "n_tokens_est": 2,
+      "pos_start_est": 233
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 235
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 236
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 238
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " and Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 241
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 243
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 244
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "def:sum",
+      "n_tokens_est": 3,
+      "pos_start_est": 246
+    },
+    {
+      "node_id": 1,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 249
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 250
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 252
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " These notes collect a few elementary results about bounded real sequences and their partial sums, building up to a simple convergence bound. ",
+      "n_tokens_est": 24,
+      "pos_start_est": 253
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 277
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Definitions",
+      "n_tokens_est": 1,
+      "pos_start_est": 279
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 280
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "def:bounded",
+      "n_tokens_est": 3,
+      "pos_start_est": 285
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " A sequence ",
+      "n_tokens_est": 2,
+      "pos_start_est": 288
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$(a_n)$",
+      "n_tokens_est": 5,
+      "pos_start_est": 290
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " is bounded if there is ",
+      "n_tokens_est": 5,
+      "pos_start_est": 295
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 300
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " with ",
+      "n_tokens_est": 1,
+      "pos_start_est": 303
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$|a_n|\\le M$",
+      "n_tokens_est": 8,
+      "pos_start_est": 304
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " for all ",
+      "n_tokens_est": 2,
+      "pos_start_est": 312
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 314
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 317
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 318
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 323
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "def:partial",
+      "n_tokens_est": 3,
+      "pos_start_est": 328
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " The partial sum is ",
+      "n_tokens_est": 4,
+      "pos_start_est": 331
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$S_n=\\sum_{i=1}^n a_i$",
+      "n_tokens_est": 14,
+      "pos_start_est": 335
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 349
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 350
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 355
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Lemmas",
+      "n_tokens_est": 1,
+      "pos_start_est": 357
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 358
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "lem:triangle",
+      "n_tokens_est": 3,
+      "pos_start_est": 363
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " For any reals, ",
+      "n_tokens_est": 4,
+      "pos_start_est": 366
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$\\left|\\sum_{i=1}^n a_i\\right|\\le \\sum_{i=1}^n |a_i|$",
+      "n_tokens_est": 32,
+      "pos_start_est": 370
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 402
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 403
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 408
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 413
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " If ",
+      "n_tokens_est": 1,
+      "pos_start_est": 416
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$(a_n)$",
+      "n_tokens_est": 5,
+      "pos_start_est": 417
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " is bounded by ",
+      "n_tokens_est": 3,
+      "pos_start_est": 422
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 425
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " (Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 428
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 430
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 431
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "def:bounded",
+      "n_tokens_est": 3,
+      "pos_start_est": 433
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "), then ",
+      "n_tokens_est": 3,
+      "pos_start_est": 436
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$|S_n|\\le nM$",
+      "n_tokens_est": 8,
+      "pos_start_est": 439
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " for every ",
+      "n_tokens_est": 2,
+      "pos_start_est": 447
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 449
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 452
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 453
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 458
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Main Result",
+      "n_tokens_est": 2,
+      "pos_start_est": 460
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{theorem}",
+      "n_tokens_est": 5,
+      "pos_start_est": 462
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "thm:main",
+      "n_tokens_est": 3,
+      "pos_start_est": 467
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " If ",
+      "n_tokens_est": 1,
+      "pos_start_est": 470
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$|a_n|\\le M$",
+      "n_tokens_est": 8,
+      "pos_start_est": 471
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " for all ",
+      "n_tokens_est": 2,
+      "pos_start_est": 479
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 481
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", then the averaged sum ",
+      "n_tokens_est": 5,
+      "pos_start_est": 484
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$S_n/n$",
+      "n_tokens_est": 5,
+      "pos_start_est": 489
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " is bounded by ",
+      "n_tokens_est": 3,
+      "pos_start_est": 494
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 497
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 500
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{theorem}",
+      "n_tokens_est": 5,
+      "pos_start_est": 501
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{proof}",
+      "n_tokens_est": 5,
+      "pos_start_est": 506
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " By Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 511
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 513
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 514
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "def:partial",
+      "n_tokens_est": 3,
+      "pos_start_est": 516
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 519
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$S_n=\\sum_{i=1}^n a_i$",
+      "n_tokens_est": 14,
+      "pos_start_est": 520
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". By Lemma",
+      "n_tokens_est": 3,
+      "pos_start_est": 534
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 537
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 538
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "lem:triangle",
+      "n_tokens_est": 3,
+      "pos_start_est": 540
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and Lemma",
+      "n_tokens_est": 2,
+      "pos_start_est": 543
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 545
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 546
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 548
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 551
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$|S_n|\\le nM$",
+      "n_tokens_est": 8,
+      "pos_start_est": 552
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". Dividing by ",
+      "n_tokens_est": 3,
+      "pos_start_est": 560
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 563
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " gives ",
+      "n_tokens_est": 1,
+      "pos_start_est": 566
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$|S_n/n|\\le M$",
+      "n_tokens_est": 10,
+      "pos_start_est": 567
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", as claimed. ",
+      "n_tokens_est": 4,
+      "pos_start_est": 577
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{proof}",
+      "n_tokens_est": 5,
+      "pos_start_est": 581
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 586
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Conclusion",
+      "n_tokens_est": 1,
+      "pos_start_est": 588
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " We proved Theorem",
+      "n_tokens_est": 3,
+      "pos_start_est": 589
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 592
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 593
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "thm:main",
+      "n_tokens_est": 3,
+      "pos_start_est": 595
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " from Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 598
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 600
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 601
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "def:partial",
+      "n_tokens_est": 3,
+      "pos_start_est": 603
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and Lemmas",
+      "n_tokens_est": 2,
+      "pos_start_est": 606
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 608
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 609
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "lem:triangle",
+      "n_tokens_est": 3,
+      "pos_start_est": 611
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and",
+      "n_tokens_est": 1,
+      "pos_start_est": 614
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 615
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 616
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 618
+    },
+    {
+      "node_id": 2,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 621
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\begin{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 622
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\color",
+      "n_tokens_est": 2,
+      "pos_start_est": 627
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "red",
+      "n_tokens_est": 1,
+      "pos_start_est": 629
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\large",
+      "n_tokens_est": 2,
+      "pos_start_est": 630
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works. ",
+      "n_tokens_est": 28,
+      "pos_start_est": 632
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\end{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 660
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\begin{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 665
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data. ",
+      "n_tokens_est": 206,
+      "pos_start_est": 670
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\end{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 876
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 881
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 883
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Recurrent neural networks, long short-term memory ",
+      "n_tokens_est": 9,
+      "pos_start_est": 884
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 893
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "hochreiter1997",
+      "n_tokens_est": 1,
+      "pos_start_est": 895
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and gated recurrent ",
+      "n_tokens_est": 3,
+      "pos_start_est": 896
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 899
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "gruEval14",
+      "n_tokens_est": 1,
+      "pos_start_est": 901
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation ",
+      "n_tokens_est": 28,
+      "pos_start_est": 902
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 930
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "sutskever14, bahdanau2014neural, cho2014learning",
+      "n_tokens_est": 5,
+      "pos_start_est": 932
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures ",
+      "n_tokens_est": 19,
+      "pos_start_est": 937
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 956
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "wu2016google,luong2015effective,jozefowicz2016exploring",
+      "n_tokens_est": 5,
+      "pos_start_est": 958
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". Recurrent models typically factor computation along the symbol positions of the input and output sequences. Aligning the positions to steps in computation time, they generate a sequence of hidden states ",
+      "n_tokens_est": 33,
+      "pos_start_est": 963
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$h_t$",
+      "n_tokens_est": 3,
+      "pos_start_est": 996
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", as a function of the previous hidden state ",
+      "n_tokens_est": 9,
+      "pos_start_est": 999
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$h_{t-1}$",
+      "n_tokens_est": 8,
+      "pos_start_est": 1008
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and the input for position ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1016
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$t$",
+      "n_tokens_est": 3,
+      "pos_start_est": 1021
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". This inherently sequential nature precludes parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. Recent work has achieved significant improvements in computational efficiency through factorization tricks ",
+      "n_tokens_est": 39,
+      "pos_start_est": 1024
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1063
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Kuchaiev2017Factorization",
+      "n_tokens_est": 1,
+      "pos_start_est": 1065
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and conditional computation ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1066
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1069
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "shazeer2017outrageously",
+      "n_tokens_est": 1,
+      "pos_start_est": 1071
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", while also improving model performance in case of the latter. The fundamental constraint of sequential computation, however, remains. Attention mechanisms have become an integral part of compelling sequence modeling and transduction models in various tasks, allowing modeling of dependencies without regard to their distance in the input or output sequences ",
+      "n_tokens_est": 56,
+      "pos_start_est": 1072
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1128
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "bahdanau2014neural, structuredAttentionNetworks",
+      "n_tokens_est": 3,
+      "pos_start_est": 1130
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". In all but a few cases ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1133
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1140
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "decomposableAttnModel",
+      "n_tokens_est": 1,
+      "pos_start_est": 1142
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", however, such attention mechanisms are used in conjunction with a recurrent network. In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output. The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs. ",
+      "n_tokens_est": 78,
+      "pos_start_est": 1143
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 1221
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Background",
+      "n_tokens_est": 1,
+      "pos_start_est": 1223
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU ",
+      "n_tokens_est": 15,
+      "pos_start_est": 1224
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1239
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "extendedngpu",
+      "n_tokens_est": 1,
+      "pos_start_est": 1241
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", ByteNet ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1242
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1244
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "NalBytenet2017",
+      "n_tokens_est": 1,
+      "pos_start_est": 1246
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " and ConvS2S ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1247
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1249
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "JonasFaceNet2017",
+      "n_tokens_est": 1,
+      "pos_start_est": 1251
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions. In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet. This makes it more difficult to learn dependencies between distant positions ",
+      "n_tokens_est": 70,
+      "pos_start_est": 1252
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1322
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "hochreiter2001gradient",
+      "n_tokens_est": 1,
+      "pos_start_est": 1324
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". In the Transformer this is reduced to a constant number of operations, albeit at the cost of reduced effective resolution due to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as described in section",
+      "n_tokens_est": 43,
+      "pos_start_est": 1325
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1368
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 1369
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "sec:attention",
+      "n_tokens_est": 3,
+      "pos_start_est": 1371
+    },
+    {
+      "node_id": 3,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence. Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations ",
+      "n_tokens_est": 59,
+      "pos_start_est": 1374
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Deep Residual Learning for Image Recognition",
+      "n_tokens_est": 6,
+      "pos_start_est": 1433
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Kaiming He ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1439
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\qquad",
+      "n_tokens_est": 2,
+      "pos_start_est": 1441
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Xiangyu Zhang ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1443
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\qquad",
+      "n_tokens_est": 2,
+      "pos_start_est": 1445
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Shaoqing Ren ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1447
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\qquad",
+      "n_tokens_est": 2,
+      "pos_start_est": 1449
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Jian Sun ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1451
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\\\",
+      "n_tokens_est": 2,
+      "pos_start_est": 1453
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\large",
+      "n_tokens_est": 2,
+      "pos_start_est": 1455
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Microsoft Research ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1457
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 1459
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "-.2em",
+      "n_tokens_est": 3,
+      "pos_start_est": 1461
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\\\",
+      "n_tokens_est": 2,
+      "pos_start_est": 1464
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\normalsize",
+      "n_tokens_est": 2,
+      "pos_start_est": 1466
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\{",
+      "n_tokens_est": 2,
+      "pos_start_est": 1468
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "kahe,",
+      "n_tokens_est": 2,
+      "pos_start_est": 1470
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1472
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "v-xiangz,",
+      "n_tokens_est": 4,
+      "pos_start_est": 1473
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1477
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "v-shren,",
+      "n_tokens_est": 4,
+      "pos_start_est": 1478
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 1482
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "jiansun",
+      "n_tokens_est": 1,
+      "pos_start_est": 1483
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\}",
+      "n_tokens_est": 2,
+      "pos_start_est": 1484
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "@microsoft.com ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1486
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\begin{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 1490
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 1495
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "-.5em",
+      "n_tokens_est": 3,
+      "pos_start_est": 1497
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers",
+      "n_tokens_est": 92,
+      "pos_start_est": 1500
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 1592
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "8",
+      "n_tokens_est": 1,
+      "pos_start_est": 1595
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 1596
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " deeper than VGG nets ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1600
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1604
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Simonyan2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 1606
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " but still having lower complexity. An ensemble of these residual nets achieves 3.57",
+      "n_tokens_est": 16,
+      "pos_start_est": 1607
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 1623
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " error on the ImageNet ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1625
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 1629
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "test",
+      "n_tokens_est": 1,
+      "pos_start_est": 1631
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28",
+      "n_tokens_est": 55,
+      "pos_start_est": 1632
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 1687
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC ",
+      "n_tokens_est": 19,
+      "pos_start_est": 1689
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\&",
+      "n_tokens_est": 2,
+      "pos_start_est": 1708
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " COCO 2015 competitions",
+      "n_tokens_est": 3,
+      "pos_start_est": 1710
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\footnote",
+      "n_tokens_est": 2,
+      "pos_start_est": 1713
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\fontsize",
+      "n_tokens_est": 2,
+      "pos_start_est": 1715
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "7.6pt",
+      "n_tokens_est": 3,
+      "pos_start_est": 1717
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "1em",
+      "n_tokens_est": 1,
+      "pos_start_est": 1720
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\selectfont",
+      "n_tokens_est": 2,
+      "pos_start_est": 1721
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\url",
+      "n_tokens_est": 2,
+      "pos_start_est": 1723
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "http://image-net.org/challenges/LSVRC/2015/",
+      "n_tokens_est": 16,
+      "pos_start_est": 1725
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 1741
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\url",
+      "n_tokens_est": 2,
+      "pos_start_est": 1742
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "http://mscoco.org/dataset/",
+      "n_tokens_est": 10,
+      "pos_start_est": 1744
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\#",
+      "n_tokens_est": 2,
+      "pos_start_est": 1754
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "detections-challenge2015",
+      "n_tokens_est": 3,
+      "pos_start_est": 1756
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 1759
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation. ",
+      "n_tokens_est": 25,
+      "pos_start_est": 1760
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\end{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 1785
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 1790
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 1792
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "sec:intro",
+      "n_tokens_est": 3,
+      "pos_start_est": 1793
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " Deep convolutional neural networks ",
+      "n_tokens_est": 4,
+      "pos_start_est": 1796
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1800
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "LeCun1989,Krizhevsky2012",
+      "n_tokens_est": 3,
+      "pos_start_est": 1802
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " have led to a series of breakthroughs for image classification ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1805
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1815
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Krizhevsky2012,Zeiler2014,Sermanet2014",
+      "n_tokens_est": 5,
+      "pos_start_est": 1817
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". Deep networks naturally integrate low/mid/high-level features ",
+      "n_tokens_est": 13,
+      "pos_start_est": 1822
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1835
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Zeiler2014",
+      "n_tokens_est": 1,
+      "pos_start_est": 1837
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and classifiers in an end-to-end multi-layer fashion, and the ",
+      "n_tokens_est": 16,
+      "pos_start_est": 1838
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 1854
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "levels",
+      "n_tokens_est": 1,
+      "pos_start_est": 1856
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 1857
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " of features can be enriched by the number of stacked layers (depth). Recent evidence ",
+      "n_tokens_est": 17,
+      "pos_start_est": 1859
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1876
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Simonyan2015,Szegedy2015",
+      "n_tokens_est": 3,
+      "pos_start_est": 1878
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " reveals that network depth is of crucial importance, and the leading results ",
+      "n_tokens_est": 13,
+      "pos_start_est": 1881
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1894
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Simonyan2015,Szegedy2015,He2015,Ioffe2015",
+      "n_tokens_est": 7,
+      "pos_start_est": 1896
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " on the challenging ImageNet dataset ",
+      "n_tokens_est": 5,
+      "pos_start_est": 1903
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1908
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Russakovsky2014",
+      "n_tokens_est": 1,
+      "pos_start_est": 1910
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " all exploit ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1911
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 1913
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "very deep",
+      "n_tokens_est": 2,
+      "pos_start_est": 1915
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 1917
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1919
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Simonyan2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 1921
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " models, with a depth of sixteen ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1922
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1929
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Simonyan2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 1931
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " to thirty ",
+      "n_tokens_est": 2,
+      "pos_start_est": 1932
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1934
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Ioffe2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 1936
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". Many other nontrivial visual recognition tasks ",
+      "n_tokens_est": 7,
+      "pos_start_est": 1937
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 1944
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Girshick2014,He2014,Girshick2015,Ren2015,Long2015",
+      "n_tokens_est": 9,
+      "pos_start_est": 1946
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " have also greatly benefited from very deep models. Driven by the significance of depth, a question arises: ",
+      "n_tokens_est": 20,
+      "pos_start_est": 1955
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 1975
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Is learning better networks as easy as stacking more layers?",
+      "n_tokens_est": 11,
+      "pos_start_est": 1977
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " An obstacle to answering this question was the notorious problem of vanishing/exploding gradients ",
+      "n_tokens_est": 15,
+      "pos_start_est": 1988
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 2003
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Bengio1994,Glorot2010",
+      "n_tokens_est": 3,
+      "pos_start_est": 2005
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", which hamper convergence from the beginning. This problem, however, has been largely addressed by normalized initialization ",
+      "n_tokens_est": 20,
+      "pos_start_est": 2008
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 2028
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "LeCun1998,Glorot2010,Saxe2013,He2015",
+      "n_tokens_est": 7,
+      "pos_start_est": 2030
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and intermediate normalization layers ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2037
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 2041
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Ioffe2015",
+      "n_tokens_est": 1,
+      "pos_start_est": 2043
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", which enable networks with tens of layers to start converging for stochastic gradient descent (SGD) with backpropagation ",
+      "n_tokens_est": 20,
+      "pos_start_est": 2044
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\cite",
+      "n_tokens_est": 2,
+      "pos_start_est": 2064
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "LeCun1989",
+      "n_tokens_est": 1,
+      "pos_start_est": 2066
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2067
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\begin{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 2068
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\begin{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 2073
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\includegraphics",
+      "n_tokens_est": 2,
+      "pos_start_est": 2078
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "width=1.0",
+      "n_tokens_est": 5,
+      "pos_start_est": 2080
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\linewidth",
+      "n_tokens_est": 2,
+      "pos_start_est": 2085
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "eps/teaser",
+      "n_tokens_est": 3,
+      "pos_start_est": 2087
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\end{center}",
+      "n_tokens_est": 5,
+      "pos_start_est": 2090
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 2095
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "-1.2em",
+      "n_tokens_est": 4,
+      "pos_start_est": 2097
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\caption",
+      "n_tokens_est": 2,
+      "pos_start_est": 2101
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Training error (left) and test error (right) on CIFAR-10 with 20-layer and 56-layer ",
+      "n_tokens_est": 23,
+      "pos_start_est": 2103
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "``",
+      "n_tokens_est": 2,
+      "pos_start_est": 2126
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "plain",
+      "n_tokens_est": 1,
+      "pos_start_est": 2128
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "''",
+      "n_tokens_est": 2,
+      "pos_start_est": 2129
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " networks. The deeper network has higher training error, and thus test error. Similar phenomena on ImageNet is presented in Fig.",
+      "n_tokens_est": 24,
+      "pos_start_est": 2131
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2155
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 2156
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "fig:imagenet",
+      "n_tokens_est": 3,
+      "pos_start_est": 2158
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 2161
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "fig:teaser",
+      "n_tokens_est": 3,
+      "pos_start_est": 2162
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\vspace",
+      "n_tokens_est": 2,
+      "pos_start_est": 2165
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "-1em",
+      "n_tokens_est": 2,
+      "pos_start_est": 2167
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\end{figure}",
+      "n_tokens_est": 5,
+      "pos_start_est": 2169
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " When deeper networks are able to start converging, a ",
+      "n_tokens_est": 10,
+      "pos_start_est": 2174
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 2184
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "degradation",
+      "n_tokens_est": 1,
+      "pos_start_est": 2186
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " problem has been exposed: with the network depth increasing, accuracy gets saturated (which might be unsurprising) and then degrades rapidly. Unexpectedly, such degradation is ",
+      "n_tokens_est": 30,
+      "pos_start_est": 2187
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\emph",
+      "n_tokens_est": 2,
+      "pos_start_est": 2217
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "not caused by overfitting",
+      "n_tokens_est": 4,
+      "pos_start_est": 2219
+    },
+    {
+      "node_id": 4,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", and adding more layers to a suitably deep model leads to ",
+      "n_tokens_est": 12,
+      "pos_start_est": 2223
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\begin{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 2235
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Transformers are slow and memory-hungry on long sequences, since the time and memory complexity of self-attention are quadratic in sequence length. Approximate attention methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms ",
+      "n_tokens_est": 67,
+      "pos_start_est": 2240
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\textit",
+      "n_tokens_est": 2,
+      "pos_start_est": 2307
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "IO-aware",
+      "n_tokens_est": 3,
+      "pos_start_est": 2309
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 2312
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "accounting for reads and writes between levels of GPU memory. We propose ",
+      "n_tokens_est": 13,
+      "pos_start_est": 2315
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 2328
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. We analyze the IO complexity of ",
+      "n_tokens_est": 41,
+      "pos_start_est": 2330
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 2371
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend ",
+      "n_tokens_est": 25,
+      "pos_start_est": 2373
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 2398
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. ",
+      "n_tokens_est": 21,
+      "pos_start_est": 2400
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 2421
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "trains Transformers faster than existing baselines: 15",
+      "n_tokens_est": 8,
+      "pos_start_est": 2423
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 2431
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " end-to-end wall-clock speedup on BERT-large (seq.",
+      "n_tokens_est": 16,
+      "pos_start_est": 2433
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2449
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "length 512) compared to the MLPerf 1.1 training speed record, 3",
+      "n_tokens_est": 15,
+      "pos_start_est": 2450
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 2465
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " speedup on GPT-2 (seq.",
+      "n_tokens_est": 8,
+      "pos_start_est": 2469
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2477
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "length 1K), and 2.4",
+      "n_tokens_est": 8,
+      "pos_start_est": 2478
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "$\\times$",
+      "n_tokens_est": 4,
+      "pos_start_est": 2486
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " speedup on long-range arena (seq.",
+      "n_tokens_est": 9,
+      "pos_start_est": 2490
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2499
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "length 1K-4K). ",
+      "n_tokens_est": 6,
+      "pos_start_est": 2500
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 2506
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "and block-sparse ",
+      "n_tokens_est": 4,
+      "pos_start_est": 2508
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\sysname",
+      "n_tokens_est": 2,
+      "pos_start_est": 2512
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "enable longer context in Transformers, yielding higher quality models (0.7 better perplexity on GPT-2 and 6.4 points of lift on long-document classification) and entirely new capabilities: the first Transformers to achieve better-than-chance performance on the Path-X challenge (seq.",
+      "n_tokens_est": 58,
+      "pos_start_est": 2514
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2572
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "length 16K, 61.4",
+      "n_tokens_est": 6,
+      "pos_start_est": 2573
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 2579
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " accuracy) and Path-256 (seq.",
+      "n_tokens_est": 9,
+      "pos_start_est": 2581
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ ",
+      "n_tokens_est": 1,
+      "pos_start_est": 2590
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "length 64K, 63.1",
+      "n_tokens_est": 6,
+      "pos_start_est": 2591
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\%",
+      "n_tokens_est": 2,
+      "pos_start_est": 2597
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " accuracy). ",
+      "n_tokens_est": 3,
+      "pos_start_est": 2599
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\end{abstract}",
+      "n_tokens_est": 5,
+      "pos_start_est": 2602
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 2607
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 2609
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "sec:intro",
+      "n_tokens_est": 3,
+      "pos_start_est": 2610
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " Transformer models",
+      "n_tokens_est": 2,
+      "pos_start_est": 2613
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2615
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2616
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "vaswani2017attention",
+      "n_tokens_est": 1,
+      "pos_start_est": 2618
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " have emerged as the most widely used architecture in applications such as natural language processing and image classification. Transformers have grown larger",
+      "n_tokens_est": 23,
+      "pos_start_est": 2619
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2642
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2643
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "brown2020language",
+      "n_tokens_est": 1,
+      "pos_start_est": 2645
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and deeper",
+      "n_tokens_est": 2,
+      "pos_start_est": 2646
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2648
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2649
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "wang2022deepnet",
+      "n_tokens_est": 1,
+      "pos_start_est": 2651
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", but equipping them with longer context remains difficult",
+      "n_tokens_est": 9,
+      "pos_start_est": 2652
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2661
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2662
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "tay2020long",
+      "n_tokens_est": 1,
+      "pos_start_est": 2664
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", since the self-attention module at their heart has time and memory complexity quadratic in sequence length. An important question is whether making attention faster and more memory-efficient can help Transformer models address their runtime and memory challenges for long sequences. Many approximate attention methods have aimed to reduce the compute and memory requirements of attention. These methods range from sparse-approximation",
+      "n_tokens_est": 70,
+      "pos_start_est": 2665
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2735
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2736
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "kitaev2020reformer, roy2021efficient",
+      "n_tokens_est": 3,
+      "pos_start_est": 2738
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " to low-rank approximation",
+      "n_tokens_est": 5,
+      "pos_start_est": 2741
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2746
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2747
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "wang2020linformer, katharopoulos2020transformers, choromanski2020rethinking",
+      "n_tokens_est": 5,
+      "pos_start_est": 2749
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and their combinations",
+      "n_tokens_est": 4,
+      "pos_start_est": 2754
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2758
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2759
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "beltagy2020longformer, zaheer2020bigbird, scatterbrain",
+      "n_tokens_est": 5,
+      "pos_start_est": 2761
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". Although these methods reduce the compute requirements to linear or near-linear in sequence length, many of them do not display wall-clock speedup against standard attention and have not gained wide adoption. One main reason is that they focus on FLOP reduction (which may not correlate with wall-clock speed) and tend to ignore overheads from memory access (IO). In this paper, we argue that a missing principle is making attention algorithms ",
+      "n_tokens_est": 85,
+      "pos_start_est": 2766
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\textit",
+      "n_tokens_est": 2,
+      "pos_start_est": 2851
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "IO-aware",
+      "n_tokens_est": 3,
+      "pos_start_est": 2853
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2856
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2857
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "aggarwal1988input",
+      "n_tokens_est": 1,
+      "pos_start_est": 2859
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 2860
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "that is, carefully accounting for reads and writes to different levels of fast and slow memory (e.g., between fast GPU on-chip SRAM and relatively slow GPU high bandwidth memory, or HBM",
+      "n_tokens_est": 40,
+      "pos_start_est": 2863
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2903
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2904
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "jia2018dissecting",
+      "n_tokens_est": 1,
+      "pos_start_est": 2906
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", Figure",
+      "n_tokens_est": 2,
+      "pos_start_est": 2907
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2909
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 2910
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "fig:banner",
+      "n_tokens_est": 3,
+      "pos_start_est": 2912
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " left). On modern GPUs, compute speed has out-paced memory speed",
+      "n_tokens_est": 15,
+      "pos_start_est": 2915
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2930
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2931
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "nvidia2017nvidia,nvidia2020nvidia,nvidia2022nvidia",
+      "n_tokens_est": 5,
+      "pos_start_est": 2933
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and most operations in Transformers are bottlenecked by memory accesses",
+      "n_tokens_est": 11,
+      "pos_start_est": 2938
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2949
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2950
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "ivanov2021data",
+      "n_tokens_est": 1,
+      "pos_start_est": 2952
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". IO-aware algorithms have been critical for similar memory-bound operations, when reading and writing data can account for a large portion of the runtime",
+      "n_tokens_est": 29,
+      "pos_start_est": 2953
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "---",
+      "n_tokens_est": 3,
+      "pos_start_est": 2982
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "such as database joins",
+      "n_tokens_est": 4,
+      "pos_start_est": 2985
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2989
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2990
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "ramakrishnan2003database",
+      "n_tokens_est": 1,
+      "pos_start_est": 2992
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", image processing",
+      "n_tokens_est": 3,
+      "pos_start_est": 2993
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 2996
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 2997
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "ragan2013halide",
+      "n_tokens_est": 1,
+      "pos_start_est": 2999
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", numerical linear algebra",
+      "n_tokens_est": 4,
+      "pos_start_est": 3000
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 3004
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 3005
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "blackford2002updated",
+      "n_tokens_est": 1,
+      "pos_start_est": 3007
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ", and more",
+      "n_tokens_est": 3,
+      "pos_start_est": 3008
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 3011
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\citep",
+      "n_tokens_est": 2,
+      "pos_start_est": 3012
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "williams2009roofline, hennessy2003memory",
+      "n_tokens_est": 3,
+      "pos_start_est": 3014
+    },
+    {
+      "node_id": 5,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". However, common Python interfaces to deep learning such as PyTorch and Tensorflow do not allow fine-grained control of memory access. We propose ",
+      "n_tokens_est": 27,
+      "pos_start_est": 3017
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 6,
+    "n_sequences": 5,
+    "n_documents": 5,
+    "est_tokens_total": 3044,
+    "est_tokens_per_seq": {
+      "1": 250,
+      "2": 372,
+      "3": 811,
+      "4": 802,
+      "5": 809
+    },
+    "markup_or_syntax_share": 0.148
+  }
+}

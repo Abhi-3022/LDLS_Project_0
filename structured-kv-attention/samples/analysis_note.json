@@ -1,0 +1,903 @@
+{
+  "doc_id": "analysis_note",
+  "domain": "latex",
+  "mode": "sections",
+  "note": "segments[].text are tokenized by the C++ driver; positions assigned there.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Introduction",
+    "2": "Definitions",
+    "3": "Lemmas",
+    "4": "Main Result",
+    "5": "Conclusion"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Introduction"
+    },
+    {
+      "node_id": 3,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "Definitions"
+    },
+    {
+      "node_id": 4,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "Lemmas"
+    },
+    {
+      "node_id": 5,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 4,
+      "heading": "Main Result"
+    },
+    {
+      "node_id": 6,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 5,
+      "heading": "Conclusion"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Introduction",
+      "n_tokens_est": 1,
+      "pos_start_est": 2
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " These notes collect a few elementary results about bounded real sequences and their partial sums, building up to a simple convergence bound. ",
+      "n_tokens_est": 24,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 27
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Definitions",
+      "n_tokens_est": 1,
+      "pos_start_est": 29
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 30
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "def:bounded",
+      "n_tokens_est": 3,
+      "pos_start_est": 35
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " A sequence ",
+      "n_tokens_est": 2,
+      "pos_start_est": 38
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$(a_n)$",
+      "n_tokens_est": 5,
+      "pos_start_est": 40
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " is bounded if there is ",
+      "n_tokens_est": 5,
+      "pos_start_est": 45
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 50
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " with ",
+      "n_tokens_est": 1,
+      "pos_start_est": 53
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$|a_n|\\le M$",
+      "n_tokens_est": 8,
+      "pos_start_est": 54
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " for all ",
+      "n_tokens_est": 2,
+      "pos_start_est": 62
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 64
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 67
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 68
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\begin{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 73
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "def:partial",
+      "n_tokens_est": 3,
+      "pos_start_est": 78
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " The partial sum is ",
+      "n_tokens_est": 4,
+      "pos_start_est": 81
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "$S_n=\\sum_{i=1}^n a_i$",
+      "n_tokens_est": 14,
+      "pos_start_est": 85
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 99
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "\\end{definition}",
+      "n_tokens_est": 5,
+      "pos_start_est": 100
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 105
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Lemmas",
+      "n_tokens_est": 1,
+      "pos_start_est": 107
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\begin{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 108
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "lem:triangle",
+      "n_tokens_est": 3,
+      "pos_start_est": 113
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " For any reals, ",
+      "n_tokens_est": 4,
+      "pos_start_est": 116
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$\\left|\\sum_{i=1}^n a_i\\right|\\le \\sum_{i=1}^n |a_i|$",
+      "n_tokens_est": 32,
+      "pos_start_est": 120
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 152
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\end{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 153
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\begin{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 158
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 163
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " If ",
+      "n_tokens_est": 1,
+      "pos_start_est": 166
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$(a_n)$",
+      "n_tokens_est": 5,
+      "pos_start_est": 167
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " is bounded by ",
+      "n_tokens_est": 3,
+      "pos_start_est": 172
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 175
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " (Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 178
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 180
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 181
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "def:bounded",
+      "n_tokens_est": 3,
+      "pos_start_est": 183
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "), then ",
+      "n_tokens_est": 3,
+      "pos_start_est": 186
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$|S_n|\\le nM$",
+      "n_tokens_est": 8,
+      "pos_start_est": 189
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " for every ",
+      "n_tokens_est": 2,
+      "pos_start_est": 197
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 199
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 202
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "\\end{lemma}",
+      "n_tokens_est": 5,
+      "pos_start_est": 203
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 208
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "Main Result",
+      "n_tokens_est": 2,
+      "pos_start_est": 210
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\begin{theorem}",
+      "n_tokens_est": 5,
+      "pos_start_est": 212
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "thm:main",
+      "n_tokens_est": 3,
+      "pos_start_est": 217
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " If ",
+      "n_tokens_est": 1,
+      "pos_start_est": 220
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$|a_n|\\le M$",
+      "n_tokens_est": 8,
+      "pos_start_est": 221
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " for all ",
+      "n_tokens_est": 2,
+      "pos_start_est": 229
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 231
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", then the averaged sum ",
+      "n_tokens_est": 5,
+      "pos_start_est": 234
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$S_n/n$",
+      "n_tokens_est": 5,
+      "pos_start_est": 239
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " is bounded by ",
+      "n_tokens_est": 3,
+      "pos_start_est": 244
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$M$",
+      "n_tokens_est": 3,
+      "pos_start_est": 247
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 250
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\end{theorem}",
+      "n_tokens_est": 5,
+      "pos_start_est": 251
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\begin{proof}",
+      "n_tokens_est": 5,
+      "pos_start_est": 256
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " By Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 261
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 263
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 264
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "def:partial",
+      "n_tokens_est": 3,
+      "pos_start_est": 266
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 269
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$S_n=\\sum_{i=1}^n a_i$",
+      "n_tokens_est": 14,
+      "pos_start_est": 270
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". By Lemma",
+      "n_tokens_est": 3,
+      "pos_start_est": 284
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 287
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 288
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "lem:triangle",
+      "n_tokens_est": 3,
+      "pos_start_est": 290
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " and Lemma",
+      "n_tokens_est": 2,
+      "pos_start_est": 293
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 295
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 296
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 298
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", ",
+      "n_tokens_est": 1,
+      "pos_start_est": 301
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$|S_n|\\le nM$",
+      "n_tokens_est": 8,
+      "pos_start_est": 302
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ". Dividing by ",
+      "n_tokens_est": 3,
+      "pos_start_est": 310
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$n$",
+      "n_tokens_est": 3,
+      "pos_start_est": 313
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": " gives ",
+      "n_tokens_est": 1,
+      "pos_start_est": 316
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": "$|S_n/n|\\le M$",
+      "n_tokens_est": 10,
+      "pos_start_est": 317
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "content",
+      "text": ", as claimed. ",
+      "n_tokens_est": 4,
+      "pos_start_est": 327
+    },
+    {
+      "node_id": 5,
+      "seq_id": 4,
+      "kind": "markup",
+      "text": "\\end{proof}",
+      "n_tokens_est": 5,
+      "pos_start_est": 331
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\section",
+      "n_tokens_est": 2,
+      "pos_start_est": 336
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "Conclusion",
+      "n_tokens_est": 1,
+      "pos_start_est": 338
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " We proved Theorem",
+      "n_tokens_est": 3,
+      "pos_start_est": 339
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 342
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 343
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "thm:main",
+      "n_tokens_est": 3,
+      "pos_start_est": 345
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " from Definition",
+      "n_tokens_est": 2,
+      "pos_start_est": 348
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 350
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 351
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "def:partial",
+      "n_tokens_est": 3,
+      "pos_start_est": 353
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and Lemmas",
+      "n_tokens_est": 2,
+      "pos_start_est": 356
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 358
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 359
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "lem:triangle",
+      "n_tokens_est": 3,
+      "pos_start_est": 361
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": " and",
+      "n_tokens_est": 1,
+      "pos_start_est": 364
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "~",
+      "n_tokens_est": 1,
+      "pos_start_est": 365
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "markup",
+      "text": "\\ref",
+      "n_tokens_est": 2,
+      "pos_start_est": 366
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": "lem:bound",
+      "n_tokens_est": 3,
+      "pos_start_est": 368
+    },
+    {
+      "node_id": 6,
+      "seq_id": 5,
+      "kind": "content",
+      "text": ". ",
+      "n_tokens_est": 1,
+      "pos_start_est": 371
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 6,
+    "n_sequences": 5,
+    "est_tokens_total": 372,
+    "est_tokens_per_seq": {
+      "1": 27,
+      "2": 78,
+      "3": 103,
+      "4": 128,
+      "5": 36
+    },
+    "markup_or_syntax_share": 0.253
+  }
+}

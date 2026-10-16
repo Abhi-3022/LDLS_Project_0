@@ -1,0 +1,1963 @@
+{
+  "doc_id": "moon",
+  "domain": "html",
+  "mode": "main-only",
+  "note": "segments[].text are tokenized by the C++ driver with Llama's tokenizer; positions assigned there. Counts here are a proxy.",
+  "seq_legend": {
+    "0": "intro / shared",
+    "1": "Origin",
+    "2": "Characteristics",
+    "3": "Phases"
+  },
+  "nodes": [
+    {
+      "node_id": 0,
+      "node_type": "article",
+      "parent": -1,
+      "depth": 0,
+      "seq_id": 0
+    },
+    {
+      "node_id": 1,
+      "node_type": "intro",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 0
+    },
+    {
+      "node_id": 2,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 1,
+      "heading": "Origin"
+    },
+    {
+      "node_id": 3,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 2,
+      "heading": "Characteristics"
+    },
+    {
+      "node_id": 4,
+      "node_type": "section",
+      "parent": 0,
+      "depth": 1,
+      "seq_id": 3,
+      "heading": "Phases"
+    }
+  ],
+  "segments": [
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 0
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 3
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Moon",
+      "n_tokens_est": 1,
+      "pos_start_est": 4
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", also known as ",
+      "n_tokens_est": 4,
+      "pos_start_est": 5
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Luna",
+      "n_tokens_est": 1,
+      "pos_start_est": 9
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ", is ",
+      "n_tokens_est": 2,
+      "pos_start_est": 10
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Earth",
+      "n_tokens_est": 1,
+      "pos_start_est": 12
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "'s only ",
+      "n_tokens_est": 3,
+      "pos_start_est": 13
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "natural satellite",
+      "n_tokens_est": 2,
+      "pos_start_est": 16
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " (the only object which ",
+      "n_tokens_est": 5,
+      "pos_start_est": 18
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "orbits",
+      "n_tokens_est": 1,
+      "pos_start_est": 23
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " the Earth and is not man-made). It is usually visible in the night sky, but is sometimes seen during the day.",
+      "n_tokens_est": 27,
+      "pos_start_est": 24
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 51
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 55
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The Moon is about one-fourth of the ",
+      "n_tokens_est": 9,
+      "pos_start_est": 58
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "width",
+      "n_tokens_est": 1,
+      "pos_start_est": 67
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " of Earth.",
+      "n_tokens_est": 3,
+      "pos_start_est": 68
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " Because it is so far away it looks small in the sky, about half a ",
+      "n_tokens_est": 16,
+      "pos_start_est": 71
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "degree",
+      "n_tokens_est": 1,
+      "pos_start_est": 87
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " wide.",
+      "n_tokens_est": 2,
+      "pos_start_est": 88
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 90
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 94
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 97
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 98
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " on the Moon is one-sixth of the Earth's gravity.",
+      "n_tokens_est": 14,
+      "pos_start_est": 99
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " It means that an object will be one-sixth as heavy on the Moon compared to Earth. ",
+      "n_tokens_est": 19,
+      "pos_start_est": 113
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 132
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 136
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "The Moon is a ",
+      "n_tokens_est": 4,
+      "pos_start_est": 139
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "rocky",
+      "n_tokens_est": 1,
+      "pos_start_est": 143
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " and dusty place. It moves slowly away from the Earth at a rate of 3.8 ",
+      "n_tokens_est": 18,
+      "pos_start_est": 144
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "centimeters",
+      "n_tokens_est": 1,
+      "pos_start_est": 162
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " per year due to the effect of ",
+      "n_tokens_est": 7,
+      "pos_start_est": 163
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "tidal dissipation",
+      "n_tokens_est": 2,
+      "pos_start_est": 170
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 172
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 173
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 177
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "Some other planets also have moons or natural satellites. The ",
+      "n_tokens_est": 11,
+      "pos_start_est": 180
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": "giant impact hypothesis",
+      "n_tokens_est": 3,
+      "pos_start_est": 191
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "content",
+      "text": " is a common explanation for how the Moon formed.",
+      "n_tokens_est": 10,
+      "pos_start_est": 194
+    },
+    {
+      "node_id": 1,
+      "seq_id": 0,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 204
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 208
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Origin",
+      "n_tokens_est": 1,
+      "pos_start_est": 211
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 212
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 216
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "The ",
+      "n_tokens_est": 1,
+      "pos_start_est": 219
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "giant impact hypothesis",
+      "n_tokens_est": 3,
+      "pos_start_est": 220
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " is the ",
+      "n_tokens_est": 2,
+      "pos_start_est": 223
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "most common theory",
+      "n_tokens_est": 3,
+      "pos_start_est": 225
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " among scientists to explain how the Moon formed.",
+      "n_tokens_est": 9,
+      "pos_start_est": 228
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " According to this ",
+      "n_tokens_est": 3,
+      "pos_start_est": 237
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "hypothesis",
+      "n_tokens_est": 1,
+      "pos_start_est": 240
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", Earth collided with a ",
+      "n_tokens_est": 5,
+      "pos_start_est": 241
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "Mars",
+      "n_tokens_est": 1,
+      "pos_start_est": 246
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "-sized proto-",
+      "n_tokens_est": 4,
+      "pos_start_est": 247
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "planet",
+      "n_tokens_est": 1,
+      "pos_start_est": 251
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " around 4.5 ",
+      "n_tokens_est": 4,
+      "pos_start_est": 252
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "billion",
+      "n_tokens_est": 1,
+      "pos_start_est": 256
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " years ago, and the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 257
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "debris",
+      "n_tokens_est": 1,
+      "pos_start_est": 262
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " from the collision created the Moon.",
+      "n_tokens_est": 7,
+      "pos_start_est": 263
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 270
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 274
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": " Recent research has challenged this hypothesis. According to one article:",
+      "n_tokens_est": 12,
+      "pos_start_est": 277
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 289
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<blockquote>",
+      "n_tokens_est": 3,
+      "pos_start_est": 293
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 296
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "[N]ew findings suggest that the Moon was primarily created from material ejected from Earth’s ",
+      "n_tokens_est": 19,
+      "pos_start_est": 299
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": "mantle",
+      "n_tokens_est": 1,
+      "pos_start_est": 318
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "content",
+      "text": ", with minimal contribution from [the proto-planet].",
+      "n_tokens_est": 12,
+      "pos_start_est": 319
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 331
+    },
+    {
+      "node_id": 2,
+      "seq_id": 1,
+      "kind": "markup",
+      "text": "</blockquote>",
+      "n_tokens_est": 4,
+      "pos_start_est": 335
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 339
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Characteristics",
+      "n_tokens_est": 1,
+      "pos_start_est": 342
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 343
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 347
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 350
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 351
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 355
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Because it is smaller, the Moon has only 1/6 of the ",
+      "n_tokens_est": 14,
+      "pos_start_est": 358
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "gravity",
+      "n_tokens_est": 1,
+      "pos_start_est": 372
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " on Earth. So if a person weighs 60",
+      "n_tokens_est": 9,
+      "pos_start_est": 373
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "kilograms on Earth, the person would only weigh 10",
+      "n_tokens_est": 10,
+      "pos_start_est": 382
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "kilograms on the Moon.",
+      "n_tokens_est": 5,
+      "pos_start_est": 392
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 397
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 401
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Even though the Moon's gravity is weaker than the Earth's gravity, it is still there. If a person dropped a ",
+      "n_tokens_est": 26,
+      "pos_start_est": 404
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "ball",
+      "n_tokens_est": 1,
+      "pos_start_est": 430
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " while standing on the Moon, it would still fall down. However, it would fall ",
+      "n_tokens_est": 17,
+      "pos_start_est": 431
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "much",
+      "n_tokens_est": 1,
+      "pos_start_est": 448
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " more slowly. A person who jumped as high as possible on the Moon would jump higher than on Earth, but still fall back to the ground. ",
+      "n_tokens_est": 29,
+      "pos_start_est": 449
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 478
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 482
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Because the Moon has no ",
+      "n_tokens_est": 5,
+      "pos_start_est": 485
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 490
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", there is no ",
+      "n_tokens_est": 4,
+      "pos_start_est": 491
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "air resistance",
+      "n_tokens_est": 2,
+      "pos_start_est": 495
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", so a ",
+      "n_tokens_est": 3,
+      "pos_start_est": 497
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "feather",
+      "n_tokens_est": 1,
+      "pos_start_est": 500
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " will fall as fast as a ",
+      "n_tokens_est": 6,
+      "pos_start_est": 501
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "hammer",
+      "n_tokens_est": 1,
+      "pos_start_est": 507
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 508
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 509
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 513
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 516
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 517
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 521
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Without an atmosphere, the Moon's environment is not protected from heat or cold. ",
+      "n_tokens_est": 17,
+      "pos_start_est": 524
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Astronauts",
+      "n_tokens_est": 1,
+      "pos_start_est": 541
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " wore ",
+      "n_tokens_est": 1,
+      "pos_start_est": 542
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "spacesuits",
+      "n_tokens_est": 1,
+      "pos_start_est": 543
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " to survive and carried ",
+      "n_tokens_est": 4,
+      "pos_start_est": 544
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "oxygen",
+      "n_tokens_est": 1,
+      "pos_start_est": 548
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " to breathe. These suits weighed about as much as the astronauts (though they were not as heavy as on Earth because of the Moon's weak gravity). The astronauts never took their ",
+      "n_tokens_est": 37,
+      "pos_start_est": 549
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "gloves",
+      "n_tokens_est": 1,
+      "pos_start_est": 586
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " or spacesuits off on the Moon.",
+      "n_tokens_est": 7,
+      "pos_start_est": 587
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 594
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 598
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "On the Earth, the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 601
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "sky",
+      "n_tokens_est": 1,
+      "pos_start_est": 606
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " is ",
+      "n_tokens_est": 1,
+      "pos_start_est": 607
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "blue",
+      "n_tokens_est": 1,
+      "pos_start_est": 608
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " because the Sun's blue ",
+      "n_tokens_est": 6,
+      "pos_start_est": 609
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "rays",
+      "n_tokens_est": 1,
+      "pos_start_est": 615
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " bounce off the ",
+      "n_tokens_est": 3,
+      "pos_start_est": 616
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "gases",
+      "n_tokens_est": 1,
+      "pos_start_est": 619
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " in the ",
+      "n_tokens_est": 2,
+      "pos_start_est": 620
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "atmosphere",
+      "n_tokens_est": 1,
+      "pos_start_est": 622
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". This makes it look like ",
+      "n_tokens_est": 6,
+      "pos_start_est": 623
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "blue",
+      "n_tokens_est": 1,
+      "pos_start_est": 629
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "light",
+      "n_tokens_est": 1,
+      "pos_start_est": 630
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " is coming from the sky. On the Moon, there is no atmosphere for light to bounce off. This means the sky looks black, even in the ",
+      "n_tokens_est": 30,
+      "pos_start_est": 631
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "daytime",
+      "n_tokens_est": 1,
+      "pos_start_est": 661
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 662
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 663
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 667
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Earth's atmosphere causes most ",
+      "n_tokens_est": 6,
+      "pos_start_est": 670
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "meteorites",
+      "n_tokens_est": 1,
+      "pos_start_est": 676
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " (space rocks) to burn up. The Moon does not have this protection. Meteorites crash into it and create wide, shallow holes called ",
+      "n_tokens_est": 27,
+      "pos_start_est": 677
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "craters",
+      "n_tokens_est": 1,
+      "pos_start_est": 704
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". The Moon has thousands of them. Newer craters overlie older ones.",
+      "n_tokens_est": 14,
+      "pos_start_est": 705
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 719
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 723
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Water",
+      "n_tokens_est": 1,
+      "pos_start_est": 726
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 727
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 731
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "In 2009 ",
+      "n_tokens_est": 2,
+      "pos_start_est": 734
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "Chandrayaan-1",
+      "n_tokens_est": 3,
+      "pos_start_est": 736
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ", India's first lunar exploration mission, found a lot of water on the Moon. However, the water is not liquid; it is in the form of ",
+      "n_tokens_est": 32,
+      "pos_start_est": 739
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "hydrates",
+      "n_tokens_est": 1,
+      "pos_start_est": 771
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " and ",
+      "n_tokens_est": 1,
+      "pos_start_est": 772
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "hydroxides",
+      "n_tokens_est": 1,
+      "pos_start_est": 773
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". Liquid water cannot exist on the Moon because ",
+      "n_tokens_est": 9,
+      "pos_start_est": 774
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "photodissociation",
+      "n_tokens_est": 1,
+      "pos_start_est": 783
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": " quickly breaks down the ",
+      "n_tokens_est": 4,
+      "pos_start_est": 784
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": "molecules",
+      "n_tokens_est": 1,
+      "pos_start_est": 788
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "content",
+      "text": ". However, based on the data received from Chandrayaan-1, liquid surface water may have once existed on the Moon.",
+      "n_tokens_est": 24,
+      "pos_start_est": 789
+    },
+    {
+      "node_id": 3,
+      "seq_id": 2,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 813
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h2>",
+      "n_tokens_est": 3,
+      "pos_start_est": 817
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Phases",
+      "n_tokens_est": 1,
+      "pos_start_est": 820
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h2>",
+      "n_tokens_est": 4,
+      "pos_start_est": 821
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 825
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Because the Moon is round, half of it is lit up by the ",
+      "n_tokens_est": 14,
+      "pos_start_est": 828
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Sun",
+      "n_tokens_est": 1,
+      "pos_start_est": 842
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". As it goes around (or orbits) the Earth, sometimes the side that people on Earth can see is all lit brightly. Other times only a small part of the side we see is lit. ",
+      "n_tokens_est": 40,
+      "pos_start_est": 843
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 883
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 887
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "This is because the Moon does not send out its own light. People only see the parts that are being lit the eclipse by the ",
+      "n_tokens_est": 26,
+      "pos_start_est": 890
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "sunlight",
+      "n_tokens_est": 1,
+      "pos_start_est": 916
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ". These different stages are called ",
+      "n_tokens_est": 6,
+      "pos_start_est": 917
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Phases of the Moon",
+      "n_tokens_est": 4,
+      "pos_start_est": 923
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ".",
+      "n_tokens_est": 1,
+      "pos_start_est": 927
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 928
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 932
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "It takes the Moon about a month (29 days, 12",
+      "n_tokens_est": 12,
+      "pos_start_est": 935
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "hours, and 44",
+      "n_tokens_est": 4,
+      "pos_start_est": 947
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "minutes) to complete the ",
+      "n_tokens_est": 5,
+      "pos_start_est": 951
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "cycle",
+      "n_tokens_est": 1,
+      "pos_start_est": 956
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": ", from big and bright to small and dim and back to big and bright. People throughout history have used the Moon's cycles to measure time.",
+      "n_tokens_est": 30,
+      "pos_start_est": 957
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 987
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 991
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The phases of the Moon are, in order:",
+      "n_tokens_est": 10,
+      "pos_start_est": 994
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1004
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<ol>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1008
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1011
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The \"new Moon\" (when the Moon passes between the Earth and Sun)",
+      "n_tokens_est": 16,
+      "pos_start_est": 1014
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1030
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1034
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The \"waxing crescent\"",
+      "n_tokens_est": 5,
+      "pos_start_est": 1037
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1042
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1046
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The \"first quarter\"",
+      "n_tokens_est": 5,
+      "pos_start_est": 1049
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1054
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1058
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The \"waxing gibbous\"",
+      "n_tokens_est": 5,
+      "pos_start_est": 1061
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1066
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1070
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "A \"full Moon\" (when the Moon and Sun are on opposite sides of the Earth)",
+      "n_tokens_est": 19,
+      "pos_start_est": 1073
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1092
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1096
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The \"waning gibbous\"",
+      "n_tokens_est": 5,
+      "pos_start_est": 1099
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1104
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1108
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The \"third quarter\"",
+      "n_tokens_est": 5,
+      "pos_start_est": 1111
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1116
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1120
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The \"waning crescent\",",
+      "n_tokens_est": 6,
+      "pos_start_est": 1123
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1129
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<li>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1133
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "A new Moon again",
+      "n_tokens_est": 4,
+      "pos_start_est": 1136
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</li>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1140
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</ol>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1144
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1148
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Each of the four middle phases of the Moon lasts about seven days on average (around 7.38 days). This time can change by about ±11% because the Moon moves closer to or farther from Earth from its farthest point (apogee) to its closest point (perigee).",
+      "n_tokens_est": 57,
+      "pos_start_est": 1151
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1208
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1212
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The number of days since the last new moon is called the Moon’s age.",
+      "n_tokens_est": 17,
+      "pos_start_est": 1215
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " A full set of moon phases is called a lunation.",
+      "n_tokens_est": 11,
+      "pos_start_est": 1232
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1243
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1247
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "To find the Moon’s age and phase for any date, you can count how many days have passed since a known new moon (for example, January 1, 1900, or August 11, 1999). Then divide that number by the average length of a moon month (29.53059 days).",
+      "n_tokens_est": 61,
+      "pos_start_est": 1250
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " The number left over after dividing is the Moon’s age.",
+      "n_tokens_est": 13,
+      "pos_start_est": 1311
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1324
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1328
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "This simple method is good for general or fun uses, like moon phase clocks. It is not exact because it does not use the real shape of the Moon’s orbit or the exact time of the new moon, so it can be off by a few hours. The farther you go from the reference date, the less accurate it becomes.",
+      "n_tokens_est": 68,
+      "pos_start_est": 1331
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1399
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1403
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " Because the Moon wobbles a little as it orbits Earth (a motion called libration), we can sometimes see a tiny bit more than the full moon (up to about 101%) or a small part of its far side (up to 5%).",
+      "n_tokens_est": 51,
+      "pos_start_est": 1406
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</p>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1457
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<h3>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1461
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Tidal locking",
+      "n_tokens_est": 2,
+      "pos_start_est": 1464
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "</h3>",
+      "n_tokens_est": 4,
+      "pos_start_est": 1466
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "markup",
+      "text": "<p>",
+      "n_tokens_est": 3,
+      "pos_start_est": 1470
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "The Moon always shows the same side to Earth. ",
+      "n_tokens_est": 10,
+      "pos_start_est": 1473
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "Astronomers",
+      "n_tokens_est": 1,
+      "pos_start_est": 1483
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": " call this phenomenon ",
+      "n_tokens_est": 3,
+      "pos_start_est": 1484
+    },
+    {
+      "node_id": 4,
+      "seq_id": 3,
+      "kind": "content",
+      "text": "tidal locking",
+      "n_tokens_est": 2,
+      "pos_start_est": 1487
+    }
+  ],
+  "stats": {
+    "max_depth": 1,
+    "n_nodes": 5,
+    "n_sequences": 4,
+    "est_tokens_total": 1489,
+    "est_tokens_per_seq": {
+      "0": 208,
+      "1": 131,
+      "2": 478,
+      "3": 672
+    },
+    "markup_or_syntax_share": 0.199
+  }
+}
